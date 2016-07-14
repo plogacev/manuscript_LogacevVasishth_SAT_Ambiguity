@@ -330,7 +330,7 @@ model {
   sd_asymptote_2 ~ student_t(3, 0, 10); 
   L_asymptote_2 ~ lkj_corr_cholesky(1); 
   to_vector(z_asymptote_2) ~ normal(0, 1); 
-  b_invrate ~ normal(6, 1); 
+  b_invrate ~ normal(6.5, .5); 
   sd_invrate_1 ~ student_t(3, 0, 10); 
   L_invrate_1 ~ lkj_corr_cholesky(1); 
   to_vector(z_invrate_1) ~ normal(0, 1); 
@@ -354,7 +354,7 @@ model {
   z_critintercept_1 ~ normal(0, 1); 
   sd_critintercept_2 ~ student_t(3, 0, 10); 
   z_critintercept_2 ~ normal(0, 1); 
-  b_critinvrate ~ normal(6, 1); 
+  b_critinvrate ~ normal(6.5, .5); 
   sd_critinvrate_1 ~ student_t(3, 0, 10); 
   z_critinvrate_1 ~ normal(0, 1); 
   sd_critinvrate_2 ~ student_t(3, 0, 10); 

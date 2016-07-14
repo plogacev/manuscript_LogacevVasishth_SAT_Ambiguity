@@ -56,7 +56,7 @@ estimate <- function(base_fname, iter, ...) {
 cat("Running rc_exp_mlm_subj: test\n")
 estimate(base_fname = "rc_exp_mlm_subj", iter = 10, chains = 1, cores = 1) 
 cat("Running rc_exp_mlm_subj: real\n")
-estimate(base_fname = "rc_exp_mlm_subj", iter = 2000, chains = n_cores, cores = n_cores) 
+estimate(base_fname = "rc_exp_mlm_subj", iter = 4000, chains = n_cores, cores = n_cores) 
 
 
 #############################################################################################

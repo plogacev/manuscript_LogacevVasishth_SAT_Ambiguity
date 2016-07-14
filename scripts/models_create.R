@@ -102,9 +102,9 @@ real criterion_fn(real time, real init_unconstrained, real asymptote_unconstrain
 
 contrasts_priors <- c(set_prior(nlpar = "asymptote", "normal(-1, 2)", class = "b"), # for exp: normal(1, .5), for inv_logit: "normal(-1, 2)";
                       set_prior(nlpar = "intercept", "normal(500, 500)", class = "b", lb = 10, ub = 5000),
-                      set_prior(nlpar = "invrate", "normal(6, 1)", class = "b"), # for exp: normal(6, 1), for inv_logit: "normal(-1, 2)"
+                      set_prior(nlpar = "invrate", "normal(6.5, .5)", class = "b"), # for exp: normal(6.5, .5), for inv_logit: "normal(-1, 2)"
                       
-                      set_prior(nlpar = "critinvrate", "normal(6, 1)", class = "b"), # for exp: normal(6, 1), for inv_logit: "normal(-1, 2)"
+                      set_prior(nlpar = "critinvrate", "normal(6.5, .5)", class = "b"), # for exp: normal(6.5, .5), for inv_logit: "normal(-1, 2)"
                       set_prior(nlpar = "critinit", "normal(-1, 2)", class = "b"),
                       set_prior(nlpar = "critasymptote", "normal(-1, 2)", class = "b"), # for inv_logit: "normal(-1, 2)"
                       set_prior(nlpar = "critintercept", "normal(500, 500)", class = "b", lb = 10, ub = 5000))

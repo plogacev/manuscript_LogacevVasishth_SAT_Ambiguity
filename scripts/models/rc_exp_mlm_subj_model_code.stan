@@ -224,7 +224,7 @@ model {
   sd_asymptote_1 ~ student_t(3, 0, 10); 
   L_asymptote_1 ~ lkj_corr_cholesky(1); 
   to_vector(z_asymptote_1) ~ normal(0, 1); 
-  b_invrate ~ normal(6, 1); 
+  b_invrate ~ normal(6.5, .5); 
   sd_invrate_1 ~ student_t(3, 0, 10); 
   L_invrate_1 ~ lkj_corr_cholesky(1); 
   to_vector(z_invrate_1) ~ normal(0, 1); 
@@ -238,7 +238,7 @@ model {
   b_critintercept ~ normal(500, 500); 
   sd_critintercept_1 ~ student_t(3, 0, 10); 
   z_critintercept_1 ~ normal(0, 1); 
-  b_critinvrate ~ normal(6, 1); 
+  b_critinvrate ~ normal(6.5, .5); 
   sd_critinvrate_1 ~ student_t(3, 0, 10); 
   z_critinvrate_1 ~ normal(0, 1); 
   b_critinit ~ normal(-1, 2); 
