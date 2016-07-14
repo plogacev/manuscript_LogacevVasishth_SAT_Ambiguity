@@ -56,7 +56,7 @@ estimate <- function(base_fname, iter, ...) {
 cat("Running rc_exp_mlm_subj: test\n")
 estimate(base_fname = "rc_exp_mlm_subj", iter = 10, chains = 1, cores = 1) 
 cat("Running rc_exp_mlm_subj: real\n")
-estimate(base_fname = "rc_exp_mlm_subj", iter = 4000, chains = n_cores, cores = n_cores) 
+estimate(base_fname = "rc_exp_mlm_subj", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
 
 
 #############################################################################################
@@ -64,11 +64,11 @@ estimate(base_fname = "rc_exp_mlm_subj", iter = 4000, chains = n_cores, cores = 
 #############################################################################################
 
 estimate(base_fname = "rc_exp_mlm_subj_item", iter = 10, chains = 1, cores = 1) 
-estimate(base_fname = "rc_exp_mlm_subj_item", iter = 2000, chains = n_cores, cores = n_cores) 
+estimate(base_fname = "rc_exp_mlm_subj_item", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
 
 ##################################################################################################################
 ### Multi-level model with condition contrasts and by-subject and by-items random effects, and autocorrelation ###
 ##################################################################################################################
 
 estimate(base_fname = "rc_exp_mlm_subj_item_cor", iter = 10, chains = 1, cores = 1) 
-estimate(base_fname = "rc_exp_mlm_subj_item_cor", iter = 2000, chains = n_cores, cores = n_cores) 
+estimate(base_fname = "rc_exp_mlm_subj_item_cor", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 

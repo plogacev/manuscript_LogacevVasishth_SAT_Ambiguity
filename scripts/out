@@ -108,17 +108,17 @@ Chain 1, Iteration: 7 / 10 [ 70%]  (Sampling)
 Chain 1, Iteration: 8 / 10 [ 80%]  (Sampling)
 Chain 1, Iteration: 9 / 10 [ 90%]  (Sampling)
 Chain 1, Iteration: 10 / 10 [100%]  (Sampling)
- Elapsed Time: 2.56092 seconds (Warm-up)
-               2.18794 seconds (Sampling)
-               4.74886 seconds (Total)
+ Elapsed Time: 2.92919 seconds (Warm-up)
+               2.50724 seconds (Sampling)
+               5.43644 seconds (Total)
 
 > cat("Running rc_exp_mlm_subj: real\n")
 Running rc_exp_mlm_subj: real
-> estimate(base_fname = "rc_exp_mlm_subj", iter = 2000, chains = n_cores, cores = n_cores) 
-starting worker pid=3853 on localhost:11515 at 20:08:25.092
-starting worker pid=3865 on localhost:11515 at 20:08:25.263
-starting worker pid=3877 on localhost:11515 at 20:08:25.439
-starting worker pid=3889 on localhost:11515 at 20:08:25.612
+> estimate(base_fname = "rc_exp_mlm_subj", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
+starting worker pid=7747 on localhost:11023 at 18:04:25.320
+starting worker pid=7759 on localhost:11023 at 18:04:25.491
+starting worker pid=7771 on localhost:11023 at 18:04:25.658
+starting worker pid=7783 on localhost:11023 at 18:04:25.832
 
 SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 1).
 
@@ -126,13 +126,9 @@ SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 2).
 
 SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 3).
 
-Chain 1, Iteration:    1 / 2000 [  0%]  (Warmup)
-Chain 2, Iteration:    1 / 2000 [  0%]  (Warmup)
 SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 4).
 
-Chain 3, Iteration:    1 / 2000 [  0%]  (Warmup)
-Chain 4, Iteration:    1 / 2000 [  0%]  (Warmup)
-Chain 3, Iteration:  200 / 2000 [ 10%]  (Warmup)
-Chain 4, Iteration:  200 / 2000 [ 10%]  (Warmup)
-Chain 2, Iteration:  200 / 2000 [ 10%]  (Warmup)
-Chain 1, Iteration:  200 / 2000 [ 10%]  (Warmup)
+Chain 1, Iteration:    1 / 3000 [  0%]  (Warmup)
+Chain 2, Iteration:    1 / 3000 [  0%]  (Warmup)
+Chain 3, Iteration:    1 / 3000 [  0%]  (Warmup)
+Chain 4, Iteration:    1 / 3000 [  0%]  (Warmup)
