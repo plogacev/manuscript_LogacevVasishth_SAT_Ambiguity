@@ -1,0 +1,65 @@
+%include header
+{$RACERC_GRAM, 'item':24, 'condition':'fem-low  ', $STIM:'Wo wartet der_Sekretär der_Ministerin, $ die_stottert?'}
+{$RACERC_GRAM, 'item':26, 'condition':'masc-high', $STIM:'Wem bestritt der_Genosse der_Gewerkschafterin, $ der_redet?'}
+{$RACERC_UNGRAM, 'item':2, 'condition':'masc-none', $STIM:'Wie heißt die_Chefin der_Angestellten, $ der_stiehlt?'}
+{$RACERC_GRAM, 'item':16, 'condition':'fem-amb  ', $STIM:'Wer war die_Vorgesetzte der_Postbotin, $ die_pfiff?'}
+{$RACERC_GRAM, 'item':31, 'condition':'masc-amb ', $STIM:'Was war mit dem_Vorgesetzten des_Beamten, $ der_schlief?'}
+{$RACERC_UNGRAM, 'item':12, 'condition':'masc-none', $STIM:'Wer beobachtete die_Auszubildene der_Buchbinderin, $ der_schreit?'}
+{$RACERC_GRAM, 'item':30, 'condition':'fem-low  ', $STIM:'Wo saß der_Kunde der_Floristin, $ die_telefonierte?'}
+{$RACERC_UNGRAM, 'item':30, 'condition':'masc-none', $STIM:'Wo saß die_Kundin der_Floristin, $ der_telefonierte?'}
+{$RACERC_GRAM, 'item':29, 'condition':'fem-high ', $STIM:'Wohin rannte die_Kollegin des_Polizisten, $ die_schoss?'}
+{$RACERC_GRAM, 'item':28, 'condition':'fem-amb  ', $STIM:'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ die_tobte?'}
+{$RACERC_UNGRAM, 'item':7, 'condition':'fem-none ', $STIM:'Wo arbeitet der_Visagist des_Pianisten, $ die_trällerte?'}
+{$RACERC_GRAM, 'item':5, 'condition':'fem-high ', $STIM:'Wann kam die_Friseurin des_Kochs, $ die_kicherte?'}
+{$RACERC_GRAM, 'item':27, 'condition':'masc-low ', $STIM:'Was dachte die_Managerin des_Sängers, $ der_schwieg?'}
+{$RACERC_UNGRAM, 'item':18, 'condition':'masc-none', $STIM:'Was nascht die_Doktorantin der_Professorin, $ der_liest?'}
+{$RACERC_UNGRAM, 'item':22, 'condition':'masc-none', $STIM:'Was verlangte die_Agentin der_Schauspielerin, $ der_weinte?'}
+{$RACERC_UNGRAM, 'item':25, 'condition':'fem-none ', $STIM:'Was verdient der_Bühnenbildner des_Intendanten, $ die_lächelte?'}
+{$RACERC_GRAM, 'item':18, 'condition':'fem-low  ', $STIM:'Was nascht der_Doktorant der_Professorin, $ die_liest?'}
+{$RACERC_UNGRAM, 'item':4, 'condition':'masc-none', $STIM:'Was sagte die_Ärztin der_Cellistin, $ der_anrief?'}
+{$RACERC_GRAM, 'item':14, 'condition':'masc-high', $STIM:'Wer vermisste den_Gärtner der_Reporterin, $ der_döste?'}
+{$RACERC_UNGRAM, 'item':23, 'condition':'fem-none ', $STIM:'Wen belog der_Nachbar des_Dachdeckers, $ die_lachte?'}
+{$RACERC_UNGRAM, 'item':26, 'condition':'masc-none', $STIM:'Wem bestritt die_Genossin der_Gewerkschafterin, $ der_redet?'}
+{$RACERC_GRAM, 'item':4, 'condition':'fem-amb  ', $STIM:'Was sagte die_Ärztin der_Cellistin, $ die_anrief?'}
+{$RACERC_GRAM, 'item':19, 'condition':'masc-amb ', $STIM:'Wen lobte der_Tutor des_Studenten, $ der_nervte?'}
+{$RACERC_GRAM, 'item':23, 'condition':'fem-high ', $STIM:'Wen belog die_Nachbarin des_Dachdeckers, $ die_lachte?'}
+{$RACERC_GRAM, 'item':11, 'condition':'fem-high ', $STIM:'Wer kennt die_Kollegin des_Erziehers, $ die_streikt?'}
+{$RACERC_GRAM, 'item':2, 'condition':'masc-high', $STIM:'Wie heißt der_Chef der_Angestellten, $ der_stiehlt?'}
+{$RACERC_UNGRAM, 'item':32, 'condition':'masc-none', $STIM:'Wo wohnt die_Vermieterin der_Unternehmerin, $ der_klagte?'}
+{$RACERC_GRAM, 'item':25, 'condition':'masc-amb ', $STIM:'Was verdient der_Bühnenbildner des_Intendanten, $ der_lächelte?'}
+{$RACERC_GRAM, 'item':32, 'condition':'masc-high', $STIM:'Wo wohnt der_Vermieter der_Unternehmerin, $ der_klagte?'}
+{$RACERC_UNGRAM, 'item':13, 'condition':'fem-none ', $STIM:'Was befürchtete der_Lieferant des_Bäckers, $ die_anrief?'}
+{$RACERC_UNGRAM, 'item':9, 'condition':'fem-none ', $STIM:'Was las dem_Verleger des_Autors, $ die_trank?'}
+{$RACERC_GRAM, 'item':6, 'condition':'fem-low  ', $STIM:'Wer grüßte den_Trainer der_Tänzerin, $ die_übte?'}
+{$RACERC_GRAM, 'item':8, 'condition':'masc-high', $STIM:'Wem ähnelt der_Masseur der_Sportlerin, $ der_joggte?'}
+{$RACERC_GRAM, 'item':15, 'condition':'masc-low ', $STIM:'Was bestritt die_Stabschefin des_Präsidenten, $ der_log?'}
+{$RACERC_UNGRAM, 'item':8, 'condition':'masc-none', $STIM:'Wem ähnelt die_Masseurin der_Sportlerin, $ der_joggte?'}
+{$RACERC_GRAM, 'item':20, 'condition':'masc-high', $STIM:'Was entdeckte der_Vorarbeiter der_Bauarbeiterin, $ der_brüllte?'}
+{$RACERC_GRAM, 'item':9, 'condition':'masc-low ', $STIM:'Was las die_Verlegerin des_Autors, $ der_trank?'}
+{$RACERC_UNGRAM, 'item':3, 'condition':'fem-none ', $STIM:'Was will der_Ausbilder des_Piloten, $ die_wartet?'}
+{$RACERC_UNGRAM, 'item':24, 'condition':'masc-none', $STIM:'Wo wartet die_Sekretärin der_Ministerin, $ der_stottert?'}
+{$RACERC_GRAM, 'item':1, 'condition':'masc-amb ', $STIM:'Wer traf den_Freund des_Malers, $ der_raucht?'}
+{$RACERC_UNGRAM, 'item':17, 'condition':'fem-none ', $STIM:'Was wollte der_Mandant des_Anwalts, $ die_wartete?'}
+{$RACERC_UNGRAM, 'item':31, 'condition':'fem-none  ', $STIM:'Was war mit dem_Vorgesetzten des_Beamten, $ die_schlief?'}
+{$RACERC_GRAM, 'item':21, 'condition':'masc-low ', $STIM:'Was fragte die_Schülerin des_Fluglehrers, $ der_schmunzelt?'}
+{$RACERC_UNGRAM, 'item':11, 'condition':'fem-none ', $STIM:'Wer kennt den_Kollegen des_Erziehers, $ die_streikt?'}
+{$RACERC_UNGRAM, 'item':16, 'condition':'masc-none', $STIM:'Wer war die_Vorgesetzte der_Postbotin, $ der_pfiff?'}
+{$RACERC_GRAM, 'item':10, 'condition':'fem-amb  ', $STIM:'Wer verfluchte die_Redakteurin der_Journalistin, $ die_schrie?'}
+{$RACERC_UNGRAM, 'item':14, 'condition':'masc-none', $STIM:'Wer vermisste die_Gärtnerin der_Reporterin, $ der_döste?'}
+{$RACERC_UNGRAM, 'item':1, 'condition':'fem-none ', $STIM:'Wer traf den_Freund des_Malers, $ die_raucht?'}
+{$RACERC_UNGRAM, 'item':10, 'condition':'masc-none', $STIM:'Wer verfluchte die_Redakteurin der_Journalistin, $ der_schrie?'}
+{$RACERC_GRAM, 'item':17, 'condition':'fem-high ', $STIM:'Was wollte die_Mandantin des_Anwalts, $ die_wartete?'}
+{$RACERC_UNGRAM, 'item':15, 'condition':'fem-none ', $STIM:'Was bestritt der_Stabschef des_Präsidenten, $ die_log?'}
+{$RACERC_UNGRAM, 'item':28, 'condition':'masc-none', $STIM:'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ der_tobte?'}
+{$RACERC_GRAM, 'item':22, 'condition':'fem-amb ', $STIM:'Was verlangte die_Agentin der_Schauspielerin, $ die_weinte?'}
+{$RACERC_UNGRAM, 'item':21, 'condition':'fem-none ', $STIM:'Was fragte der_Schüler des_Fluglehrers, $ die_schmunzelt?'}
+{$RACERC_UNGRAM, 'item':27, 'condition':'fem-none ', $STIM:'Was dachte der_Manager des_Sängers, $ die_schwieg?'}
+{$RACERC_GRAM, 'item':3, 'condition':'masc-low ', $STIM:'Was will die_Ausbilderin des_Piloten, $ der_wartet?'}
+{$RACERC_UNGRAM, 'item':6, 'condition':'masc-none', $STIM:'Wer grüßte die_Trainerin der_Tänzerin, $ der_übte?'}
+{$RACERC_UNGRAM, 'item':29, 'condition':'fem-none ', $STIM:'Wohin rannte der_Kollege des_Polizisten, $ die_schoss?'}
+{$RACERC_GRAM, 'item':12, 'condition':'fem-low  ', $STIM:'Wer beobachtete den_Auszubildenen der_Buchbinderin, $ die_schreit?'}
+{$RACERC_GRAM, 'item':7, 'condition':'masc-amb ', $STIM:'Wo arbeitet der_Visagist des_Pianisten, $ der_trällerte?'}
+{$RACERC_UNGRAM, 'item':20, 'condition':'masc-none', $STIM:'Was entdeckte die_Vorarbeiterin der_Bauarbeiterin, $ der_brüllte?'}
+{$RACERC_UNGRAM, 'item':5, 'condition':'fem-none ', $STIM:'Wann kam der_Friseur des_Kochs, $ die_kicherte?'}
+{$RACERC_GRAM, 'item':13, 'condition':'masc-amb ', $STIM:'Was befürchtete der_Lieferant des_Bäckers, $ der_anrief?'}
+{$RACERC_UNGRAM, 'item':19, 'condition':'fem-none ', $STIM:'Wen lobte Tutor des_Studenten, $ die_nervte?'}

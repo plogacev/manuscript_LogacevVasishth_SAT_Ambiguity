@@ -1,0 +1,949 @@
+2012-10-30 22:34:26,592 (8820) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8820.
+2012-10-30 22:34:30,091 (8820) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 22:34:30,716 (8820) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 22:34:30,716 (8820) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 22:40:57,776 (9104) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9104.
+2012-10-30 22:41:35,007 (8568) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8568.
+2012-10-30 22:41:37,108 (8568) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 22:41:37,746 (8568) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 22:41:37,746 (8568) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:00:06,921 (7936) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7936.
+2012-10-30 23:02:12,966 (7936) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:02:13,559 (7936) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:02:13,561 (7936) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:04:54,322 (7936) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 184, in <module>
+    s.present(td, fd, ad)
+  File "C:\Dokumente und Einstellungen\rt_2\Eigene Dateien\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 189, in present
+    audio.registerHandler(self)
+  File "C:\Dokumente und Einstellungen\rt_2\Eigene Dateien\Dropbox\Experimente\SAT_RACE\RTExp\audio_device.py", line 35, in registerHandler
+    self.sound = Sine(params['sndFrequency'], params['sndDuration'])
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\sine_wave_pyaudio.py", line 30, in __init__
+    frames_per_buffer = chunk)
+  File "C:\Python25\lib\site-packages\pyaudio.py", line 714, in open
+    stream = Stream(self, *args, **kwargs)
+  File "C:\Python25\lib\site-packages\pyaudio.py", line 396, in __init__
+    self._stream = pa.open(**arguments)
+IOError: [Errno Unanticipated host error] -9999
+
+2012-10-30 23:11:04,236 (1960) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 1960.
+2012-10-30 23:11:06,588 (1960) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:11:07,211 (1960) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:11:07,211 (1960) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:11:07,246 (1960) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 39, in read_stimuli
+    f = open(filename, "r")
+IOError: [Errno 2] No such file or directory: 'Experimente\\items_all_final2b'
+
+2012-10-30 23:13:18,548 (4232) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 4232.
+2012-10-30 23:13:20,157 (4232) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:13:20,792 (4232) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:13:20,792 (4232) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:15:30,572 (8228) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8228.
+2012-10-30 23:15:33,345 (8228) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:15:34,019 (8228) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:15:34,020 (8228) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:28:47,263 (8228) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 184, in <module>
+    s.present(td, fd, ad)
+  File "C:\Dokumente und Einstellungen\rt_2\Eigene Dateien\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 189, in present
+    audio.registerHandler(self)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\audio_device.py", line 40, in registerHandler
+    self.sound = Sine(params['sndFrequency'], params['sndDuration'])
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\sine_wave_pyaudio.py", line 30, in __init__
+    frames_per_buffer = chunk)
+  File "C:\Python25\lib\site-packages\pyaudio.py", line 714, in open
+    stream = Stream(self, *args, **kwargs)
+  File "C:\Python25\lib\site-packages\pyaudio.py", line 396, in __init__
+    self._stream = pa.open(**arguments)
+IOError: [Errno Unanticipated host error] -9999
+
+2012-10-30 23:35:20,431 (9344) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9344.
+2012-10-30 23:35:22,407 (9344) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:35:23,039 (9344) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:35:23,039 (9344) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:53:49,918 (9324) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9324.
+2012-10-30 23:53:51,782 (9324) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:53:52,339 (9324) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:53:52,341 (9324) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:53:52,352 (9324) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 17, in <module>
+    from audio_device import *
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\audio_device.py", line 8
+     from sine_wave_pygame import Sine
+    ^
+ IndentationError: unexpected indent
+
+2012-10-30 23:55:05,700 (7732) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7732.
+2012-10-30 23:55:09,190 (7732) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:55:09,769 (7732) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:55:09,769 (7732) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-30 23:55:09,782 (7732) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 17, in <module>
+    from audio_device import *
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\audio_device.py", line 8
+     from sine_wave_pygame import Sine
+    ^
+ IndentationError: unexpected indent
+
+2012-10-30 23:55:29,776 (6840) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6840.
+2012-10-30 23:55:32,608 (6840) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-30 23:55:33,206 (6840) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-30 23:55:33,206 (6840) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-31 00:00:18,283 (9172) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9172.
+2012-10-31 00:00:21,016 (9172) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-31 00:00:21,627 (9172) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-31 00:00:21,627 (9172) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-31 00:52:12,654 (11244) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11244.
+2012-10-31 01:02:20,927 (8040) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8040.
+2012-10-31 01:02:28,407 (8040) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-31 01:02:28,950 (8040) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-31 01:02:28,950 (8040) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-31 01:36:52,691 (10992) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 10992.
+2012-10-31 01:45:20,641 (10992) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-31 01:45:21,219 (10992) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-31 01:45:21,219 (10992) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-10-31 01:55:39,607 (12264) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12264.
+2012-10-31 01:55:42,219 (12264) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-10-31 01:55:42,776 (12264) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-10-31 01:55:42,776 (12264) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:08:44,315 (3580) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 3580.
+2012-11-01 10:08:47,720 (3580) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:08:48,737 (3580) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:08:48,739 (3580) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:08:50,726 (3580) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 10:09:53,825 (6180) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6180.
+2012-11-01 10:09:56,062 (6180) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:09:56,658 (6180) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:09:56,660 (6180) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:09:58,967 (6180) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 10:11:56,260 (3676) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 3676.
+2012-11-01 10:11:58,372 (3676) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:11:59,010 (3676) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:11:59,012 (3676) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:12:01,275 (3676) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 10:12:26,823 (9036) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9036.
+2012-11-01 10:12:28,648 (9036) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:12:29,224 (9036) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:12:29,226 (9036) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:12:31,601 (9036) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 155, in read_stimuli
+    raise(BaseException("Can't parse <%s>" % line))
+BaseException: Can't parse <'experiment':'practice', 'condition':'gram',   'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'Y',  'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 145,  'stimulus':'Gestern hat Maria keine Bücher $ gelesen.'}>
+
+2012-11-01 10:13:22,898 (2624) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 2624.
+2012-11-01 10:13:24,315 (2624) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:13:24,960 (2624) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:13:24,960 (2624) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:13:27,493 (2624) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {{'experiment':'practice', 'condition':'ungram', 'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'N', 'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 121,  'stimulus':'Dem_Anwalt, der der_Minister verklagte, wurde die_Zulassung $ entzogen.'}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+ SyntaxError: unexpected EOF while parsing
+
+2012-11-01 10:14:05,576 (8008) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8008.
+2012-11-01 10:14:15,174 (8008) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:14:15,759 (8008) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:14:15,759 (8008) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:14:18,584 (8008) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {$LOCALITY_UNGRAM, 'item' : '8' , 'condition': 'pl-sg-long' , 'stimulus': 'Wer waren die_Studenten, die beim_Vortrag des_Professors des_Instituts im_Hörsaal $ entspannte?' }
+      ^
+ SyntaxError: invalid syntax
+
+2012-11-01 10:16:30,698 (7576) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7576.
+2012-11-01 10:16:32,490 (7576) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:16:33,138 (7576) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:16:33,140 (7576) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:16:37,038 (7576) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 10:17:42,608 (8528) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8528.
+2012-11-01 10:17:44,796 (8528) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:17:45,388 (8528) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:17:45,390 (8528) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:17:49,298 (8528) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 10:18:10,209 (7916) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7916.
+2012-11-01 10:18:12,078 (7916) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:18:12,713 (7916) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:18:12,713 (7916) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:18:18,371 (7916) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {'experiment':'practice', 'condition':'ungram', 'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'N', 'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 34,  'stimulus': 'Wessen Wirt, der für's Essen bezahlt, hat viele $ Freude?'}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+ SyntaxError: invalid syntax
+
+2012-11-01 10:19:43,687 (7120) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7120.
+2012-11-01 10:19:45,783 (7120) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:19:46,371 (7120) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:19:46,371 (7120) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:19:53,201 (7120) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {'experiment':'practice', 'condition':'gram',   'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'Y',  'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 38,  'stimulus': 'Wirklich? Studenten, die nicht zur Vorlesung gehen, können gute Klausuren $ schreiben?}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              ^
+ SyntaxError: EOL while scanning single-quoted string
+
+2012-11-01 10:20:41,490 (7252) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7252.
+2012-11-01 10:20:43,086 (7252) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:20:43,693 (7252) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:20:43,694 (7252) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:20:50,463 (7252) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {'experiment':'practice', 'condition':'gram',   'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'Y',  'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 38,  'stimulus': 'Studenten, die nicht zur Vorlesung gehen, können gute Klausuren $ schreiben?}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ^
+ SyntaxError: EOL while scanning single-quoted string
+
+2012-11-01 10:21:20,913 (8256) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8256.
+2012-11-01 10:21:22,648 (8256) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:21:23,263 (8256) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:21:23,265 (8256) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:21:34,108 (8256) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 10:21:56,609 (8364) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8364.
+2012-11-01 10:21:58,066 (8364) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:21:58,621 (8364) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:21:58,621 (8364) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:26:15,773 (8364) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 185, in <module>
+    s.saveResponses(results)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 68, in saveResponses
+    lines = self.__eventLines(self.config.records_header,  self.trial_header_val)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 89, in __eventLines
+    line = prefix + self.__eventLine(record,  columns) + '\n'
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 100, in __eventLine
+    line = line + " " + (format % record[column])
+TypeError: float argument required
+
+2012-11-01 10:32:20,697 (9028) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9028.
+2012-11-01 10:32:25,217 (9028) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:32:25,851 (9028) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:32:25,852 (9028) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:32:25,877 (9028) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 11, in <module>
+    from trial_sat import SATTrial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 13, in <module>
+    from trial import Trial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 100
+     else if record.has_key(column):
+           ^
+ SyntaxError: invalid syntax
+
+2012-11-01 10:33:07,964 (176) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 176.
+2012-11-01 10:33:10,134 (176) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:33:10,749 (176) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:33:10,750 (176) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:33:10,757 (176) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 11, in <module>
+    from trial_sat import SATTrial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 13, in <module>
+    from trial import Trial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 100
+     else if record.has_key(column):
+           ^
+ SyntaxError: invalid syntax
+
+2012-11-01 10:33:18,280 (9436) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9436.
+2012-11-01 10:33:20,125 (9436) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:33:20,687 (9436) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:33:20,687 (9436) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:33:20,697 (9436) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 11, in <module>
+    from trial_sat import SATTrial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 13, in <module>
+    from trial import Trial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 100
+     else if record.has_key(column):
+           ^
+ SyntaxError: invalid syntax
+
+2012-11-01 10:33:48,285 (9852) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9852.
+2012-11-01 10:33:50,434 (9852) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:33:51,023 (9852) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:33:51,025 (9852) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:33:51,033 (9852) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 11, in <module>
+    from trial_sat import SATTrial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 13, in <module>
+    from trial import Trial
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 100
+     else if record.has_key(column):
+           ^
+ SyntaxError: invalid syntax
+
+2012-11-01 10:34:09,559 (10180) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 10180.
+2012-11-01 10:34:11,552 (10180) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:34:12,198 (10180) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:34:12,198 (10180) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:34:47,789 (9496) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9496.
+2012-11-01 10:34:50,362 (9496) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:34:50,948 (9496) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:34:50,950 (9496) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:35:45,861 (9496) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 185, in <module>
+    s.saveResponses(results)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 68, in saveResponses
+    lines = self.__eventLines(self.config.records_header,  self.trial_header_val)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 89, in __eventLines
+    line = prefix + self.__eventLine(record,  columns) + '\n'
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial.py", line 99, in __eventLine
+    line = line + " " + (format % float(record[column]))
+ValueError: invalid literal for float(): NA
+
+2012-11-01 10:37:49,236 (9224) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9224.
+2012-11-01 10:37:50,944 (9224) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:37:51,516 (9224) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:37:51,516 (9224) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 10:38:38,171 (8696) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8696.
+2012-11-01 10:38:40,052 (8696) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 10:38:40,634 (8696) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 10:38:40,635 (8696) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 13:33:38,257 (8340) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8340.
+2012-11-01 13:40:07,243 (5220) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 5220.
+2012-11-01 13:40:09,963 (5220) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 13:40:10,572 (5220) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 13:40:10,573 (5220) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 13:40:10,818 (5220) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 39, in read_stimuli
+    f = open(filename, "r")
+IOError: [Errno 2] No such file or directory: 'Experimente\\items_tst'
+
+2012-11-01 13:40:40,901 (3544) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 3544.
+2012-11-01 13:40:45,171 (3544) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 13:40:45,766 (3544) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 13:40:45,767 (3544) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:07:21,526 (7404) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7404.
+2012-11-01 14:07:32,447 (7404) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:07:33,058 (7404) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:07:33,059 (7404) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:07:35,831 (7404) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 14:10:08,526 (7632) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7632.
+2012-11-01 14:10:11,088 (7632) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:10:11,671 (7632) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:10:11,671 (7632) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:10:14,644 (7632) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 155, in read_stimuli
+    raise(BaseException("Can't parse <%s>" % line))
+BaseException: Can't parse <'experiment':'practice', 'condition':'gram',   'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'Y',  'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 145,  'stimulus':'Gestern hat Maria keine Bücher $ gelesen.'}>
+
+2012-11-01 14:10:43,516 (9792) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9792.
+2012-11-01 14:10:45,101 (9792) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:10:45,703 (9792) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:10:45,703 (9792) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:10:48,789 (9792) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {{'experiment':'practice', 'condition':'ungram', 'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'N', 'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 121,  'stimulus':'Dem_Anwalt, der der_Minister verklagte, wurde die_Zulassung $ entzogen.'}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ^
+ SyntaxError: unexpected EOF while parsing
+
+2012-11-01 14:11:09,996 (9524) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9524.
+2012-11-01 14:11:11,575 (9524) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:11:12,226 (9524) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:11:12,227 (9524) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:11:20,030 (9524) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {'experiment':'practice', 'condition':'ungram', 'expmode':'SAT', 'mode':'CN', 'start_button':'R', 'sndFrequency': 500, 'sndDuration': 0.1, 'ITICross':200, 'ITIBlank':100, 'ITICrossRepeat': 3, 'SOA':400, 'ISI':50, 'signalOnset': -100-400, 'signalCycle': 400, 'signalsCnt': 13, 'mappingIndicators': False, 'feedbackIndicators': False, 'accuracyFeedbackDuration': 0, 'grammatical':'N', 'feedbackIndicators': True, 'mappingIndicators': True, 'accuracyFeedbackDuration': 2500, 'item': 34,  'stimulus': 'Wessen Wirt, der für's Essen bezahlt, hat viele Freude?'}
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ^
+ SyntaxError: invalid syntax
+
+2012-11-01 14:11:37,628 (7264) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7264.
+2012-11-01 14:11:39,538 (7264) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:11:40,102 (7264) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:11:40,102 (7264) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:11:47,684 (7264) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 152, in __init__
+    assert( hasattr(self, "phraseSignalReference"))
+AssertionError
+
+2012-11-01 14:13:15,197 (7340) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7340.
+2012-11-01 14:13:16,750 (7340) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:13:17,413 (7340) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:13:17,413 (7340) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:13:33,194 (7340) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 142, in __init__
+    anchor=anchor, on=0, font_name=self.config.font)
+  File "C:\Python25\lib\site-packages\VisionEgg\Text.py", line 158, in __init__
+    self._render_text()
+  File "C:\Python25\lib\site-packages\VisionEgg\Text.py", line 166, in _render_text
+    self._reload_texture()
+  File "C:\Python25\lib\site-packages\VisionEgg\Textures.py", line 1181, in _reload_texture
+    build_mipmaps = self.constant_parameters.mipmaps_enabled )
+  File "C:\Python25\lib\site-packages\VisionEgg\Textures.py", line 372, in load
+    self.texels.get_bitsize() )
+error: Out of memory
+
+2012-11-01 14:32:18,127 (6880) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6880.
+2012-11-01 14:32:21,420 (6880) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:32:24,049 (6880) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:32:24,049 (6880) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 14:32:42,507 (6880) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 145, in read_stimuli
+    s = SATTrial(config, split_stimulus(arg['stimulus']), arg)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\trial_sat.py", line 142, in __init__
+    anchor=anchor, on=0, font_name=self.config.font)
+  File "C:\Python25\lib\site-packages\VisionEgg\Text.py", line 158, in __init__
+    self._render_text()
+  File "C:\Python25\lib\site-packages\VisionEgg\Text.py", line 166, in _render_text
+    self._reload_texture()
+  File "C:\Python25\lib\site-packages\VisionEgg\Textures.py", line 1181, in _reload_texture
+    build_mipmaps = self.constant_parameters.mipmaps_enabled )
+  File "C:\Python25\lib\site-packages\VisionEgg\Textures.py", line 381, in load
+    texture_object.put_new_image( buffer, internal_format=internal_format, mipmap_level=0 )
+  File "C:\Python25\lib\site-packages\VisionEgg\Textures.py", line 672, in put_new_image
+    raw_data = pygame.image.tostring(texel_data,'RGBA',1)
+MemoryError
+
+2012-11-01 14:35:36,144 (1656) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 1656.
+2012-11-01 14:35:38,628 (1656) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 14:35:39,256 (1656) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 14:35:39,256 (1656) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 15:16:22,395 (3036) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 3036.
+2012-11-01 15:17:35,943 (3036) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 15:17:36,520 (3036) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 15:17:36,520 (3036) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 15:17:36,825 (3036) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {$PRACTICE_UNGRAM, 'item': 13,  $STIM: 'Ist es möglich, dass Jana und Franzi $ machen?'}
+      ^
+ SyntaxError: invalid syntax
+
+2012-11-01 15:20:06,548 (12712) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12712.
+2012-11-01 15:20:08,145 (12712) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 15:20:08,795 (12712) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 15:20:08,795 (12712) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 15:20:09,157 (12712) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {$PRACTICE_UNGRAM, 'item': 13,  $STIM: 'Ist es möglich, dass Jana und Franzi $ machen?' }
+      ^
+ SyntaxError: invalid syntax
+
+2012-11-01 15:20:56,796 (12524) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12524.
+2012-11-01 15:20:58,348 (12524) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 15:20:58,849 (12524) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 15:20:58,849 (12524) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 15:20:59,187 (12524) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {$PRACTICE_UNGRAM, 'item': 13,  $STIM: 'Ist es möglich, dass Jana und Franzi $ machen?' }
+      ^
+ SyntaxError: invalid syntax
+
+2012-11-01 15:21:39,973 (12780) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12780.
+2012-11-01 15:21:41,345 (12780) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 15:21:41,904 (12780) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 15:21:41,904 (12780) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 16:00:03,029 (14204) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 14204.
+2012-11-01 16:00:07,440 (14204) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 16:00:08,000 (14204) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 16:00:08,002 (14204) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-01 16:00:08,285 (14204) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {$PRACTICE_GRAM, 'item': 38,  $STIM: 'Wirklich? Studenten, die nicht zur Vorlesung gehen, können gute Klausuren $ schreiben?'}
+      ^
+ SyntaxError: invalid syntax
+
+2012-11-01 16:01:32,592 (12448) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12448.
+2012-11-01 16:02:00,114 (11160) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11160.
+2012-11-01 16:02:01,627 (11160) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-01 16:02:02,232 (11160) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-01 16:02:02,232 (11160) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-02 13:55:18,319 (13164) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 13164.
+2012-11-02 13:55:20,388 (13164) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-02 13:55:21,085 (13164) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-02 13:55:21,085 (13164) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-02 14:33:01,796 (2568) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 2568.
+2012-11-02 14:33:29,164 (10556) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 10556.
+2012-11-02 14:36:18,563 (15396) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15396.
+2012-11-02 14:36:20,401 (15396) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-02 14:36:21,000 (15396) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-02 14:36:21,000 (15396) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-02 15:18:47,631 (15356) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15356.
+2012-11-02 15:19:44,516 (15356) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-02 15:19:45,128 (15356) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-02 15:19:45,128 (15356) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 09:26:02,469 (18024) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 18024.
+2012-11-05 09:26:12,109 (18024) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 09:26:12,849 (18024) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 09:26:12,851 (18024) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 09:26:16,630 (18024) CRITICAL: Traceback (most recent call last):
+  File "RTExp\runSAT.py", line 166, in <module>
+    stimuli = read_stimuli(targetFilename, config)
+  File "C:\Users\pavel\Dropbox\Experimente\SAT_RACE\RTExp\stimuli.py", line 142, in read_stimuli
+    arg = eval(line)
+  File "<string>", line 1
+     {$RACERC2_UNGRAM, 'item' : '29' , 'condition': 'masc-none' , 'stimulus': 'Wohin rannte die_Kollegin der_Polizistin, $ der_schoss?' }
+      ^
+ SyntaxError: invalid syntax
+
+2012-11-05 09:28:28,265 (15556) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15556.
+2012-11-05 09:28:31,349 (19260) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 19260.
+2012-11-05 09:29:49,812 (16588) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 16588.
+2012-11-05 09:29:55,203 (16588) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 09:29:55,766 (16588) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 09:29:55,766 (16588) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 10:13:28,839 (16124) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 16124.
+2012-11-05 10:13:36,282 (16124) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 10:13:36,890 (16124) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 10:13:36,890 (16124) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 10:52:53,851 (15540) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15540.
+2012-11-05 10:52:57,516 (15540) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 10:52:58,075 (15540) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 10:52:58,076 (15540) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 12:06:28,779 (15648) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15648.
+2012-11-05 12:06:36,618 (15648) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 12:06:37,221 (15648) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 12:06:37,221 (15648) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 12:43:33,736 (19212) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 19212.
+2012-11-05 12:43:49,108 (19212) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 12:43:49,720 (19212) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 12:43:49,721 (19212) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 13:21:39,130 (12748) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12748.
+2012-11-05 13:21:43,140 (12748) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 13:21:43,700 (12748) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 13:21:43,700 (12748) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 14:46:53,480 (17456) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 17456.
+2012-11-05 14:47:06,753 (3076) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 3076.
+2012-11-05 14:47:09,539 (11464) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11464.
+2012-11-05 15:03:07,609 (17468) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 17468.
+2012-11-05 15:03:10,698 (16476) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 16476.
+2012-11-05 15:03:12,651 (18336) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 18336.
+2012-11-05 15:56:00,306 (16632) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 16632.
+2012-11-05 15:56:03,285 (16632) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 15:56:03,846 (16632) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 15:56:03,846 (16632) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 16:38:18,299 (18788) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 18788.
+2012-11-05 16:43:40,684 (18788) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 16:43:41,269 (18788) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 16:43:41,269 (18788) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-05 17:30:20,845 (16516) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 16516.
+2012-11-05 17:31:55,713 (16516) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-05 17:31:56,296 (16516) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-05 17:31:56,298 (16516) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-06 10:08:14,943 (18716) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 18716.
+2012-11-06 10:08:17,855 (18716) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-06 10:08:18,510 (18716) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-06 10:08:18,510 (18716) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-06 10:44:28,252 (20792) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 20792.
+2012-11-06 10:46:06,941 (20792) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-06 10:46:07,542 (20792) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-06 10:46:07,542 (20792) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-06 11:44:08,019 (18004) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 18004.
+2012-11-06 11:44:43,397 (18004) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-06 11:44:43,963 (18004) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-06 11:44:43,963 (18004) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-08 09:25:50,875 (6388) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6388.
+2012-11-08 09:27:41,117 (6388) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-08 09:27:42,088 (6388) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-08 09:27:42,088 (6388) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-08 09:58:29,937 (3136) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 3136.
+2012-11-08 10:00:14,334 (3136) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-08 10:00:14,884 (3136) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-08 10:00:14,884 (3136) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-08 10:36:30,173 (7144) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7144.
+2012-11-08 10:43:49,502 (7144) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-08 10:43:50,042 (7144) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-08 10:43:50,042 (7144) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-08 12:20:50,670 (6384) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6384.
+2012-11-08 12:21:04,187 (8164) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8164.
+2012-11-08 12:31:34,750 (7136) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7136.
+2012-11-08 14:19:20,240 (8816) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8816.
+2012-11-08 14:19:23,617 (8816) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-08 14:19:24,276 (8816) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-08 14:19:24,276 (8816) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-08 14:33:24,693 (5392) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 5392.
+2012-11-08 14:33:27,821 (5392) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-08 14:33:28,684 (5392) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-08 14:33:28,684 (5392) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-08 15:08:28,069 (6324) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6324.
+2012-11-08 15:08:31,415 (6324) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-08 15:08:31,976 (6324) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-08 15:08:31,976 (6324) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-08 16:00:41,816 (4812) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 4812.
+2012-11-08 16:01:37,742 (4812) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-08 16:01:38,255 (4812) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-08 16:01:38,256 (4812) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-09 10:02:25,811 (2784) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 2784.
+2012-11-09 10:02:33,505 (2784) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-09 10:02:34,174 (2784) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-09 10:02:34,174 (2784) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-09 10:39:40,773 (10144) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 10144.
+2012-11-09 10:41:12,289 (10144) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-09 10:41:12,808 (10144) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-09 10:41:12,808 (10144) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-09 11:21:52,509 (6668) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6668.
+2012-11-09 11:21:56,092 (6668) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-09 11:21:56,631 (6668) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-09 11:21:56,631 (6668) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 09:21:58,378 (1216) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 1216.
+2012-11-12 09:22:01,974 (1216) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 09:22:03,572 (1216) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 09:22:03,572 (1216) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 09:59:37,051 (4100) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 4100.
+2012-11-12 09:59:39,704 (4100) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 09:59:40,223 (4100) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 09:59:40,224 (4100) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 10:42:39,101 (324) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 324.
+2012-11-12 10:47:24,619 (324) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 10:47:25,125 (324) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 10:47:25,125 (324) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 12:32:32,443 (11236) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11236.
+2012-11-12 12:32:35,555 (11236) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 12:32:36,075 (11236) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 12:32:36,075 (11236) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 12:48:28,960 (12164) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12164.
+2012-11-12 12:48:36,773 (10740) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 10740.
+2012-11-12 12:48:40,336 (11488) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11488.
+2012-11-12 12:48:43,490 (11488) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 12:48:44,039 (11488) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 12:48:44,040 (11488) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 12:51:52,200 (7308) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7308.
+2012-11-12 12:51:55,029 (7308) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 12:51:57,134 (7308) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 12:51:57,134 (7308) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 13:21:57,693 (6628) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6628.
+2012-11-12 13:22:27,180 (6628) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 13:22:27,716 (6628) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 13:22:27,717 (6628) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-12 14:08:33,118 (6428) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6428.
+2012-11-12 14:09:27,993 (6428) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-12 14:09:28,519 (6428) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-12 14:09:28,519 (6428) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-13 09:53:51,752 (8852) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8852.
+2012-11-13 09:53:55,052 (8852) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-13 09:53:55,703 (8852) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-13 09:53:55,703 (8852) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-13 10:26:24,119 (4792) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 4792.
+2012-11-13 10:27:15,927 (4792) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-13 10:27:16,427 (4792) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-13 10:27:16,427 (4792) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-13 11:06:47,414 (8964) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8964.
+2012-11-13 11:09:14,568 (8964) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-13 11:09:15,040 (8964) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-13 11:09:15,042 (8964) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-13 13:00:58,095 (8148) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8148.
+2012-11-13 13:01:13,470 (8148) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-13 13:01:14,068 (8148) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-13 13:01:14,068 (8148) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-13 13:40:15,880 (8524) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8524.
+2012-11-13 13:40:26,953 (8524) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-13 13:40:27,500 (8524) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-13 13:40:27,500 (8524) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-13 14:34:14,756 (8596) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8596.
+2012-11-13 14:34:59,286 (8596) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-13 14:34:59,802 (8596) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-13 14:34:59,802 (8596) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-14 09:26:32,239 (6288) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6288.
+2012-11-14 09:26:34,796 (6288) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-14 09:26:35,361 (6288) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-14 09:26:35,361 (6288) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-14 10:04:23,658 (12196) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12196.
+2012-11-14 10:06:42,734 (12196) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-14 10:06:43,253 (12196) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-14 10:06:43,255 (12196) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-14 10:57:45,671 (12244) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12244.
+2012-11-14 11:11:14,157 (12244) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-14 11:11:14,717 (12244) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-14 11:11:14,717 (12244) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-14 12:43:56,023 (7836) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7836.
+2012-11-14 12:43:58,114 (7836) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-14 12:43:58,640 (7836) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-14 12:43:58,641 (7836) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-14 13:16:23,058 (7864) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7864.
+2012-11-14 13:17:51,598 (7864) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-14 13:17:52,098 (7864) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-14 13:17:52,099 (7864) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-14 14:11:53,630 (12368) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12368.
+2012-11-14 14:12:27,046 (12368) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-14 14:12:27,663 (12368) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-14 14:12:27,664 (12368) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-15 09:37:46,417 (13652) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 13652.
+2012-11-15 09:38:00,947 (13652) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-15 09:38:01,489 (13652) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-15 09:38:01,490 (13652) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-15 10:14:02,354 (15276) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15276.
+2012-11-15 10:18:04,838 (15276) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-15 10:18:05,388 (15276) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-15 10:18:05,388 (15276) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-15 11:05:11,150 (7684) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7684.
+2012-11-15 11:21:47,391 (7684) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-15 11:21:47,926 (7684) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-15 11:21:47,927 (7684) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-15 12:28:46,969 (15144) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15144.
+2012-11-15 12:28:50,808 (15144) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-15 12:28:51,335 (15144) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-15 12:28:51,335 (15144) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-15 13:04:42,996 (14448) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 14448.
+2012-11-15 13:04:46,551 (14448) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-15 13:04:47,072 (14448) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-15 13:04:47,073 (14448) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-15 13:55:07,417 (14780) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 14780.
+2012-11-15 13:55:48,479 (14780) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-15 13:55:48,996 (14780) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-15 13:55:48,997 (14780) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-16 09:55:27,924 (9980) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9980.
+2012-11-16 09:55:31,125 (9980) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-16 09:55:31,625 (9980) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-16 09:55:31,625 (9980) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-16 10:31:38,877 (10328) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 10328.
+2012-11-16 10:31:40,920 (10328) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-16 10:31:41,470 (10328) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-16 10:31:41,470 (10328) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-16 11:26:28,441 (4176) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 4176.
+2012-11-16 11:27:08,023 (4176) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-16 11:27:08,572 (4176) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-16 11:27:08,572 (4176) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 09:28:56,838 (15040) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15040.
+2012-11-19 09:28:58,595 (15040) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 09:28:59,240 (15040) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 09:28:59,240 (15040) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 09:38:43,615 (11488) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11488.
+2012-11-19 09:38:46,805 (11488) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 09:38:47,312 (11488) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 09:38:47,313 (11488) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 09:48:13,680 (9368) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9368.
+2012-11-19 09:48:17,926 (15976) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15976.
+2012-11-19 09:48:27,595 (13944) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 13944.
+2012-11-19 09:48:29,911 (13944) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 09:48:30,499 (13944) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 09:48:30,499 (13944) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 10:19:56,997 (15116) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15116.
+2012-11-19 10:20:28,934 (15116) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 10:20:29,417 (15116) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 10:20:29,417 (15116) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 11:22:37,299 (15392) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15392.
+2012-11-19 11:24:16,857 (15392) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 11:24:17,377 (15392) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 11:24:17,378 (15392) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 12:30:42,323 (15848) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15848.
+2012-11-19 12:30:50,298 (15848) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 12:30:50,858 (15848) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 12:30:50,858 (15848) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 13:07:03,127 (15120) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15120.
+2012-11-19 13:08:49,967 (15120) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 13:08:50,480 (15120) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 13:08:50,480 (15120) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-19 14:07:20,742 (6684) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6684.
+2012-11-19 14:08:23,279 (6684) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-19 14:08:23,835 (6684) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-19 14:08:23,835 (6684) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-22 09:24:43,474 (7468) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7468.
+2012-11-22 10:11:06,752 (7468) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-22 10:11:07,293 (7468) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-22 10:11:07,295 (7468) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-22 10:47:21,750 (6380) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6380.
+2012-11-22 10:49:24,131 (6380) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-22 10:49:24,677 (6380) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-22 10:49:24,677 (6380) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-22 11:43:00,859 (7548) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7548.
+2012-11-22 11:43:59,247 (7548) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-22 11:43:59,780 (7548) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-22 11:43:59,780 (7548) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-22 12:34:11,885 (7972) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7972.
+2012-11-22 12:34:14,154 (7972) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-22 12:34:14,691 (7972) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-22 12:34:14,691 (7972) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-22 13:15:22,917 (7920) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7920.
+2012-11-22 13:15:27,263 (7920) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-22 13:15:27,773 (7920) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-22 13:15:27,773 (7920) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-22 14:09:01,417 (8340) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8340.
+2012-11-22 14:09:32,436 (8340) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-22 14:09:32,954 (8340) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-22 14:09:32,956 (8340) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-26 09:15:20,431 (9604) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9604.
+2012-11-26 09:15:23,611 (9604) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-26 09:15:24,240 (9604) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-26 09:15:24,240 (9604) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-26 09:52:05,053 (4244) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 4244.
+2012-11-26 09:52:54,270 (4244) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-26 09:52:54,825 (4244) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-26 09:52:54,825 (4244) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-26 10:29:14,447 (7724) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 7724.
+2012-11-26 10:29:27,267 (7724) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-26 10:29:27,855 (7724) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-26 10:29:27,855 (7724) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-27 09:44:09,898 (11696) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11696.
+2012-11-27 09:44:12,944 (11696) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-27 09:44:13,542 (11696) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-27 09:44:13,542 (11696) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-27 10:19:35,194 (6396) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 6396.
+2012-11-27 10:22:23,357 (6396) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-27 10:22:23,927 (6396) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-27 10:22:23,927 (6396) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-27 10:57:31,003 (8672) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8672.
+2012-11-27 11:05:42,240 (8672) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-27 11:05:42,760 (8672) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-27 11:05:42,760 (8672) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-27 12:23:24,220 (10420) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 10420.
+2012-11-27 12:23:29,318 (10420) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-27 12:23:29,782 (10420) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-27 12:23:29,783 (10420) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-27 12:55:32,940 (12184) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12184.
+2012-11-27 12:56:04,654 (12184) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-27 12:56:05,154 (12184) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-27 12:56:05,154 (12184) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-27 13:34:01,700 (12056) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12056.
+2012-11-27 13:35:11,072 (12056) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-27 13:35:11,615 (12056) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-27 13:35:11,617 (12056) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-28 09:26:18,157 (12044) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12044.
+2012-11-28 09:26:20,677 (12044) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-28 09:26:21,344 (12044) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-28 09:26:21,344 (12044) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-28 10:04:44,551 (11272) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 11272.
+2012-11-28 10:04:49,020 (11272) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-28 10:04:49,523 (11272) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-28 10:04:49,525 (11272) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-28 10:45:48,816 (14572) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 14572.
+2012-11-28 10:45:55,414 (14572) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-28 10:45:55,941 (14572) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-28 10:45:55,941 (14572) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-28 11:59:57,812 (13664) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 13664.
+2012-11-28 12:00:06,266 (13664) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-28 12:00:06,799 (13664) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-28 12:00:06,801 (13664) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-28 12:31:23,852 (12248) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 12248.
+2012-11-28 12:31:27,941 (12248) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-28 12:31:28,394 (12248) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-28 12:31:28,394 (12248) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-28 13:09:16,904 (15316) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 15316.
+2012-11-28 13:09:21,924 (15316) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-28 13:09:22,443 (15316) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-28 13:09:22,443 (15316) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-29 11:54:54,259 (14360) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 14360.
+2012-11-29 11:54:56,128 (14360) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-29 11:54:56,759 (14360) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-29 11:54:56,759 (14360) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-29 12:33:18,746 (13696) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 13696.
+2012-11-29 12:33:21,864 (13696) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-29 12:33:22,463 (13696) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-29 12:33:22,464 (13696) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-11-29 13:10:04,664 (13720) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 13720.
+2012-11-29 13:10:08,046 (13720) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-11-29 13:10:08,573 (13720) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-11-29 13:10:08,573 (13720) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-12-03 11:08:15,911 (8392) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 8392.
+2012-12-03 11:08:17,753 (8392) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-12-03 11:08:18,295 (8392) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-12-03 11:08:18,296 (8392) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-12-03 11:41:25,197 (5480) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 5480.
+2012-12-03 11:44:36,621 (5480) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-12-03 11:44:37,125 (5480) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-12-03 11:44:37,125 (5480) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).
+2012-12-03 12:25:25,269 (9012) INFO: Script RTExp\runSAT.py started Vision Egg 1.2.1 with process id 9012.
+2012-12-03 12:25:46,398 (9012) INFO: Requesting fullscreen 1600 x 900 32 bpp (8 8 8 0 RGBA).
+2012-12-03 12:25:46,923 (9012) INFO: OpenGL 3.3.0 - Build 8.15.10.2725, Intel(R) HD Graphics 4000, Intel (PyOpenGL 2.0.2.01)
+2012-12-03 12:25:46,924 (9012) INFO: Video system reports 32 bpp (8 8 8 8 RGBA).

@@ -1,0 +1,128 @@
+{$LOCALITY_GRAM, $ITEM:01, $COND: 'pl-pl-short', $STIM:'Wer waren die_Gäste, die beim_Empfang am_Tisch $ schliefen?' }
+{$LOCALITY_GRAM, $ITEM:01, $COND: 'pl-pl-long', $STIM:'Wer waren die_Gäste, die beim_Empfang des_Direktors des_Kurhotels am_Tisch $ schliefen?' }
+{$LOCALITY_GRAM, $ITEM:01, $COND: 'pl-sg-short', $STIM:'Wer waren die_Gäste, die beim_Empfang am_Tisch $ schlief?' }
+{$LOCALITY_GRAM, $ITEM:01, $COND: 'pl-sg-long', $STIM:'Wer waren die_Gäste, die beim_Empfang des_Direktors des_Kurhotels am_Tisch $ schlief?' }
+{$LOCALITY_GRAM, $ITEM:02, $COND: 'pl-pl-short', $STIM:'Wer waren die_Anwälte, die beim_Prozess im_Gerichtssaal $ logen?' }
+{$LOCALITY_GRAM, $ITEM:02, $COND: 'pl-pl-long', $STIM:'Wer waren die_Anwälte, die beim_Prozess des_Diebes des_Kunstwerkes im_Gerichtssaal $ logen?' }
+{$LOCALITY_GRAM, $ITEM:02, $COND: 'pl-sg-short', $STIM:'Wer waren die_Anwälte, die beim_Prozess im_Gerichtssaal $ log?' }
+{$LOCALITY_GRAM, $ITEM:02, $COND: 'pl-sg-long', $STIM:'Wer waren die_Anwälte, die beim_Prozess des_Diebes des_Kunstwerkes im_Gerichtssaal $ log?' }
+{$LOCALITY_GRAM, $ITEM:03, $COND: 'pl-pl-short', $STIM:'Wer waren die_Künstler, die nach der_Feier unter einem_Baum $ zelteten?' }
+{$LOCALITY_GRAM, $ITEM:04, $COND: 'pl-pl-long', $STIM:'Wer waren die_Künstler, die nach der_Feier des_Geburtstags des_Freundes unter einem_Baum $ zelteten?' }
+{$LOCALITY_GRAM, $ITEM:03, $COND: 'pl-sg-short', $STIM:'Wer waren die_Künstler, die nach der_Feier unter einem_Baum $ zeltete?' }
+{$LOCALITY_GRAM, $ITEM:04, $COND: 'pl-sg-long', $STIM:'Wer waren die_Künstler, die nach der_Feier des_Geburtstags des_Freundes unter einem_Baum $ zeltete?' }
+{$LOCALITY_GRAM, $ITEM:04, $COND: 'pl-pl-short', $STIM:'Wer waren die_Ärzte, die bei der_Geburt im_Kreißsaal $ lachte?' }
+{$LOCALITY_GRAM, $ITEM:04, $COND: 'pl-pl-long', $STIM:'Wer waren die_Ärzte, die bei der_Geburt des_Kindes des_Kollegen im_Kreißsaal $ lachten?' }
+{$LOCALITY_GRAM, $ITEM:04, $COND: 'pl-sg-short', $STIM:'Wer waren die_Ärzte, die bei der_Geburt im_Kreißsaal $ lachte?' }
+{$LOCALITY_GRAM, $ITEM:04, $COND: 'pl-sg-long', $STIM:'Wer waren die_Ärzte, die bei der_Geburt des_Kindes des_Kollegen im_Kreißsaal $ lachte?' }
+{$LOCALITY_GRAM, $ITEM:05, $COND: 'pl-pl-short', $STIM:'Wer waren die_Forscher, die auf der_Tagung im_Hotel $ fehlten?' }
+{$LOCALITY_GRAM, $ITEM:05, $COND: 'pl-pl-long', $STIM:'Wer waren die_Forscher, die auf der_Tagung des_Innovationsteams des_Instituts im_Hotel $ fehlten?' }
+{$LOCALITY_GRAM, $ITEM:05, $COND: 'pl-sg-short', $STIM:'Wer waren die_Forscher, die auf der_Tagung im_Hotel $ fehlte?' }
+{$LOCALITY_GRAM, $ITEM:05, $COND: 'pl-sg-long', $STIM:'Wer waren die_Forscher, die auf der_Tagung des_Innovationsteams des_Instituts im_Hotel $ fehlte?' }
+{$LOCALITY_GRAM, $ITEM:06, $COND: 'pl-pl-short', $STIM:'Wer waren die_Angestellten, die bei der_Hochzeit in der_Kirche $ sangen?' }
+{$LOCALITY_GRAM, $ITEM:06, $COND: 'pl-pl-long', $STIM:'Wer waren die_Angestellten, die bei der_Hochzeit des_Chefs des_Unternehmens in der_Kirche $ sangen?' }
+{$LOCALITY_GRAM, $ITEM:06, $COND: 'pl-sg-short', $STIM:'Wer waren die_Angestellten, die bei der_Hochzeit in der_Kirche $ sang?' }
+{$LOCALITY_GRAM, $ITEM:06, $COND: 'pl-sg-long', $STIM:'Wer waren die_Angestellten, die bei der_Hochzeit des_Chefs des_Unternehmens in der_Kirche $ sang?' }
+{$LOCALITY_GRAM, $ITEM:07, $COND: 'pl-pl-short', $STIM:'Wer waren die_Terroristen, die beim_Ball in der_Botschaft $ kellnerten?' }
+{$LOCALITY_GRAM, $ITEM:07, $COND: 'pl-pl-long', $STIM:'Wer waren die_Terroristen, die beim_Ball des_Gesandten des_Iran in der_Botschaft $ kellnerten?' }
+{$LOCALITY_GRAM, $ITEM:07, $COND: 'pl-sg-short', $STIM:'Wer waren die_Terroristen, die beim_Ball in der_Botschaft $ kellnerte?' }
+{$LOCALITY_GRAM, $ITEM:07, $COND: 'pl-sg-long', $STIM:'Wer waren die_Terroristen, die beim_Ball des_Gesandten des_Iran in der_Botschaft $ kellnerte?' }
+{$LOCALITY_GRAM, $ITEM:08, $COND: 'pl-pl-short', $STIM:'Wer waren die_Studenten, die beim_Vortrag im_Hörsaal $ entspannten?' }
+{$LOCALITY_GRAM, $ITEM:08, $COND: 'pl-pl-long', $STIM:'Wer waren die_Studenten, die beim_Vortrag des_Professors des_Instituts im_Hörsaal $ entspannten?' }
+{$LOCALITY_GRAM, $ITEM:08, $COND: 'pl-sg-short', $STIM:'Wer waren die_Studenten, die beim_Vortrag im_Hörsaal $ entspannte?' }
+{$LOCALITY_GRAM, $ITEM:08, $COND: 'pl-sg-long', $STIM:'Wer waren die_Studenten, die beim_Vortrag des_Professors des_Instituts im_Hörsaal $ entspannte?' }
+{$LOCALITY_GRAM, $ITEM:09, $COND: 'pl-pl-short', $STIM:'Wer waren die_Fans, die beim_Konzert auf der_Bühne $ randalierten?' }
+{$LOCALITY_GRAM, $ITEM:09, $COND: 'pl-pl-long', $STIM:'Wer waren die_Fans, die beim_Konzert des_Stars des_Musiksenders auf der_Bühne $ randalierten?' }
+{$LOCALITY_GRAM, $ITEM:09, $COND: 'pl-sg-short', $STIM:'Wer waren die_Fans, die beim_Konzert auf der_Bühne $ randalierte?' }
+{$LOCALITY_GRAM, $ITEM:09, $COND: 'pl-sg-long', $STIM:'Wer waren die_Fans, die beim_Konzert des_Stars des_Musiksenders auf der_Bühne $ randalierte?' }
+{$LOCALITY_GRAM, $ITEM:10, $COND: 'pl-pl-short', $STIM:'Wer waren die_Zuhörer, die bei der_Lesung auf seinem_Platz $ herumalberten?' }
+{$LOCALITY_GRAM, $ITEM:10, $COND: 'pl-pl-long', $STIM:'Wer waren die_Zuhörer, die bei der_Lesung des_Autors des_Romans auf seinem_Platz $ herumalberten?' }
+{$LOCALITY_GRAM, $ITEM:10, $COND: 'pl-sg-short', $STIM:'Wer waren die_Zuhörer, die bei der_Lesung auf seinem_Platz $ herumalberte?' }
+{$LOCALITY_GRAM, $ITEM:10, $COND: 'pl-sg-long', $STIM:'Wer waren die_Zuhörer, die bei der_Lesung des_Autors des_Romans auf seinem_Platz $ herumalberte?' }
+{$LOCALITY_GRAM, $ITEM:11, $COND: 'pl-pl-short', $STIM:'Wer waren die_Männer, die beim_Tanzen im_Festsaal $ diskutierten?' }
+{$LOCALITY_GRAM, $ITEM:11, $COND: 'pl-pl-long', $STIM:'Wer waren die_Männer, die beim_Tanzen des_Walzers des_Komponisten im_Festsaal $ diskutierten?' }
+{$LOCALITY_GRAM, $ITEM:11, $COND: 'pl-sg-short', $STIM:'Wer waren die_Männer, die beim_Tanzen im_Festsaal $ diskutierte?' }
+{$LOCALITY_GRAM, $ITEM:11, $COND: 'pl-sg-long', $STIM:'Wer waren die_Männer, die beim_Tanzen des_Walzers des_Komponisten im_Festsaal $ diskutierte?' }
+{$LOCALITY_GRAM, $ITEM:12, $COND: 'pl-pl-short', $STIM:'Wer waren die_Schüler, die beim_Unterricht im_Klassenraum $ stotterten?' }
+{$LOCALITY_GRAM, $ITEM:12, $COND: 'pl-pl-long', $STIM:'Wer waren die_Schüler, die beim_Unterricht des_Referendars des_Gymnasiums im_Klassenraum $ stotterten?' }
+{$LOCALITY_GRAM, $ITEM:12, $COND: 'pl-sg-short', $STIM:'Wer waren die_Schüler, die beim_Unterricht im_Klassenraum $ stotterte?' }
+{$LOCALITY_GRAM, $ITEM:12, $COND: 'pl-sg-long', $STIM:'Wer waren die_Schüler, die beim_Unterricht des_Referendars des_Gymnasiums im_Klassenraum $ stotterte?' }
+{$LOCALITY_GRAM, $ITEM:13, $COND: 'pl-pl-short', $STIM:'Wer waren die_Mechaniker, die bei der_Reparatur in der_Werkstatt $ rauchten?' }
+{$LOCALITY_GRAM, $ITEM:13, $COND: 'pl-pl-long', $STIM:'Wer waren die_Mechaniker, die bei der_Reparatur des_Autos des_Bekannten in der_Werkstatt $ rauchten?' }
+{$LOCALITY_GRAM, $ITEM:13, $COND: 'pl-sg-short', $STIM:'Wer waren die_Mechaniker, die bei der_Reparatur in der_Werkstatt $ rauchte?' }
+{$LOCALITY_GRAM, $ITEM:13, $COND: 'pl-sg-long', $STIM:'Wer waren die_Mechaniker, die bei der_Reparatur des_Autos des_Bekannten in der_Werkstatt $ rauchte?' }
+{$LOCALITY_GRAM, $ITEM:14, $COND: 'pl-pl-short', $STIM:'Wer waren die_Statiker, die beim_Richtfest auf dem_Dach $ speisten?' }
+{$LOCALITY_GRAM, $ITEM:14, $COND: 'pl-pl-long', $STIM:'Wer waren die_Statiker, die beim_Richtfest des_Hauses des_Kollegen auf dem_Dach $ speisten?' }
+{$LOCALITY_GRAM, $ITEM:14, $COND: 'pl-sg-short', $STIM:'Wer waren die_Statiker, die beim_Richtfest auf dem_Dach $ speiste?' }
+{$LOCALITY_GRAM, $ITEM:14, $COND: 'pl-sg-long', $STIM:'Wer waren die_Statiker, die beim_Richtfest des_Hauses des_Kollegen auf dem_Dach $ speiste?' }
+{$LOCALITY_GRAM, $ITEM:15, $COND: 'pl-pl-short', $STIM:'Wer waren die_Typen, die beim_Sommerfest auf der_Wiese $ lärmten?' }
+{$LOCALITY_GRAM, $ITEM:15, $COND: 'pl-pl-long', $STIM:'Wer waren die_Typen, die beim_Sommerfest des_Kindergartens des_Sohnes auf der_Wiese $ lärmten?' }
+{$LOCALITY_GRAM, $ITEM:15, $COND: 'pl-sg-short', $STIM:'Wer waren die_Typen, die beim_Sommerfest auf der_Wiese $ lärmte?' }
+{$LOCALITY_GRAM, $ITEM:15, $COND: 'pl-sg-long', $STIM:'Wer waren die_Typen, die beim_Sommerfest des_Kindergartens des_Sohnes auf der_Wiese $ lärmte?' }
+{$LOCALITY_GRAM, $ITEM:16, $COND: 'pl-pl-short', $STIM:'Wer waren die_Sportler, die bei der_Eröffnung auf der_Tribüne $ umknickten?' }
+{$LOCALITY_GRAM, $ITEM:16, $COND: 'pl-pl-long', $STIM:'Wer waren die_Sportler, die bei der_Eröffnung des_Wettkampfs des_Verbandes auf der_Tribüne $ umknickten?' }
+{$LOCALITY_GRAM, $ITEM:16, $COND: 'pl-sg-short', $STIM:'Wer waren die_Sportler, die bei der_Eröffnung auf der_Tribüne $ umknickte?' }
+{$LOCALITY_GRAM, $ITEM:16, $COND: 'pl-sg-long', $STIM:'Wer waren die_Sportler, die bei der_Eröffnung des_Wettkampfs des_Verbandes auf der_Tribüne $ umknickte?' }
+{$LOCALITY_GRAM, $ITEM:17, $COND: 'sg-sg-short', $STIM:'Der Kritiker, der beim_Lesen im_Park $ gähnte?' }
+{$LOCALITY_GRAM, $ITEM:17, $COND: 'sg-sg-long', $STIM:'Der Kritiker, der beim_Lesen des_Buches des_Nobelpreisträgers im_Park $ gähnte?' }
+{$LOCALITY_GRAM, $ITEM:17, $COND: 'sg-pl-short', $STIM:'Der Kritiker, der beim_Lesen im_Park $ gähnten?' }
+{$LOCALITY_GRAM, $ITEM:17, $COND: 'sg-pl-long', $STIM:'Der Kritiker, der beim_Lesen des_Buches des_Nobelpreisträgers im_Park $ gähnten?' }
+{$LOCALITY_GRAM, $ITEM:18, $COND: 'sg-sg-short', $STIM:'Der Besucher, der bei dem_Solo in der_Oper $ nieste?' }
+{$LOCALITY_GRAM, $ITEM:18, $COND: 'sg-sg-long', $STIM:'Der Besucher, der bei dem_Solo des_Musikers des_Orchesters in der_Oper $ nieste?' }
+{$LOCALITY_GRAM, $ITEM:18, $COND: 'sg-pl-short', $STIM:'Der Besucher, der bei dem_Solo in der_Oper $ niesten?' }
+{$LOCALITY_GRAM, $ITEM:18, $COND: 'sg-pl-long', $STIM:'Der Besucher, der bei dem_Solo des_Musikers des_Orchesters in der_Oper $ niesten?' }
+{$LOCALITY_GRAM, $ITEM:19, $COND: 'sg-sg-short', $STIM:'Der Kollege, der bei der_Präsentation am_Fenster $ telefonierte?' }
+{$LOCALITY_GRAM, $ITEM:19, $COND: 'sg-sg-long', $STIM:'Der Kollege, der bei der_Präsentation des_Berichts des_Instituts am_Fenster $ telefonierte?' }
+{$LOCALITY_GRAM, $ITEM:19, $COND: 'sg-pl-short', $STIM:'Der Kollege, der bei der_Präsentation am_Fenster $ telefonierten?' }
+{$LOCALITY_GRAM, $ITEM:19, $COND: 'sg-pl-long', $STIM:'Der Kollege, der bei der_Präsentation des_Berichts des_Instituts am_Fenster $ telefonierten?' }
+{$LOCALITY_GRAM, $ITEM:20, $COND: 'sg-sg-short', $STIM:'Der Politiker, der bei der_Einweihung im_Saal $ kleckerte?' }
+{$LOCALITY_GRAM, $ITEM:20, $COND: 'sg-sg-long', $STIM:'Der Politiker, der bei der_Einweihung des_Neubaus des_Museums im_Saal $ kleckerte?' }
+{$LOCALITY_GRAM, $ITEM:20, $COND: 'sg-pl-short', $STIM:'Der Politiker, der bei der_Einweihung im_Saal $ kleckerten?' }
+{$LOCALITY_GRAM, $ITEM:20, $COND: 'sg-pl-long', $STIM:'Der Politiker, der bei der_Einweihung des_Neubaus des_Museums im_Saal $ kleckerten?' }
+{$LOCALITY_GRAM, $ITEM:21, $COND: 'sg-sg-short', $STIM:'Der Beamte, der beim_Schreiben an seinem_Tisch $ fluchte?' }
+{$LOCALITY_GRAM, $ITEM:21, $COND: 'sg-sg-long', $STIM:'Der Beamte, der beim_Schreiben des_Formulars des_Antragstellers an seinem_Tisch $ fluchte?' }
+{$LOCALITY_GRAM, $ITEM:21, $COND: 'sg-pl-short', $STIM:'Der Beamte, der beim_Schreiben an seinem_Tisch $ fluchten?' }
+{$LOCALITY_GRAM, $ITEM:21, $COND: 'sg-pl-long', $STIM:'Der Beamte, der beim_Schreiben des_Formulars des_Antragstellers an seinem_Tisch $ fluchten?' }
+{$LOCALITY_GRAM, $ITEM:22, $COND: 'sg-sg-short', $STIM:'Der Veteran, der bei der_Feier im_Stadtpark $ hinfiel?' }
+{$LOCALITY_GRAM, $ITEM:22, $COND: 'sg-sg-long', $STIM:'Der Veteran, der bei der_Feier des_Jahrestages des_Sieges im_Stadtpark $ hinfiel?' }
+{$LOCALITY_GRAM, $ITEM:22, $COND: 'sg-pl-short', $STIM:'Der Veteran, der bei der_Feier im_Stadtpark $ hinfielen?' }
+{$LOCALITY_GRAM, $ITEM:22, $COND: 'sg-pl-long', $STIM:'Der Veteran, der bei der_Feier des_Jahrestages des_Sieges im_Stadtpark $ hinfielen?' }
+{$LOCALITY_GRAM, $ITEM:23, $COND: 'sg-sg-short', $STIM:'Der Dieb, der nach dem_Raub auf der_Straße $ aufwachte?' }
+{$LOCALITY_GRAM, $ITEM:23, $COND: 'sg-sg-long', $STIM:'Der Dieb, der nach dem_Raub des_Juwels des_Museums auf der_Straße $ aufwachte?' }
+{$LOCALITY_GRAM, $ITEM:23, $COND: 'sg-pl-short', $STIM:'Der Dieb, der nach dem_Raub auf der_Straße $ aufwachten?' }
+{$LOCALITY_GRAM, $ITEM:23, $COND: 'sg-pl-long', $STIM:'Der Dieb, der nach dem_Raub des_Juwels des_Museums auf der_Straße $ aufwachten?' }
+{$LOCALITY_GRAM, $ITEM:24, $COND: 'sg-sg-short', $STIM:'Der Pfleger, der bei der_Visite auf der_Station $ stolperte?' }
+{$LOCALITY_GRAM, $ITEM:24, $COND: 'sg-sg-long', $STIM:'Der Pfleger, der bei der_Visite des_Arztes des_Klinikums auf der_Station $ stolperte?' }
+{$LOCALITY_GRAM, $ITEM:24, $COND: 'sg-pl-short', $STIM:'Der Pfleger, der bei der_Visite auf der_Station $ stolperten?' }
+{$LOCALITY_GRAM, $ITEM:24, $COND: 'sg-pl-long', $STIM:'Der Pfleger, der bei der_Visite des_Arztes des_Klinikums auf der_Station $ stolperten?' }
+{$LOCALITY_GRAM, $ITEM:25, $COND: 'sg-sg-short', $STIM:'Der Lehrer, der bei der_Besprechung in der_Aula $ strickte?' }
+{$LOCALITY_GRAM, $ITEM:25, $COND: 'sg-sg-long', $STIM:'Der Lehrer, der bei der_Besprechung des_Kollegiums des_Gymnasiums in der_Aula $ strickte?' }
+{$LOCALITY_GRAM, $ITEM:25, $COND: 'sg-pl-short', $STIM:'Der Lehrer, der bei der_Besprechung in der_Aula $ strickten?' }
+{$LOCALITY_GRAM, $ITEM:25, $COND: 'sg-pl-long', $STIM:'Der Lehrer, der bei der_Besprechung des_Kollegiums des_Gymnasiums in der_Aula $ strickten?' }
+{$LOCALITY_GRAM, $ITEM:26, $COND: 'sg-sg-short', $STIM:'Der Reporter, der beim_Interview im_Fernsehen $ errötete?' }
+{$LOCALITY_GRAM, $ITEM:26, $COND: 'sg-sg-long', $STIM:'Der Reporter, der beim_Interview des_Pressesprechers des_Ministers im_Fernsehen $ errötete?' }
+{$LOCALITY_GRAM, $ITEM:26, $COND: 'sg-pl-short', $STIM:'Der Reporter, der beim_Interview im_Fernsehen $ erröteten?' }
+{$LOCALITY_GRAM, $ITEM:26, $COND: 'sg-pl-long', $STIM:'Der Reporter, der beim_Interview des_Pressesprechers des_Ministers im_Fernsehen $ erröteten?' }
+{$LOCALITY_GRAM, $ITEM:27, $COND: 'sg-sg-short', $STIM:'Der Azubi, der beim_Fest in der_Fabrik $ verunglückte?' }
+{$LOCALITY_GRAM, $ITEM:27, $COND: 'sg-sg-long', $STIM:'Der Azubi, der bei_Fest des_Lehrgangs des_Betriebs in der_Fabrik $ verunglückte?' }
+{$LOCALITY_GRAM, $ITEM:27, $COND: 'sg-pl-short', $STIM:'Der Azubi, der beim_Fest in der_Fabrik $ verunglückten?' }
+{$LOCALITY_GRAM, $ITEM:27, $COND: 'sg-pl-long', $STIM:'Der Azubi, der bei_Fest des_Lehrgangs des_Betriebs in der_Fabrik $ verunglückten?' }
+{$LOCALITY_GRAM, $ITEM:28, $COND: 'sg-sg-short', $STIM:'Der Pfarrer, der beim_Treffen in der_Sakristei $ döste?' }
+{$LOCALITY_GRAM, $ITEM:28, $COND: 'sg-sg-long', $STIM:'Der Pfarrer, der beim_Treffen des_Komitees des_Frauenvereins in der_Sakristei $ döste?' }
+{$LOCALITY_GRAM, $ITEM:28, $COND: 'sg-pl-short', $STIM:'Der Pfarrer, der beim_Treffen in der_Sakristei $ dösten?' }
+{$LOCALITY_GRAM, $ITEM:28, $COND: 'sg-pl-long', $STIM:'Der Pfarrer, der beim_Treffen des_Komitees des_Frauenvereins in der_Sakristei $ dösten?' }
+{$LOCALITY_GRAM, $ITEM:29, $COND: 'sg-sg-short', $STIM:'Der Züchter, der vor dem_Anruf im_Garten $ meditierte?' }
+{$LOCALITY_GRAM, $ITEM:29, $COND: 'sg-sg-long', $STIM:'Der Züchter, der vor dem_Anruf des_Ausbilders des_Hundes im_Garten $ meditierte?' }
+{$LOCALITY_GRAM, $ITEM:29, $COND: 'sg-pl-short', $STIM:'Der Züchter, der vor dem_Anruf im_Garten $ meditierten?' }
+{$LOCALITY_GRAM, $ITEM:29, $COND: 'sg-pl-long', $STIM:'Der Züchter, der vor dem_Anruf des_Ausbilders des_Hundes im_Garten $ meditierten?' }
+{$LOCALITY_GRAM, $ITEM:30, $COND: 'sg-sg-short', $STIM:'Der Konfirmand, der bei der_Predigt in seiner_Bank $ las?' }
+{$LOCALITY_GRAM, $ITEM:30, $COND: 'sg-sg-long', $STIM:'Der Konfirmand, der bei der_Predigt des_Vikars des_Kirchenbezirks in seiner_Bank $ las?' }
+{$LOCALITY_GRAM, $ITEM:30, $COND: 'sg-pl-short', $STIM:'Der Konfirmand, der bei der_Predigt in seiner_Bank $ lasen?' }
+{$LOCALITY_GRAM, $ITEM:30, $COND: 'sg-pl-long', $STIM:'Der Konfirmand, der bei der_Predigt des_Vikars des_Kirchenbezirks in seiner_Bank $ lasen?' }
+{$LOCALITY_GRAM, $ITEM:31, $COND: 'sg-sg-short', $STIM:'Der Schneider, der beim_Nähen in seinem_Laden $ schmunzelte?' }
+{$LOCALITY_GRAM, $ITEM:31, $COND: 'sg-sg-long', $STIM:'Der Schneider, der beim_Nähen des_Anzugs des_Kunden in seinem_Laden $ schmunzelte?' }
+{$LOCALITY_GRAM, $ITEM:31, $COND: 'sg-pl-short', $STIM:'Der Schneider, der beim_Nähen in seinem_Laden $ schmunzelten?' }
+{$LOCALITY_GRAM, $ITEM:31, $COND: 'sg-pl-long', $STIM:'Der Schneider, der beim_Nähen des_Anzugs des_Kunden in seinem_Laden $ schmunzelten?' }
+{$LOCALITY_GRAM, $ITEM:32, $COND: 'sg-sg-short', $STIM:'Der Pendler, der bei der_Ansage in seinem_Abteil $ hustete?' }
+{$LOCALITY_GRAM, $ITEM:32, $COND: 'sg-sg-long', $STIM:'Der Pendler, der bei der_Ansage des_Schaffners des_Zuges in seinem_Abteil $ hustete?' }
+{$LOCALITY_GRAM, $ITEM:32, $COND: 'sg-pl-short', $STIM:'Der Pendler, der bei der_Ansage in seinem_Abteil $ husteten?' }
+{$LOCALITY_GRAM, $ITEM:32, $COND: 'sg-pl-long', $STIM:'Der Pendler, der bei der_Ansage des_Schaffners des_Zuges in seinem_Abteil $ husteten?' }

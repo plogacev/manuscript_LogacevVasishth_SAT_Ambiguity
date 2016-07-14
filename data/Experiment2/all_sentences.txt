@@ -1,0 +1,640 @@
+10-10-20 a Was entwendete deshalb der_Bodyguard $ der_Milliardärin?
+10-10-20 b Was entwendete der_Bodyguard deshalb $ dem_Milliardär?
+10-10-20 c Wem entwendete das deshalb der_Bodyguard $ des_Milliardärs?
+10-10-20 d Wem entwendete das der_Bodyguard deshalb $ der_Milliardärin?
+10-10-20 e Wem entwendete das deshalb der_Bodyguard $ dem_Milliardär?
+10-10-20 f Was entwendete der_Bodyguard deshalb $ des_Milliardärs?
+10-10-20 i Wem entwendete das deshalb $ der_Bengel?
+10-10-20 j Was entwendete deshalb $ der_Befehl?
+10-26-12 a Was entwendete deshalb der_Koch $ der_Französin?
+10-26-12 b Was entwendete der_Koch deshalb $ dem_Franzosen?
+10-26-12 c Wem entwendete das deshalb der_Koch $ des_Franzosen?
+10-26-12 d Wem entwendete das der_Koch deshalb $ der_Französin?
+10-26-12 e Wem entwendete das deshalb der_Koch $ dem_Franzosen?
+10-26-12 f Was entwendete der_Koch deshalb $ des_Franzosen?
+10-26-12 i Wem entwendete das deshalb $ der_Erfinder?
+10-26-12 j Was entwendete deshalb $ der_Eindruck?
+1-11-5 a Was befahl damals der_Chef $ der_Bäckerin?
+1-11-5 b Was befahl der_Chef damals $ dem_Bäcker?
+1-11-5 c Wem befahl das damals der_Chef $ des_Bäckers?
+1-11-5 d Wem befahl das der_Chef damals $ der_Bäckerin?
+1-11-5 e Wem befahl das damals der_Chef $ dem_Bäcker?
+1-11-5 f Was befahl der_Chef damals $ des_Bäckers?
+1-11-5 i Wem befahl das damals $ der_General?
+1-11-5 j Was befahl damals $ der_Gedanke?
+11-30-3 a Was erklärte damals der_Pastor $ der_Archäologin?
+11-30-3 b Was erklärte der_Pastor damals $ dem_Archäologen?
+11-30-3 c Wem erklärte das damals der_Pastor $ des_Archäologen?
+11-30-3 d Wem erklärte das der_Pastor damals $ der_Archäologin?
+11-30-3 e Wem erklärte das damals der_Pastor $ dem_Archäologen?
+11-30-3 f Was erklärte der_Pastor damals $ des_Archäologen?
+11-30-3 i Wem erklärte das damals $ der_Lehrer?
+11-30-3 j Was erklärte damals $ der_Löffel?
+1-19-28 a Was befahl damals der_Fitnesstrainer $ der_Schauspielerin?
+1-19-28 b Was befahl der_Fitnesstrainer damals $ dem_Schauspieler?
+1-19-28 c Wem befahl das damals der_Fitnesstrainer $ des_Schauspielers?
+1-19-28 d Wem befahl das der_Fitnesstrainer damals $ der_Schauspielerin?
+1-19-28 e Wem befahl das damals der_Fitnesstrainer $ dem_Schauspieler?
+1-19-28 f Was befahl der_Fitnesstrainer damals $ des_Schauspielers?
+1-19-28 i Wem befahl das damals $ das_Mädchen?
+1-19-28 j Was befahl damals $ das_Märchen?
+11-9-8 a Was erklärte damals der_Biograf $ der_Dichterin?
+11-9-8 b Was erklärte der_Biograf damals $ dem_Dichter?
+11-9-8 c Wem erklärte das damals der_Biograf $ des_Dichters?
+11-9-8 d Wem erklärte das der_Biograf damals $ der_Dichterin?
+11-9-8 e Wem erklärte das damals der_Biograf $ dem_Dichter?
+11-9-8 f Was erklärte der_Biograf damals $ des_Dichters?
+11-9-8 i Wem erklärte das damals $ der_Erzieher?
+11-9-8 j Was erklärte damals $ der_Einbruch?
+12-29-29 a Was erlaubte deshalb der_Nachbar $ der_Schlosserin?
+12-29-29 b Was erlaubte der_Nachbar deshalb $ dem_Schlosser?
+12-29-29 c Wem erlaubte das deshalb der_Nachbar $ des_Schlossers?
+12-29-29 d Wem erlaubte das der_Nachbar deshalb $ der_Schlosserin?
+12-29-29 e Wem erlaubte das deshalb der_Nachbar $ dem_Schlosser?
+12-29-29 f Was erlaubte der_Nachbar deshalb $ des_Schlossers?
+12-29-29 i Wem erlaubte das deshalb $ der_Experte?
+12-29-29 j Was erlaubte deshalb $ der_Einfluß?
+12-38-40 a Was erlaubte deshalb der_Vermieter $ der_Ärztin?
+12-38-40 b Was erlaubte der_Vermieter deshalb $ dem_Arzt?
+12-38-40 c Wem erlaubte das deshalb der_Vermieter $ des_Arztes?
+12-38-40 d Wem erlaubte das der_Vermieter deshalb $ der_Ärztin?
+12-38-40 e Wem erlaubte das deshalb der_Vermieter $ dem_Arzt?
+12-38-40 f Was erlaubte der_Vermieter deshalb $ des_Arztes?
+12-38-40 i Wem erlaubte das deshalb $ der_Erzieher?
+12-38-40 j Was erlaubte deshalb $ der_Einbruch?
+13-22-10 a Was erläuterte damals der_Guru $ der_Esoterikerin?
+13-22-10 b Was erläuterte der_Guru damals $ dem_Esoteriker?
+13-22-10 c Wem erläuterte das damals der_Guru $ des_Esoterikers?
+13-22-10 d Wem erläuterte das der_Guru damals $ der_Esoterikerin?
+13-22-10 e Wem erläuterte das damals der_Guru $ dem_Esoteriker?
+13-22-10 f Was erläuterte der_Guru damals $ des_Esoterikers?
+13-22-10 i Wem erläuterte das damals $ der_Wissenschaftler?
+13-22-10 j Was erläuterte damals $ der_Weihnachtsmarkt?
+13-33-19 a Was erläuterte damals der_Psychologe $ der_Lehrerin?
+13-33-19 b Was erläuterte der_Psychologe damals $ dem_Lehrer?
+13-33-19 c Wem erläuterte das damals der_Psychologe $ des_Lehrers?
+13-33-19 d Wem erläuterte das der_Psychologe damals $ der_Lehrerin?
+13-33-19 e Wem erläuterte das damals der_Psychologe $ dem_Lehrer?
+13-33-19 f Was erläuterte der_Psychologe damals $ des_Lehrers?
+13-33-19 i Wem erläuterte das damals $ der_Geiger?
+13-33-19 j Was erläuterte damals $ der_Frosch?
+14-2-35 a Was ermöglichte damals der_Anwalt $ der_Unternehmerin?
+14-2-35 b Was ermöglichte der_Anwalt damals $ dem_Unternehmer?
+14-2-35 c Wem ermöglichte das damals der_Anwalt $ des_Unternehmers?
+14-2-35 d Wem ermöglichte das der_Anwalt damals $ der_Unternehmerin?
+14-2-35 e Wem ermöglichte das damals der_Anwalt $ dem_Unternehmer?
+14-2-35 f Was ermöglichte der_Anwalt damals $ des_Unternehmers?
+14-2-35 i Wem ermöglichte das damals $ der_General?
+14-2-35 j Was ermöglichte damals $ der_Gedanke?
+14-25-39 a Was ermöglichte damals der_Investor $ der_Vietnamesin?
+14-25-39 b Was ermöglichte der_Investor damals $ dem_Vietnamesen?
+14-25-39 c Wem ermöglichte das damals der_Investor $ des_Vietnamesen?
+14-25-39 d Wem ermöglichte das der_Investor damals $ der_Vietnamesin?
+14-25-39 e Wem ermöglichte das damals der_Investor $ dem_Vietnamesen?
+14-25-39 f Was ermöglichte der_Investor damals $ des_Vietnamesen?
+14-25-39 i Wem ermöglichte das damals $ der_Politiker?
+14-25-39 j Was ermöglichte damals $ der_Parkplatz?
+15-11-18 a Was erzählte damals der_Chef $ der_Kellnerin?
+15-11-18 b Was erzählte der_Chef damals $ dem_Kellner?
+15-11-18 c Wem erzählte das damals der_Chef $ des_Kellners?
+15-11-18 d Wem erzählte das der_Chef damals $ der_Kellnerin?
+15-11-18 e Wem erzählte das damals der_Chef $ dem_Kellner?
+15-11-18 f Was erzählte der_Chef damals $ des_Kellners?
+15-11-18 i Wem erzählte das damals $ der_Gesandte?
+15-11-18 j Was erzählte damals $ der_Groschen?
+15-29-37 a Was erzählte damals der_Nachbar $ der_Vermieterin?
+15-29-37 b Was erzählte der_Nachbar damals $ dem_Vermieter?
+15-29-37 c Wem erzählte das damals der_Nachbar $ des_Vermieters?
+15-29-37 d Wem erzählte das der_Nachbar damals $ der_Vermieterin?
+15-29-37 e Wem erzählte das damals der_Nachbar $ dem_Vermieter?
+15-29-37 f Was erzählte der_Nachbar damals $ des_Vermieters?
+15-29-37 i Wem erzählte das damals $ der_Prophet?
+15-29-37 j Was erzählte damals $ der_Parasit?
+16-18-28 a Was finanzierte deshalb der_Fan $ der_Schauspielerin?
+16-18-28 b Was finanzierte der_Fan deshalb $ dem_Schauspieler?
+16-18-28 c Wem finanzierte das deshalb der_Fan $ des_Schauspielers?
+16-18-28 d Wem finanzierte das der_Fan deshalb $ der_Schauspielerin?
+16-18-28 e Wem finanzierte das deshalb der_Fan $ dem_Schauspieler?
+16-18-28 f Was finanzierte der_Fan deshalb $ des_Schauspielers?
+16-18-28 i Wem finanzierte das deshalb $ der_Wahnsinnige?
+16-18-28 j Was finanzierte deshalb $ der_Widerspruch?
+16-25-15 a Was finanzierte deshalb der_Investor $ der_Informatikerin?
+16-25-15 b Was finanzierte der_Investor deshalb $ dem_Informatiker?
+16-25-15 c Wem finanzierte das deshalb der_Investor $ des_Informatikers?
+16-25-15 d Wem finanzierte das der_Investor deshalb $ der_Informatikerin?
+16-25-15 e Wem finanzierte das deshalb der_Investor $ dem_Informatiker?
+16-25-15 f Was finanzierte der_Investor deshalb $ des_Informatikers?
+16-25-15 i Wem finanzierte das deshalb $ der_Handwerker?
+16-25-15 j Was finanzierte deshalb $ der_Herzmuskel?
+17-12-29 a Was garantierte deshalb der_Dealer $ der_Schlosserin?
+17-12-29 b Was garantierte der_Dealer deshalb $ dem_Schlosser?
+17-12-29 c Wem garantierte das deshalb der_Dealer $ des_Schlossers?
+17-12-29 d Wem garantierte das der_Dealer deshalb $ der_Schlosserin?
+17-12-29 e Wem garantierte das deshalb der_Dealer $ dem_Schlosser?
+17-12-29 f Was garantierte der_Dealer deshalb $ des_Schlossers?
+17-12-29 i Wem garantierte das deshalb $ der_Vertreter?
+17-12-29 j Was garantierte deshalb $ der_Verschluß?
+17-17-6 a Was garantierte deshalb der_Fahrer $ der_Chefin?
+17-17-6 b Was garantierte der_Fahrer deshalb $ dem_Chef?
+17-17-6 c Wem garantierte das deshalb der_Fahrer $ des_Chefs?
+17-17-6 d Wem garantierte das der_Fahrer deshalb $ der_Chefin?
+17-17-6 e Wem garantierte das deshalb der_Fahrer $ dem_Chef?
+17-17-6 f Was garantierte der_Fahrer deshalb $ des_Chefs?
+17-17-6 i Wem garantierte das deshalb $ der_Händler?
+17-17-6 j Was garantierte deshalb $ der_Hinweis?
+18-28-27 a Was gestattete deshalb der_Makler $ der_Rentnerin?
+18-28-27 b Was gestattete der_Makler deshalb $ dem_Rentner?
+18-28-27 c Wem gestattete das deshalb der_Makler $ des_Rentners?
+18-28-27 d Wem gestattete das der_Makler deshalb $ der_Rentnerin?
+18-28-27 e Wem gestattete das deshalb der_Makler $ dem_Rentner?
+18-28-27 f Was gestattete der_Makler deshalb $ des_Rentners?
+18-28-27 i Wem gestattete das deshalb $ der_Ingeneur?
+18-28-27 j Was gestattete deshalb $ der_Injektor?
+18-37-12 a Was gestattete deshalb der_Tanzlehrer $ der_Französin?
+18-37-12 b Was gestattete der_Tanzlehrer deshalb $ dem_Franzosen?
+18-37-12 c Wem gestattete das deshalb der_Tanzlehrer $ des_Franzosen?
+18-37-12 d Wem gestattete das der_Tanzlehrer deshalb $ der_Französin?
+18-37-12 e Wem gestattete das deshalb der_Tanzlehrer $ dem_Franzosen?
+18-37-12 f Was gestattete der_Tanzlehrer deshalb $ des_Franzosen?
+18-37-12 i Wem gestattete das deshalb $ der_Eigentümer?
+18-37-12 j Was gestattete deshalb $ der_Feierabend?
+19-17-33 a Was lieferte deshalb der_Fahrer $ der_Sängerin?
+19-17-33 b Was lieferte der_Fahrer deshalb $ dem_Sänger?
+19-17-33 c Wem lieferte das deshalb der_Fahrer $ des_Sängers?
+19-17-33 d Wem lieferte das der_Fahrer deshalb $ der_Sängerin?
+19-17-33 e Wem lieferte das deshalb der_Fahrer $ dem_Sänger?
+19-17-33 f Was lieferte der_Fahrer deshalb $ des_Sängers?
+19-17-33 i Wem lieferte das deshalb $ der_Bote?
+19-17-33 j Was lieferte deshalb $ der_Bart?
+19-21-36 a Was lieferte deshalb der_Gehilfe $ der_Verkäuferin?
+19-21-36 b Was lieferte der_Gehilfe deshalb $ dem_Verkäufer?
+19-21-36 c Wem lieferte das deshalb der_Gehilfe $ des_Verkäufers?
+19-21-36 d Wem lieferte das der_Gehilfe deshalb $ der_Verkäuferin?
+19-21-36 e Wem lieferte das deshalb der_Gehilfe $ dem_Verkäufer?
+19-21-36 f Was lieferte der_Gehilfe deshalb $ des_Verkäufers?
+19-21-36 i Wem lieferte das deshalb $ der_Journalist?
+19-21-36 j Was lieferte deshalb $ der_Klappstuhl?
+20-16-32 a Was präsentierte damals der_Dozent $ der_Studentin?
+20-16-32 b Was präsentierte der_Dozent damals $ dem_Studenten?
+20-16-32 c Wem präsentierte das damals der_Dozent $ des_Studenten?
+20-16-32 d Wem präsentierte das der_Dozent damals $ der_Studentin?
+20-16-32 e Wem präsentierte das damals der_Dozent $ dem_Studenten?
+20-16-32 f Was präsentierte der_Dozent damals $ des_Studenten?
+20-16-32 i Wem präsentierte das damals $ der_Entdecker?
+20-16-32 j Was präsentierte damals $ der_Fahrstuhl?
+20-5-17 a Was präsentierte damals der_Assistent $ der_Kanzlerin?
+20-5-17 b Was präsentierte der_Assistent damals $ dem_Kanzler?
+20-5-17 c Wem präsentierte das damals der_Assistent $ des_Kanzlers?
+20-5-17 d Wem präsentierte das der_Assistent damals $ der_Kanzlerin?
+20-5-17 e Wem präsentierte das damals der_Assistent $ dem_Kanzler?
+20-5-17 f Was präsentierte der_Assistent damals $ des_Kanzlers?
+20-5-17 i Wem präsentierte das damals $ der_Kanzler?
+20-5-17 j Was präsentierte damals $ der_Kontext?
+21-6-11 a Was reparierte damals der_Azubi $ der_Fotografin?
+21-6-11 b Was reparierte der_Azubi damals $ dem_Fotografen?
+21-6-11 c Wem reparierte das damals der_Azubi $ des_Fotografen?
+21-6-11 d Wem reparierte das der_Azubi damals $ der_Fotografin?
+21-6-11 e Wem reparierte das damals der_Azubi $ dem_Fotografen?
+21-6-11 f Was reparierte der_Azubi damals $ des_Fotografen?
+21-6-11 i Wem reparierte das damals $ der_Ingeneur?
+21-6-11 j Was reparierte damals $ der_Injektor?
+21-7-37 a Was reparierte damals der_Bekannte $ der_Vermieterin?
+21-7-37 b Was reparierte der_Bekannte damals $ dem_Vermieter?
+21-7-37 c Wem reparierte das damals der_Bekannte $ des_Vermieters?
+21-7-37 d Wem reparierte das der_Bekannte damals $ der_Vermieterin?
+21-7-37 e Wem reparierte das damals der_Bekannte $ dem_Vermieter?
+21-7-37 f Was reparierte der_Bekannte damals $ des_Vermieters?
+21-7-37 i Wem reparierte das damals $ der_Kenner?
+21-7-37 j Was reparierte damals $ das_Kamel?
+22-13-7 a Was riet deshalb der_Dekan $ der_Chemikerin?
+22-13-7 b Was riet der_Dekan deshalb $ dem_Chemiker?
+22-13-7 c Wem riet das deshalb der_Dekan $ des_Chemikers?
+22-13-7 d Wem riet das der_Dekan deshalb $ der_Chemikerin?
+22-13-7 e Wem riet das deshalb der_Dekan $ dem_Chemiker?
+22-13-7 f Was riet der_Dekan deshalb $ des_Chemikers?
+22-13-7 i Wem riet das deshalb $ der_Consultant?
+22-13-7 j Was riet deshalb $ der_Fallschirm?
+22-20-40 a Was riet deshalb der_Friseur $ der_Ärztin?
+22-20-40 b Was riet der_Friseur deshalb $ dem_Arzt?
+22-20-40 c Wem riet das deshalb der_Friseur $ des_Arztes?
+22-20-40 d Wem riet das der_Friseur deshalb $ der_Ärztin?
+22-20-40 e Wem riet das deshalb der_Friseur $ dem_Arzt?
+22-20-40 f Was riet der_Friseur deshalb $ des_Arztes?
+22-20-40 i Wem riet das deshalb $ der_Künstler?
+22-20-40 j Was riet deshalb $ der_Kanister?
+23-15-17 a Was sagte damals der_Dolmetscher $ der_Kanzlerin?
+23-15-17 b Was sagte der_Dolmetscher damals $ dem_Kanzler?
+23-15-17 c Wem sagte das damals der_Dolmetscher $ des_Kanzlers?
+23-15-17 d Wem sagte das der_Dolmetscher damals $ der_Kanzlerin?
+23-15-17 e Wem sagte das damals der_Dolmetscher $ dem_Kanzler?
+23-15-17 f Was sagte der_Dolmetscher damals $ des_Kanzlers?
+23-15-17 i Wem sagte das damals $ der_Richter?
+23-15-17 j Was sagte damals $ der_Rentner?
+23-37-4 a Was sagte damals der_Tanzlehrer $ der_Biologin?
+23-37-4 b Was sagte der_Tanzlehrer damals $ dem_Biologen?
+23-37-4 c Wem sagte das damals der_Tanzlehrer $ des_Biologen?
+23-37-4 d Wem sagte das der_Tanzlehrer damals $ der_Biologin?
+23-37-4 e Wem sagte das damals der_Tanzlehrer $ dem_Biologen?
+23-37-4 f Was sagte der_Tanzlehrer damals $ des_Biologen?
+23-37-4 i Wem sagte das damals $ der_Lehrer?
+23-37-4 j Was sagte damals $ der_Löffel?
+2-36-3 a Was berichtete damals der_Student $ der_Archäologin?
+2-36-3 b Was berichtete der_Student damals $ dem_Archäologen?
+2-36-3 c Wem berichtete das damals der_Student $ des_Archäologen?
+2-36-3 d Wem berichtete das der_Student damals $ der_Archäologin?
+2-36-3 e Wem berichtete das damals der_Student $ dem_Archäologen?
+2-36-3 f Was berichtete der_Student damals $ des_Archäologen?
+2-36-3 i Wem berichtete das damals $ der_Autor?
+2-36-3 j Was berichtete damals $ der_Adler?
+24-27-23 a Was schickte deshalb der_Kritiker $ der_Politikerin?
+24-27-23 b Was schickte der_Kritiker deshalb $ dem_Politiker?
+24-27-23 c Wem schickte das deshalb der_Kritiker $ des_Politikers?
+24-27-23 d Wem schickte das der_Kritiker deshalb $ der_Politikerin?
+24-27-23 e Wem schickte das deshalb der_Kritiker $ dem_Politiker?
+24-27-23 f Was schickte der_Kritiker deshalb $ des_Politikers?
+24-27-23 i Wem schickte das deshalb $ der_Unterhändler?
+24-27-23 j Was schickte deshalb $ der_Umweltschutz?
+24-30-13 a Was schickte damals der_Pastor $ der_Gitarristin?
+24-30-13 b Was schickte der_Pastor damals $ dem_Gitarristen?
+24-30-13 c Wem schickte das damals der_Pastor $ des_Gitarristen?
+24-30-13 d Wem schickte das der_Pastor damals $ der_Gitarristin?
+24-30-13 e Wem schickte das damals der_Pastor $ dem_Gitarristen?
+24-30-13 f Was schickte der_Pastor damals $ des_Gitarristen?
+24-30-13 i Wem schickte das damals $ der_Politiker?
+24-30-13 j Was schickte damals $ der_Parkplatz?
+25-18-33 a Was schrieb deshalb der_Fan $ der_Sängerin?
+25-18-33 b Was schrieb der_Fan deshalb $ dem_Sänger?
+25-18-33 c Wem schrieb das deshalb der_Fan $ des_Sängers?
+25-18-33 d Wem schrieb das der_Fan deshalb $ der_Sängerin?
+25-18-33 e Wem schrieb das deshalb der_Fan $ dem_Sänger?
+25-18-33 f Was schrieb der_Fan deshalb $ des_Sängers?
+25-18-33 i Wem schrieb das deshalb $ der_Beamte?
+25-18-33 j Was schrieb deshalb $ der_Balkon?
+25-5-2 a Was schrieb damals der_Assistent $ der_Anwältin?
+25-5-2 b Was schrieb der_Assistent damals $ dem_Anwalt?
+25-5-2 c Wem schrieb das damals der_Assistent $ des_Anwalts?
+25-5-2 d Wem schrieb das der_Assistent damals $ der_Anwältin?
+25-5-2 e Wem schrieb das damals der_Assistent $ dem_Anwalt?
+25-5-2 f Was schrieb der_Assistent damals $ des_Anwalts?
+25-5-2 i Wem schrieb das damals $ der_Journalist?
+25-5-2 j Was schrieb damals $ der_Klappstuhl?
+26-14-22 a Was skizzierte damals der_Doktorand $ der_Polin?
+26-14-22 b Was skizzierte der_Doktorand damals $ dem_Polen?
+26-14-22 c Wem skizzierte das damals der_Doktorand $ des_Polen?
+26-14-22 d Wem skizzierte das der_Doktorand damals $ der_Polin?
+26-14-22 e Wem skizzierte das damals der_Doktorand $ dem_Polen?
+26-14-22 f Was skizzierte der_Doktorand damals $ des_Polen?
+26-14-22 i Wem skizzierte das damals $ der_Zeichner?
+26-14-22 j Was skizzierte damals $ der_Zeitraum?
+26-24-2 a Was skizzierte damals der_Innenausstatter $ der_Anwältin?
+26-24-2 b Was skizzierte der_Innenausstatter damals $ dem_Anwalt?
+26-24-2 c Wem skizzierte das damals der_Innenausstatter $ des_Anwalts?
+26-24-2 d Wem skizzierte das der_Innenausstatter damals $ der_Anwältin?
+26-24-2 e Wem skizzierte das damals der_Innenausstatter $ dem_Anwalt?
+26-24-2 f Was skizzierte der_Innenausstatter damals $ des_Anwalts?
+26-24-2 i Wem skizzierte das damals $ der_Polizist?
+26-24-2 j Was skizzierte damals $ der_Pekinese?
+27-16-25 a Was spendierte deshalb der_Dozent $ der_Psychologin?
+27-16-25 b Was spendierte der_Dozent deshalb $ dem_Psychologen?
+27-16-25 c Wem spendierte das deshalb der_Dozent $ des_Psychologen?
+27-16-25 d Wem spendierte das der_Dozent deshalb $ der_Psychologin?
+27-16-25 e Wem spendierte das deshalb der_Dozent $ dem_Psychologen?
+27-16-25 f Was spendierte der_Dozent deshalb $ des_Psychologen?
+27-16-25 i Wem spendierte das deshalb $ der_Prinz?
+27-16-25 j Was spendierte deshalb $ der_Preis?
+27-7-18 a Was spendierte deshalb der_Bekannte $ der_Kellnerin?
+27-7-18 b Was spendierte der_Bekannte deshalb $ dem_Kellner?
+27-7-18 c Wem spendierte das deshalb der_Bekannte $ des_Kellners?
+27-7-18 d Wem spendierte das der_Bekannte deshalb $ der_Kellnerin?
+27-7-18 e Wem spendierte das deshalb der_Bekannte $ dem_Kellner?
+27-7-18 f Was spendierte der_Bekannte deshalb $ des_Kellners?
+27-7-18 i Wem spendierte das deshalb $ der_Barkeeper?
+27-7-18 j Was spendierte deshalb $ der_Barhocker?
+28-34-16 a Was stahl damals der_Schüler $ der_Journalistin?
+28-34-16 b Was stahl der_Schüler damals $ dem_Journalisten?
+28-34-16 c Wem stahl das damals der_Schüler $ des_Journalisten?
+28-34-16 d Wem stahl das der_Schüler damals $ der_Journalistin?
+28-34-16 e Wem stahl das damals der_Schüler $ dem_Journalisten?
+28-34-16 f Was stahl der_Schüler damals $ des_Journalisten?
+28-34-16 i Wem stahl das damals $ der_Prophet?
+28-34-16 j Was stahl damals $ der_Parasit?
+28-36-30 a Was stahl damals der_Student $ der_Soziologin?
+28-36-30 b Was stahl der_Student damals $ dem_Soziologen?
+28-36-30 c Wem stahl das damals der_Student $ des_Soziologen?
+28-36-30 d Wem stahl das der_Student damals $ der_Soziologin?
+28-36-30 e Wem stahl das damals der_Student $ dem_Soziologen?
+28-36-30 f Was stahl der_Student damals $ des_Soziologen?
+28-36-30 i Wem stahl das damals $ der_Dieb?
+28-36-30 j Was stahl damals $ der_Duft?
+29-40-36 a Was verbot deshalb der_Yogalehrer $ der_Verkäuferin?
+29-40-36 b Was verbot der_Yogalehrer deshalb $ dem_Verkäufer?
+29-40-36 c Wem verbot das deshalb der_Yogalehrer $ des_Verkäufers?
+29-40-36 d Wem verbot das der_Yogalehrer deshalb $ der_Verkäuferin?
+29-40-36 e Wem verbot das deshalb der_Yogalehrer $ dem_Verkäufer?
+29-40-36 f Was verbot der_Yogalehrer deshalb $ des_Verkäufers?
+29-40-36 i Wem verbot das deshalb $ der_Polizist?
+29-40-36 j Was verbot deshalb $ der_Pekinese?
+29-4-31 a Was verbot deshalb der_Arzt $ der_Sportlerin?
+29-4-31 b Was verbot der_Arzt deshalb $ dem_Sportler?
+29-4-31 c Wem verbot das deshalb der_Arzt $ des_Sportlers?
+29-4-31 d Wem verbot das der_Arzt deshalb $ der_Sportlerin?
+29-4-31 e Wem verbot das deshalb der_Arzt $ dem_Sportler?
+29-4-31 f Was verbot der_Arzt deshalb $ des_Sportlers?
+29-4-31 i Wem verbot das deshalb $ der_Raucher?
+29-4-31 j Was verbot deshalb $ der_Respekt?
+2-9-9 a Was berichtete damals der_Biograf $ der_Diplomatin?
+2-9-9 b Was berichtete der_Biograf damals $ dem_Diplomaten?
+2-9-9 c Wem berichtete das damals der_Biograf $ des_Diplomaten?
+2-9-9 d Wem berichtete das der_Biograf damals $ der_Diplomatin?
+2-9-9 e Wem berichtete das damals der_Biograf $ dem_Diplomaten?
+2-9-9 f Was berichtete der_Biograf damals $ des_Diplomaten?
+2-9-9 i Wem berichtete das damals $ der_Gesandte?
+2-9-9 j Was berichtete damals $ der_Groschen?
+30-27-21 a Was verdeutlichte damals der_Kritiker $ der_Neurologin?
+30-27-21 b Was verdeutlichte der_Kritiker damals $ dem_Neurologen?
+30-27-21 c Wem verdeutlichte das damals der_Kritiker $ des_Neurologen?
+30-27-21 d Wem verdeutlichte das der_Kritiker damals $ der_Neurologin?
+30-27-21 e Wem verdeutlichte das damals der_Kritiker $ dem_Neurologen?
+30-27-21 f Was verdeutlichte der_Kritiker damals $ des_Neurologen?
+30-27-21 i Wem verdeutlichte das damals $ der_Richter?
+30-27-21 j Was verdeutlichte damals $ der_Rentner?
+30-33-26 a Was verdeutlichte damals der_Psychologe $ der_Raucherin?
+30-33-26 b Was verdeutlichte der_Psychologe damals $ dem_Raucher?
+30-33-26 c Wem verdeutlichte das damals der_Psychologe $ des_Rauchers?
+30-33-26 d Wem verdeutlichte das der_Psychologe damals $ der_Raucherin?
+30-33-26 e Wem verdeutlichte das damals der_Psychologe $ dem_Raucher?
+30-33-26 f Was verdeutlichte der_Psychologe damals $ des_Rauchers?
+30-33-26 i Wem verdeutlichte das damals $ der_Experte?
+30-33-26 j Was verdeutlichte damals $ der_Einfluß?
+31-38-38 a Was verheimlichte deshalb der_Vermieter $ der_Verrückten?
+31-38-38 b Was verheimlichte der_Vermieter deshalb $ dem_Verrückten?
+31-38-38 c Wem verheimlichte das deshalb der_Vermieter $ des_Verrückten?
+31-38-38 d Wem verheimlichte das der_Vermieter deshalb $ der_Verrückten?
+31-38-38 e Wem verheimlichte das deshalb der_Vermieter $ dem_Verrückten?
+31-38-38 f Was verheimlichte der_Vermieter deshalb $ des_Verrückten?
+31-38-38 i Wem verheimlichte das deshalb $ der_Schurke?
+31-38-38 j Was verheimlichte deshalb $ der_Spaniel?
+31-39-19 a Was verheimlichte deshalb der_Vorgesetzte $ der_Lehrerin?
+31-39-19 b Was verheimlichte der_Vorgesetzte deshalb $ dem_Lehrer?
+31-39-19 c Wem verheimlichte das deshalb der_Vorgesetzte $ des_Lehrers?
+31-39-19 d Wem verheimlichte das der_Vorgesetzte deshalb $ der_Lehrerin?
+31-39-19 e Wem verheimlichte das deshalb der_Vorgesetzte $ dem_Lehrer?
+31-39-19 f Was verheimlichte der_Vorgesetzte deshalb $ des_Lehrers?
+31-39-19 i Wem verheimlichte das deshalb $ der_Unbekannte?
+31-39-19 j Was verheimlichte deshalb $ der_Unterdruck?
+32-1-39 a Was verkaufte damals der_Angestellte $ der_Vietnamesin?
+32-1-39 b Was verkaufte der_Angestellte damals $ dem_Vietnamesen?
+32-1-39 c Wem verkaufte das damals der_Angestellte $ des_Vietnamesen?
+32-1-39 d Wem verkaufte das der_Angestellte damals $ der_Vietnamesin?
+32-1-39 e Wem verkaufte das damals der_Angestellte $ dem_Vietnamesen?
+32-1-39 f Was verkaufte der_Angestellte damals $ des_Vietnamesen?
+32-1-39 i Wem verkaufte das damals $ der_Spion?
+32-1-39 j Was verkaufte damals $ der_Stein?
+32-3-38 a Was verkaufte damals der_Apotheker $ der_Verrückten?
+32-3-38 b Was verkaufte der_Apotheker damals $ dem_Verrückten?
+32-3-38 c Wem verkaufte das damals der_Apotheker $ des_Verrückten?
+32-3-38 d Wem verkaufte das der_Apotheker damals $ der_Verrückten?
+32-3-38 e Wem verkaufte das damals der_Apotheker $ dem_Verrückten?
+32-3-38 f Was verkaufte der_Apotheker damals $ des_Verrückten?
+32-3-38 i Wem verkaufte das damals $ der_Händler?
+32-3-38 j Was verkaufte damals $ der_Hinweis?
+33-19-34 a Was verriet damals der_Fitnesstrainer $ der_Tänzerin?
+33-19-34 b Was verriet der_Fitnesstrainer damals $ dem_Tänzer?
+33-19-34 c Wem verriet das damals der_Fitnesstrainer $ des_Tänzers?
+33-19-34 d Wem verriet das der_Fitnesstrainer damals $ der_Tänzerin?
+33-19-34 e Wem verriet das damals der_Fitnesstrainer $ dem_Tänzer?
+33-19-34 f Was verriet der_Fitnesstrainer damals $ des_Tänzers?
+33-19-34 i Wem verriet das damals $ der_Vertreter?
+33-19-34 j Was verriet damals $ der_Verschluß?
+3-31-9 a Was beschrieb damals der_Praktikant $ der_Diplomatin?
+3-31-9 b Was beschrieb der_Praktikant damals $ dem_Diplomaten?
+3-31-9 c Wem beschrieb das damals der_Praktikant $ des_Diplomaten?
+3-31-9 d Wem beschrieb das der_Praktikant damals $ der_Diplomatin?
+3-31-9 e Wem beschrieb das damals der_Praktikant $ dem_Diplomaten?
+3-31-9 f Was beschrieb der_Praktikant damals $ des_Diplomaten?
+3-31-9 i Wem beschrieb das damals $ der_Barkeeper?
+3-31-9 j Was beschrieb damals $ der_Barhocker?
+33-20-13 a Was verriet deshalb der_Friseur $ der_Gitarristin?
+33-20-13 b Was verriet der_Friseur deshalb $ dem_Gitarristen?
+33-20-13 c Wem verriet das deshalb der_Friseur $ des_Gitarristen?
+33-20-13 d Wem verriet das der_Friseur deshalb $ der_Gitarristin?
+33-20-13 e Wem verriet das deshalb der_Friseur $ dem_Gitarristen?
+33-20-13 f Was verriet der_Friseur deshalb $ des_Gitarristen?
+33-20-13 i Wem verriet das deshalb $ der_Kanzler?
+33-20-13 j Was verriet deshalb $ der_Kontext?
+34-35-31 a Was verschwieg deshalb der_Steuerberater $ der_Sportlerin?
+34-35-31 b Was verschwieg der_Steuerberater deshalb $ dem_Sportler?
+34-35-31 c Wem verschwieg das deshalb der_Steuerberater $ des_Sportlers?
+34-35-31 d Wem verschwieg das der_Steuerberater deshalb $ der_Sportlerin?
+34-35-31 e Wem verschwieg das deshalb der_Steuerberater $ dem_Sportler?
+34-35-31 f Was verschwieg der_Steuerberater deshalb $ des_Sportlers?
+34-35-31 i Wem verschwieg das deshalb $ der_Spion?
+34-35-31 j Was verschwieg deshalb $ der_Stein?
+34-6-5 a Was verschwieg deshalb der_Azubi $ der_Bäckerin?
+34-6-5 b Was verschwieg der_Azubi deshalb $ dem_Bäcker?
+34-6-5 c Wem verschwieg das deshalb der_Azubi $ des_Bäckers?
+34-6-5 d Wem verschwieg das der_Azubi deshalb $ der_Bäckerin?
+34-6-5 e Wem verschwieg das deshalb der_Azubi $ dem_Bäcker?
+34-6-5 f Was verschwieg der_Azubi deshalb $ des_Bäckers?
+34-6-5 i Wem verschwieg das deshalb $ der_Schurke?
+34-6-5 j Was verschwieg deshalb $ der_Spaniel?
+35-34-4 a Was versicherte deshalb der_Schüler $ der_Biologin?
+35-34-4 b Was versicherte der_Schüler deshalb $ dem_Biologen?
+35-34-4 c Wem versicherte das deshalb der_Schüler $ des_Biologen?
+35-34-4 d Wem versicherte das der_Schüler deshalb $ der_Biologin?
+35-34-4 e Wem versicherte das deshalb der_Schüler $ dem_Biologen?
+35-34-4 f Was versicherte der_Schüler deshalb $ des_Biologen?
+35-34-4 i Wem versicherte das deshalb $ der_Handwerker?
+35-34-4 j Was versicherte deshalb $ der_Herzmuskel?
+35-35-20 a Was versicherte deshalb der_Steuerberater $ der_Milliardärin?
+35-35-20 b Was versicherte der_Steuerberater deshalb $ dem_Milliardär?
+35-35-20 c Wem versicherte das deshalb der_Steuerberater $ des_Milliardärs?
+35-35-20 d Wem versicherte das der_Steuerberater deshalb $ der_Milliardärin?
+35-35-20 e Wem versicherte das deshalb der_Steuerberater $ dem_Milliardär?
+35-35-20 f Was versicherte der_Steuerberater deshalb $ des_Milliardärs?
+35-35-20 i Wem versicherte das deshalb $ der_Unterhändler?
+35-35-20 j Was versicherte deshalb $ der_Umweltschutz?
+36-10-23 a Was versprach deshalb der_Bodyguard $ der_Politikerin?
+36-10-23 b Was versprach der_Bodyguard deshalb $ dem_Politiker?
+36-10-23 c Wem versprach das deshalb der_Bodyguard $ des_Politikers?
+36-10-23 d Wem versprach das der_Bodyguard deshalb $ der_Politikerin?
+36-10-23 e Wem versprach das deshalb der_Bodyguard $ dem_Politiker?
+36-10-23 f Was versprach der_Bodyguard deshalb $ des_Politikers?
+36-10-23 i Wem versprach das deshalb $ der_Unbekannte?
+36-10-23 j Was versprach deshalb $ der_Unterdruck?
+36-23-35 a Was versprach deshalb der_Hausmeister $ der_Unternehmerin?
+36-23-35 b Was versprach der_Hausmeister deshalb $ dem_Unternehmer?
+36-23-35 c Wem versprach das deshalb der_Hausmeister $ des_Unternehmers?
+36-23-35 d Wem versprach das der_Hausmeister deshalb $ der_Unternehmerin?
+36-23-35 e Wem versprach das deshalb der_Hausmeister $ dem_Unternehmer?
+36-23-35 f Was versprach der_Hausmeister deshalb $ des_Unternehmers?
+36-23-35 i Wem versprach das deshalb $ der_Raucher?
+36-23-35 j Was versprach deshalb $ der_Respekt?
+37-21-6 a Was verweigerte deshalb der_Gehilfe $ der_Chefin?
+37-21-6 b Was verweigerte der_Gehilfe deshalb $ dem_Chef?
+37-21-6 c Wem verweigerte das deshalb der_Gehilfe $ des_Chefs?
+37-21-6 d Wem verweigerte das der_Gehilfe deshalb $ der_Chefin?
+37-21-6 e Wem verweigerte das deshalb der_Gehilfe $ dem_Chef?
+37-21-6 f Was verweigerte der_Gehilfe deshalb $ des_Chefs?
+37-21-6 i Wem verweigerte das deshalb $ der_Prinz?
+37-21-6 j Was verweigerte deshalb $ der_Preis?
+37-39-1 a Was verweigerte deshalb der_Vorgesetzte $ der_Alkoholikerin?
+37-39-1 b Was verweigerte der_Vorgesetzte deshalb $ dem_Alkoholiker?
+37-39-1 c Wem verweigerte das deshalb der_Vorgesetzte $ des_Alkoholikers?
+37-39-1 d Wem verweigerte das der_Vorgesetzte deshalb $ der_Alkoholikerin?
+37-39-1 e Wem verweigerte das deshalb der_Vorgesetzte $ dem_Alkoholiker?
+37-39-1 f Was verweigerte der_Vorgesetzte deshalb $ des_Alkoholikers?
+37-39-1 i Wem verweigerte das deshalb $ der_Beamte?
+37-39-1 j Was verweigerte deshalb $ der_Balkon?
+38-13-24 a Was verzieh deshalb der_Dekan $ der_Professorin?
+38-13-24 b Was verzieh der_Dekan deshalb $ dem_Professor?
+38-13-24 c Wem verzieh das deshalb der_Dekan $ des_Professors?
+38-13-24 d Wem verzieh das der_Dekan deshalb $ der_Professorin?
+38-13-24 e Wem verzieh das deshalb der_Dekan $ dem_Professor?
+38-13-24 f Was verzieh der_Dekan deshalb $ des_Professors?
+38-13-24 i Wem verzieh das deshalb $ der_Tourist?
+38-13-24 j Was verzieh deshalb $ der_Teppich?
+38-22-34 a Was verzieh deshalb der_Guru $ der_Tänzerin?
+38-22-34 b Was verzieh der_Guru deshalb $ dem_Tänzer?
+38-22-34 c Wem verzieh das deshalb der_Guru $ des_Tänzers?
+38-22-34 d Wem verzieh das der_Guru deshalb $ der_Tänzerin?
+38-22-34 e Wem verzieh das deshalb der_Guru $ dem_Tänzer?
+38-22-34 f Was verzieh der_Guru deshalb $ des_Tänzers?
+38-22-34 i Wem verzieh das deshalb $ der_Wahnsinnige?
+38-22-34 j Was verzieh deshalb $ der_Widerspruch?
+3-8-25 a Was beschrieb damals der_Besucher $ der_Psychologin?
+3-8-25 b Was beschrieb der_Besucher damals $ dem_Psychologen?
+3-8-25 c Wem beschrieb das damals der_Besucher $ des_Psychologen?
+3-8-25 d Wem beschrieb das der_Besucher damals $ der_Psychologin?
+3-8-25 e Wem beschrieb das damals der_Besucher $ dem_Psychologen?
+3-8-25 f Was beschrieb der_Besucher damals $ des_Psychologen?
+3-8-25 i Wem beschrieb das damals $ der_Autor?
+3-8-25 j Was beschrieb damals $ der_Adler?
+39-26-14 a Was wünschte deshalb der_Koch $ der_Inderin?
+39-26-14 b Was wünschte der_Koch deshalb $ dem_Inder?
+39-26-14 c Wem wünschte das deshalb der_Koch $ des_Inders?
+39-26-14 d Wem wünschte das der_Koch deshalb $ der_Inderin?
+39-26-14 e Wem wünschte das deshalb der_Koch $ dem_Inder?
+39-26-14 f Was wünschte der_Koch deshalb $ des_Inders?
+39-26-14 i Wem wünschte das deshalb $ der_Kunde?
+39-26-14 j Was wünschte deshalb $ der_Knopf?
+39-8-11 a Was wünschte deshalb der_Besucher $ der_Fotografin?
+39-8-11 b Was wünschte der_Besucher deshalb $ dem_Fotografen?
+39-8-11 c Wem wünschte das deshalb der_Besucher $ des_Fotografen?
+39-8-11 d Wem wünschte das der_Besucher deshalb $ der_Fotografin?
+39-8-11 e Wem wünschte das deshalb der_Besucher $ dem_Fotografen?
+39-8-11 f Was wünschte der_Besucher deshalb $ des_Fotografen?
+39-8-11 i Wem wünschte das deshalb $ der_Dieb?
+39-8-11 j Was wünschte deshalb $ der_Duft?
+40-23-26 a Was zeigte damals der_Hausmeister $ der_Raucherin?
+40-23-26 b Was zeigte der_Hausmeister damals $ dem_Raucher?
+40-23-26 c Wem zeigte das damals der_Hausmeister $ des_Rauchers?
+40-23-26 d Wem zeigte das der_Hausmeister damals $ der_Raucherin?
+40-23-26 e Wem zeigte das damals der_Hausmeister $ dem_Raucher?
+40-23-26 f Was zeigte der_Hausmeister damals $ des_Rauchers?
+40-23-26 i Wem zeigte das damals $ der_Tourist?
+40-23-26 j Was zeigte damals $ der_Teppich?
+40-24-27 a Was zeigte damals der_Innenausstatter $ der_Rentnerin?
+40-24-27 b Was zeigte der_Innenausstatter damals $ dem_Rentner?
+40-24-27 c Wem zeigte das damals der_Innenausstatter $ des_Rentners?
+40-24-27 d Wem zeigte das der_Innenausstatter damals $ der_Rentnerin?
+40-24-27 e Wem zeigte das damals der_Innenausstatter $ dem_Rentner?
+40-24-27 f Was zeigte der_Innenausstatter damals $ des_Rentners?
+40-24-27 i Wem zeigte das damals $ der_Geiger?
+40-24-27 j Was zeigte damals $ der_Frosch?
+4-31-21 a Was bestellte deshalb der_Praktikant $ der_Neurologin?
+4-31-21 b Was bestellte der_Praktikant deshalb $ dem_Neurologen?
+4-31-21 c Wem bestellte das deshalb der_Praktikant $ des_Neurologen?
+4-31-21 d Wem bestellte das der_Praktikant deshalb $ der_Neurologin?
+4-31-21 e Wem bestellte das deshalb der_Praktikant $ dem_Neurologen?
+4-31-21 f Was bestellte der_Praktikant deshalb $ des_Neurologen?
+4-31-21 i Wem bestellte das deshalb $ der_Künstler?
+4-31-21 j Was bestellte deshalb $ der_Kanister?
+4-3-7 a Was bestellte damals der_Apotheker $ der_Chemikerin?
+4-3-7 b Was bestellte der_Apotheker damals $ dem_Chemiker?
+4-3-7 c Wem bestellte das damals der_Apotheker $ des_Chemikers?
+4-3-7 d Wem bestellte das der_Apotheker damals $ der_Chemikerin?
+4-3-7 e Wem bestellte das damals der_Apotheker $ dem_Chemiker?
+4-3-7 f Was bestellte der_Apotheker damals $ des_Chemikers?
+4-3-7 i Wem bestellte das damals $ der_Kunde?
+4-3-7 j Was bestellte damals $ der_Knopf?
+5-2-16 a Was bewies damals der_Anwalt $ der_Journalistin?
+5-2-16 b Was bewies der_Anwalt damals $ dem_Journalisten?
+5-2-16 c Wem bewies das damals der_Anwalt $ des_Journalisten?
+5-2-16 d Wem bewies das der_Anwalt damals $ der_Journalistin?
+5-2-16 e Wem bewies das damals der_Anwalt $ dem_Journalisten?
+5-2-16 f Was bewies der_Anwalt damals $ des_Journalisten?
+5-2-16 i Wem bewies das damals $ das_Mädchen?
+5-2-16 j Was bewies damals $ das_Märchen?
+5-32-32 a Was bewies damals der_Professor $ der_Studentin?
+5-32-32 b Was bewies der_Professor damals $ dem_Studenten?
+5-32-32 c Wem bewies das damals der_Professor $ des_Studenten?
+5-32-32 d Wem bewies das der_Professor damals $ der_Studentin?
+5-32-32 e Wem bewies das damals der_Professor $ dem_Studenten?
+5-32-32 f Was bewies der_Professor damals $ des_Studenten?
+5-32-32 i Wem bewies das damals $ der_Bengel?
+5-32-32 j Was bewies damals $ der_Befehl?
+6-12-10 a Was bot damals der_Dealer $ der_Esoterikerin?
+6-12-10 b Was bot der_Dealer damals $ dem_Esoteriker?
+6-12-10 c Wem bot das damals der_Dealer $ des_Esoterikers?
+6-12-10 d Wem bot das der_Dealer damals $ der_Esoterikerin?
+6-12-10 e Wem bot das damals der_Dealer $ dem_Esoteriker?
+6-12-10 f Was bot der_Dealer damals $ des_Esoterikers?
+6-12-10 i Wem bot das damals $ der_Bote?
+6-12-10 j Was bot damals $ der_Bart?
+6-4-1 a Was bot deshalb der_Arzt $ der_Alkoholikerin?
+6-4-1 b Was bot der_Arzt deshalb $ dem_Alkoholiker?
+6-4-1 c Wem bot das deshalb der_Arzt $ des_Alkoholikers?
+6-4-1 d Wem bot das der_Arzt deshalb $ der_Alkoholikerin?
+6-4-1 e Wem bot das deshalb der_Arzt $ dem_Alkoholiker?
+6-4-1 f Was bot der_Arzt deshalb $ des_Alkoholikers?
+6-4-1 i Wem bot das deshalb $ der_Wissenschaftler?
+6-4-1 j Was bot deshalb $ der_Weihnachtsmarkt?
+7-14-30 a Was brachte deshalb der_Doktorand $ der_Soziologin?
+7-14-30 b Was brachte der_Doktorand deshalb $ dem_Soziologen?
+7-14-30 c Wem brachte das deshalb der_Doktorand $ des_Soziologen?
+7-14-30 d Wem brachte das der_Doktorand deshalb $ der_Soziologin?
+7-14-30 e Wem brachte das deshalb der_Doktorand $ dem_Soziologen?
+7-14-30 f Was brachte der_Doktorand deshalb $ des_Soziologen?
+7-14-30 i Wem brachte das deshalb $ der_Consultant?
+7-14-30 j Was brachte deshalb $ der_Fallschirm?
+7-28-24 a Was brachte damals der_Makler $ der_Professorin?
+7-28-24 b Was brachte der_Makler damals $ dem_Professor?
+7-28-24 c Wem brachte das damals der_Makler $ des_Professors?
+7-28-24 d Wem brachte das der_Makler damals $ der_Professorin?
+7-28-24 e Wem brachte das damals der_Makler $ dem_Professor?
+7-28-24 f Was brachte der_Makler damals $ des_Professors?
+7-28-24 i Wem brachte das damals $ der_Zeichner?
+7-28-24 j Was brachte damals $ der_Zeitraum?
+8-1-15 a Was demonstrierte deshalb der_Angestellte $ der_Informatikerin?
+8-1-15 b Was demonstrierte der_Angestellte deshalb $ dem_Informatiker?
+8-1-15 c Wem demonstrierte das deshalb der_Angestellte $ des_Informatikers?
+8-1-15 d Wem demonstrierte das der_Angestellte deshalb $ der_Informatikerin?
+8-1-15 e Wem demonstrierte das deshalb der_Angestellte $ dem_Informatiker?
+8-1-15 f Was demonstrierte der_Angestellte deshalb $ des_Informatikers?
+8-1-15 i Wem demonstrierte das deshalb $ der_Erfinder?
+8-1-15 j Was demonstrierte deshalb $ der_Eindruck?
+8-40-14 a Was demonstrierte deshalb der_Yogalehrer $ der_Inderin?
+8-40-14 b Was demonstrierte der_Yogalehrer deshalb $ dem_Inder?
+8-40-14 c Wem demonstrierte das deshalb der_Yogalehrer $ des_Inders?
+8-40-14 d Wem demonstrierte das der_Yogalehrer deshalb $ der_Inderin?
+8-40-14 e Wem demonstrierte das deshalb der_Yogalehrer $ dem_Inder?
+8-40-14 f Was demonstrierte der_Yogalehrer deshalb $ des_Inders?
+8-40-14 i Wem demonstrierte das deshalb $ der_Eigentümer?
+8-40-14 j Was demonstrierte deshalb $ der_Feierabend?
+9-15-22 a Was empfahl damals der_Dolmetscher $ der_Polin?
+9-15-22 b Was empfahl der_Dolmetscher damals $ dem_Polen?
+9-15-22 c Wem empfahl das damals der_Dolmetscher $ des_Polen?
+9-15-22 d Wem empfahl das der_Dolmetscher damals $ der_Polin?
+9-15-22 e Wem empfahl das damals der_Dolmetscher $ dem_Polen?
+9-15-22 f Was empfahl der_Dolmetscher damals $ des_Polen?
+9-15-22 i Wem empfahl das damals $ der_Entdecker?
+9-15-22 j Was empfahl damals $ der_Fahrstuhl?
+9-32-8 a Was empfahl damals der_Professor $ der_Dichterin?
+9-32-8 b Was empfahl der_Professor damals $ dem_Dichter?
+9-32-8 c Wem empfahl das damals der_Professor $ des_Dichters?
+9-32-8 d Wem empfahl das der_Professor damals $ der_Dichterin?
+9-32-8 e Wem empfahl das damals der_Professor $ dem_Dichter?
+9-32-8 f Was empfahl der_Professor damals $ des_Dichters?
+9-32-8 i Wem empfahl das damals $ der_Kenner?
+9-32-8 j Was empfahl damals $ das_Kamel?

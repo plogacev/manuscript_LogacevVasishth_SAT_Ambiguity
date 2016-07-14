@@ -1,0 +1,256 @@
+%include header
+---
+Pause 9 von 15
+---
+{$PRACTICE_GRAM, 'item': 38,  $STIM: 'Studenten, die nicht zur Vorlesung gehen, können gute Klausuren $ schreiben?'}
+{$RACERC_UNGRAM, 'item' : '25' , $COND: 'masc-none' , $STIM: 'Wieviel verdient die_Bühnenbildnerin der_Intendantin, $ der_lächelte?' }
+{$RACERC_UNGRAM, 'item' : '23' , $COND: 'fem-none' , $STIM: 'Wen belog der_Nachbar des_Dachdeckers, $ die_lachte?' }
+{$RACERC_GRAM, 'item' : '6' , $COND: 'fem-high' , $STIM: 'Wer grüßte die_Trainerin des_Tänzers, $ die_übte?' }
+{$LOCALITY_UNGRAM, 'item' : '4' , $COND: 'pl-sg-long' , $STIM: 'Wer waren die_Ärzte, die bei der_Geburt des_Kindes des_Kollegen im_Kreißsaal $ lachte?' }
+{$RACERC_UNGRAM, 'item' : '12' , $COND: 'fem-none' , $STIM: 'Wer beobachtete den_Auszubildenen des_Buchbinders, $ die_schreit?' }
+{$RACERC_GRAM, 'item' : '23' , $COND: 'masc-low' , $STIM: 'Wen belog die_Nachbarin des_Dachdeckers, $ der_lachte?' }
+{$LOCALITY_GRAM, 'item' : '21' , $COND: 'sg-sg-long' , $STIM: 'Wer war der_Beamte, der beim_Schreiben des_Formulars des_Antragstellers an seinem_Tisch $ fluchte?' }
+{$RACERC_UNGRAM, 'item' : '17' , $COND: 'fem-none' , $STIM: 'Was wollte der_Mandant des_Anwalts, $ die_wartete?' }
+{$RACERC_UNGRAM, 'item' : '9' , $COND: 'masc-none' , $STIM: 'Was las die_Verlegerin der_Autorin, $ der_trank?' }
+{$RACERC_GRAM, 'item' : '32' , $COND: 'masc-high' , $STIM: 'Wo wohnt der_Vermieter der_Unternehmerin, $ der_klagte?' }
+{$RACERC_UNGRAM, 'item' : '6' , $COND: 'masc-none' , $STIM: 'Wer grüßte die_Trainerin der_Tänzerin, $ der_übte?' }
+{$RACERC_GRAM, 'item' : '28' , $COND: 'masc-amb' , $STIM: 'Wovon überzeugte man den_Bekannten des_Elektrikers, $ der_tobte?' }
+{$RACERC_UNGRAM, 'item' : '11' , $COND: 'masc-none' , $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ der_streikt?' }
+{$RACERC_GRAM, 'item' : '21' , $COND: 'fem-amb' , $STIM: 'Was fragte die_Schülerin der_Fluglehrerin, $ die_schmunzelt?' }
+{$LOCALITY_UNGRAM, 'item' : '26' , $COND: 'sg-pl-long' , $STIM: 'Wer war der_Reporter, der beim_Interview des_Pressesprechers des_Ministers im_Fernsehen $ erröteten?' }
+{$RACERC_GRAM, 'item' : '24' , $COND: 'masc-low' , $STIM: 'Wo wartet die_Sekretärin des_Ministers, $ der_stottert?' }
+{$RACERC_UNGRAM, 'item' : '4' , $COND: 'masc-none' , $STIM: 'Was sagte die_Ärztin der_Cellistin, $ der_anrief?' }
+{$RACERC_GRAM, 'item' : '29' , $COND: 'masc-amb' , $STIM: 'Wohin rannte der_Kollege des_Polizisten, $ der_schoss?' }
+{$RACERC_UNGRAM, 'item' : '19' , $COND: 'fem-none' , $STIM: 'Wen lobte der_Tutor des_Studenten, $ die_nervte?' }
+{$RACERC_GRAM, 'item' : '31' , $COND: 'masc-amb' , $STIM: 'Was war mit dem_Vorgesetzten des_Beamten, $ der_schlief?' }
+{$RACERC_UNGRAM, 'item' : '28' , $COND: 'masc-none' , $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ der_tobte?' }
+{$LOCALITY_GRAM, 'item' : '10' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Zuhörer, die bei der_Lesung des_Autors des_Romans vor der_Bühne $ herumalberten?' }
+{$LOCALITY_UNGRAM, 'item' : '3' , $COND: 'pl-sg-short' , $STIM: 'Wer waren die_Künstler, die nach der_Feier unter einem_Baum $ zeltete?' }
+{$RACERC_UNGRAM, 'item' : '27' , $COND: 'masc-none' , $STIM: 'Was dachte die_Managerin der_Sängerin, $ der_schwieg?' }
+{$RACERC_UNGRAM, 'item' : '22' , $COND: 'fem-none' , $STIM: 'Was verlangte der_Agent des_Schauspielers, $ die_weinte?' }
+{$RACERC_GRAM, 'item' : '25' , $COND: 'fem-amb' , $STIM: 'Wieviel verdient die_Bühnenbildnerin der_Intendantin, $ die_lächelte?' }
+{$RACERC_UNGRAM, 'item' : '11' , $COND: 'masc-none' , $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ der_streikt?' }
+{$RACERC_GRAM, 'item' : '16' , $COND: 'fem-low' , $STIM: 'Wer war der_Vorgesetzte der_Postbotin, $ die_pfiff?' }
+{$RACERC_UNGRAM, 'item' : '12' , $COND: 'fem-none' , $STIM: 'Wer beobachtete den_Auszubildenen des_Buchbinders, $ die_schreit?' }
+{$RACERC_GRAM, 'item' : '28' , $COND: 'fem-amb' , $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ die_tobte?' }
+{$RACERC_GRAM, 'item' : '9' , $COND: 'masc-low' , $STIM: 'Was las die_Verlegerin des_Autors, $ der_trank?' }
+{$LOCALITY_GRAM, 'item' : '26' , $COND: 'sg-sg-short' , $STIM: 'Wer war der_Reporter, der beim_Interview im_Fernsehen $ errötete?' }
+---
+Pause 10 von 15
+---
+{$PRACTICE_GRAM, 'item': 17,  $STIM: 'Wer war der_Kutscher, der Bauern eigentlich $ mochte?'}
+{$RACERC_UNGRAM, 'item' : '19' , $COND: 'fem-none' , $STIM: 'Wen lobte der_Tutor des_Studenten, $ die_nervte?' }
+{$RACERC_UNGRAM, 'item' : '23' , $COND: 'fem-none' , $STIM: 'Wen belog der_Nachbar des_Dachdeckers, $ die_lachte?' }
+{$LOCALITY_GRAM, 'item' : '25' , $COND: 'sg-sg-short' , $STIM: 'Wer war der_Lehrer, der bei der_Besprechung in der_Aula $ strickte?' }
+{$RACERC_GRAM, 'item' : '1' , $COND: 'fem-low' , $STIM: 'Wer traf den_Freund der_Malerin, $ die_raucht?' }
+{$RACERC_UNGRAM, 'item' : '20' , $COND: 'fem-none' , $STIM: 'Was entdeckte der_Vorarbeiter des_Bauarbeiters, $ die_brüllte?' }
+{$RACERC_GRAM, 'item' : '15' , $COND: 'masc-low' , $STIM: 'Was bestritt die_Stabschefin des_Präsidenten, $ der_log?' }
+{$RACERC_UNGRAM, 'item' : '9' , $COND: 'fem-none' , $STIM: 'Was las der_Verleger des_Autors, $ die_trank?' }
+{$RACERC_UNGRAM, 'item' : '5' , $COND: 'fem-none' , $STIM: 'Wann kam der_Friseur des_Kochs, $ die_kicherte?' }
+{$LOCALITY_UNGRAM, 'item' : '19' , $COND: 'sg-pl-short' , $STIM: 'Wer war der_Kollege, der bei der_Präsentation am_Fenster $ telefonierten?' }
+{$RACERC_GRAM, 'item' : '1' , $COND: 'masc-low' , $STIM: 'Wer traf die_Freundin des_Malers, $ der_raucht?' }
+{$RACERC_GRAM, 'item' : '4' , $COND: 'fem-low' , $STIM: 'Was sagte der_Arzt der_Cellistin, $ die_anrief?' }
+{$RACERC_GRAM, 'item' : '12' , $COND: 'fem-amb' , $STIM: 'Wer beobachtete die_Auszubildene der_Buchbinderin, $ die_schreit?' }
+{$RACERC_GRAM, 'item' : '16' , $COND: 'masc-amb' , $STIM: 'Wer war der_Vorgesetzte des_Postboten, $ der_pfiff?' }
+{$RACERC_UNGRAM, 'item' : '24' , $COND: 'masc-none' , $STIM: 'Wo wartet die_Sekretärin der_Ministerin, $ der_stottert?' }
+{$RACERC_GRAM, 'item' : '14' , $COND: 'fem-low' , $STIM: 'Wer vermisste den_Gärtner der_Reporterin, $ die_döste?' }
+{$RACERC_UNGRAM, 'item' : '21' , $COND: 'masc-none' , $STIM: 'Was fragte die_Schülerin der_Fluglehrerin, $ der_schmunzelt?' }
+{$RACERC_UNGRAM, 'item' : '20' , $COND: 'masc-none' , $STIM: 'Was entdeckte die_Vorarbeiterin der_Bauarbeiterin, $ der_brüllte?' }
+{$RACERC_GRAM, 'item' : '18' , $COND: 'masc-low' , $STIM: 'Was nascht die_Doktorandin des_Professors, $ der_liest?' }
+{$RACERC_GRAM, 'item' : '22' , $COND: 'masc-low' , $STIM: 'Was verlangte die_Agentin des_Schauspielers, $ der_weinte?' }
+{$RACERC_UNGRAM, 'item' : '7' , $COND: 'fem-none' , $STIM: 'Wo arbeitet der_Visagist des_Pianisten, $ die_trällerte?' }
+{$RACERC_UNGRAM, 'item' : '14' , $COND: 'fem-none' , $STIM: 'Wer vermisste den_Gärtner des_Reporters, $ die_döste?' }
+{$RACERC_GRAM, 'item' : '29' , $COND: 'fem-amb' , $STIM: 'Wohin rannte die_Kollegin der_Polizistin, $ die_schoss?' }
+{$LOCALITY_GRAM, 'item' : '30' , $COND: 'sg-sg-short' , $STIM: 'Wer war der_Konfirmand, der bei der_Predigt in seiner_Bank $ las?' }
+{$LOCALITY_UNGRAM, 'item' : '5' , $COND: 'pl-sg-short' , $STIM: 'Wer waren die_Forscher, die auf der_Tagung im_Hotel $ fehlte?' }
+{$RACERC_UNGRAM, 'item' : '19' , $COND: 'fem-none' , $STIM: 'Wen lobte der_Tutor des_Studenten, $ die_nervte?' }
+{$RACERC_GRAM, 'item' : '5' , $COND: 'masc-amb' , $STIM: 'Wann kam der_Friseur des_Kochs, $ der_kicherte?' }
+{$LOCALITY_GRAM, 'item' : '6' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Angestellten, die bei der_Hochzeit des_Chefs des_Unternehmens in der_Kirche $ sangen?' }
+{$RACERC_GRAM, 'item' : '7' , $COND: 'fem-amb' , $STIM: 'Wo arbeitet die_Visagistin der_Pianistin, $ die_trällerte?' }
+{$RACERC_UNGRAM, 'item' : '25' , $COND: 'masc-none' , $STIM: 'Wieviel verdient die_Bühnenbildnerin der_Intendantin, $ der_lächelte?' }
+{$LOCALITY_GRAM, 'item' : '20' , $COND: 'sg-sg-long' , $STIM: 'Wer war der_Politiker, der bei der_Einweihung des_Neubaus des_Museums im_Saal $ kleckerte?' }
+{$RACERC_UNGRAM, 'item' : '4' , $COND: 'fem-none' , $STIM: 'Was sagte der_Arzt des_Cellisten, $ die_anrief?' }
+{$RACERC_GRAM, 'item' : '11' , $COND: 'masc-low' , $STIM: 'Wer kennt die_Kollegin des_Erziehers, $ der_streikt?' }
+---
+Pause 11 von 15
+---
+{$PRACTICE_UNGRAM, 'item': 34,  $STIM: 'Wessen Wirt, der für das_Essen bezahlt, hat viele $ Freude?'}
+{$RACERC_UNGRAM, 'item' : '27' , $COND: 'fem-none' , $STIM: 'Was dachte der_Manager des_Sängers, $ die_schwieg?' }
+{$LOCALITY_UNGRAM, 'item' : '31' , $COND: 'sg-pl-long' , $STIM: 'Wer war der_Schneider, der beim_Nähen des_Anzugs des_Kunden in seinem_Laden $ schmunzelten?' }
+{$RACERC_UNGRAM, 'item' : '9' , $COND: 'fem-none' , $STIM: 'Was las der_Verleger des_Autors, $ die_trank?' }
+{$RACERC_GRAM, 'item' : '19' , $COND: 'masc-low' , $STIM: 'Wen lobte die_Tutorin des_Studenten, $ der_nervte?' }
+{$RACERC_UNGRAM, 'item' : '18' , $COND: 'fem-none' , $STIM: 'Was nascht der_Doktorand des_Professors, $ die_liest?' }
+{$LOCALITY_GRAM, 'item' : '1' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Gäste, die beim_Empfang des_Direktors des_Kurhotels am_Tisch $ schliefen?' }
+{$LOCALITY_UNGRAM, 'item' : '17' , $COND: 'sg-pl-long' , $STIM: 'Wer war der_Kritiker, der beim_Lesen des_Buches des_Nobelpreisträgers im_Park $ gähnten?' }
+{$RACERC_GRAM, 'item' : '4' , $COND: 'masc-high' , $STIM: 'Was sagte der_Arzt der_Cellistin, $ der_anrief?' }
+{$LOCALITY_UNGRAM, 'item' : '2' , $COND: 'pl-sg-short' , $STIM: 'Wer waren die_Anwälte, die beim_Prozess im_Gerichtssaal $ log?' }
+{$RACERC_GRAM, 'item' : '12' , $COND: 'masc-high' , $STIM: 'Wer beobachtete den_Auszubildenen der_Buchbinderin, $ der_arbeitete?' }
+{$RACERC_UNGRAM, 'item' : '14' , $COND: 'masc-none' , $STIM: 'Wer vermisste die_Gärtnerin der_Reporterin, $ der_döste?' }
+{$RACERC_GRAM, 'item' : '10' , $COND: 'fem-high' , $STIM: 'Wer verfluchte die_Redakteurin des_Journalisten, $ die_schrie?' }
+{$RACERC_GRAM, 'item' : '3' , $COND: 'masc-amb' , $STIM: 'Was will der_Ausbilder des_Piloten, $ der_wartet?' }
+{$LOCALITY_UNGRAM, 'item' : '23' , $COND: 'sg-pl-long' , $STIM: 'Wer war der_Dieb, der nach dem_Raub des_Juwels des_Museums auf der_Straße $ aufwachten?' }
+{$LOCALITY_UNGRAM, 'item' : '20' , $COND: 'sg-pl-long' , $STIM: 'Wer war der_Politiker, der bei der_Einweihung des_Neubaus des_Museums im_Saal $ kleckerten?' }
+{$RACERC_UNGRAM, 'item' : '30' , $COND: 'fem-none' , $STIM: 'Wo saß der_Kunde des_Floristen, $ die_telefonierte?' }
+{$RACERC_UNGRAM, 'item' : '15' , $COND: 'fem-none' , $STIM: 'Was bestritt der_Stabschef des_Präsidenten, $ die_log?' }
+{$RACERC_GRAM, 'item' : '7' , $COND: 'fem-high' , $STIM: 'Wo arbeitet die_Visagistin des_Pianisten, $ die_trällerte?' }
+{$LOCALITY_UNGRAM, 'item' : '21' , $COND: 'sg-pl-short' , $STIM: 'Wer war der_Beamte, der beim_Schreiben an seinem_Tisch $ fluchten?' }
+{$RACERC_GRAM, 'item' : '27' , $COND: 'fem-high' , $STIM: 'Was dachte die_Managerin des_Sängers, $ die_schwieg?' }
+{$RACERC_UNGRAM, 'item' : '2' , $COND: 'fem-none' , $STIM: 'Wie heißt der_Chef des_Angestellten, $ die_stiehlt?' }
+{$LOCALITY_UNGRAM, 'item' : '1' , $COND: 'pl-sg-short' , $STIM: 'Wer waren die_Gäste, die beim_Empfang am_Tisch $ schlief?' }
+{$RACERC_UNGRAM, 'item' : '5' , $COND: 'fem-none' , $STIM: 'Wann kam der_Friseur des_Kochs, $ die_kicherte?' }
+{$RACERC_GRAM, 'item' : '8' , $COND: 'masc-low' , $STIM: 'Wem ähnelt die_Masseurin des_Sportlers, $ der_joggte?' }
+{$LOCALITY_UNGRAM, 'item' : '19' , $COND: 'sg-pl-long' , $STIM: 'Wer war der_Kollege, der bei der_Präsentation des_Berichts des_Instituts am_Fenster $ telefonierten?' }
+{$RACERC_GRAM, 'item' : '11' , $COND: 'fem-low' , $STIM: 'Wer kennt den_Kollegen der_Erzieherin, $ die_streikt?' }
+{$LOCALITY_GRAM, 'item' : '32' , $COND: 'sg-sg-short' , $STIM: 'Wer war der_Pendler, der bei der_Ansage in seinem_Abteil $ hustete?' }
+{$LOCALITY_GRAM, 'item' : '16' , $COND: 'pl-pl-short' , $STIM: 'Wer waren die_Sportler, die bei der_Eröffnung auf der_Tribüne $ umknickten?' }
+{$RACERC_UNGRAM, 'item' : '29' , $COND: 'fem-none' , $STIM: 'Wohin rannte der_Kollege des_Polizisten, $ die_schoss?' }
+{$RACERC_UNGRAM, 'item' : '21' , $COND: 'fem-none' , $STIM: 'Was fragte der_Schüler des_Fluglehrers, $ die_schmunzelt?' }
+{$LOCALITY_GRAM, 'item' : '19' , $COND: 'sg-sg-long' , $STIM: 'Wer war der_Kollege, der bei der_Präsentation des_Berichts des_Instituts am_Fenster $ telefonierte?' }
+{$LOCALITY_UNGRAM, 'item' : '30' , $COND: 'sg-pl-short' , $STIM: 'Wer war der_Konfirmand, der bei der_Predigt in seiner_Bank $ lasen?' }
+---
+Pause 12 von 15
+---
+{$PRACTICE_GRAM, 'item': 40,  $STIM: 'Welcher Schüler ohne gutes Schriftbild bekommt selten gute $ Noten?'}
+{$RACERC_UNGRAM, 'item' : '11' , $COND: 'masc-none' , $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ der_streikt?' }
+{$RACERC_GRAM, 'item' : '13' , $COND: 'fem-amb' , $STIM: 'Was befürchtete die_Lieferantin der_Bäckerin, $ die_anrief?' }
+{$RACERC_UNGRAM, 'item' : '32' , $COND: 'fem-none' , $STIM: 'Wo wohnt der_Vermieter des_Unternehmers, $ die_klagte?' }
+{$LOCALITY_GRAM, 'item' : '24' , $COND: 'sg-sg-short' , $STIM: 'Wer war der_Pfleger, der bei der_Visite auf der_Station $ stolperte?' }
+{$RACERC_UNGRAM, 'item' : '1' , $COND: 'masc-none' , $STIM: 'Wer traf die_Freundin der_Malerin, $ der_raucht?' }
+{$RACERC_GRAM, 'item' : '21' , $COND: 'fem-high' , $STIM: 'Was fragte die_Schülerin des_Fluglehrers, $ die_schmunzelt?' }
+{$LOCALITY_GRAM, 'item' : '30' , $COND: 'sg-sg-long' , $STIM: 'Wer war der_Konfirmand, der bei der_Predigt des_Vikars des_Kirchenbezirks in seiner_Bank $ las?' }
+{$RACERC_UNGRAM, 'item' : '6' , $COND: 'fem-none' , $STIM: 'Wer grüßte den_Trainer des_Tänzers, $ die_übte?' }
+{$RACERC_GRAM, 'item' : '16' , $COND: 'fem-high' , $STIM: 'Wer war die_Vorgesetzte des_Postboten, $ die_pfiff?' }
+{$RACERC_GRAM, 'item' : '31' , $COND: 'fem-low' , $STIM: 'Was war mit dem_Vorgesetzten der_Beamtin, $ die_schlief?' }
+{$RACERC_UNGRAM, 'item' : '8' , $COND: 'fem-none' , $STIM: 'Wem ähnelt der_Masseur des_Sportlers, $ die_joggte?' }
+{$LOCALITY_UNGRAM, 'item' : '24' , $COND: 'sg-pl-short' , $STIM: 'Wer war der_Pfleger, der bei der_Visite auf der_Station $ stolperten?' }
+{$LOCALITY_UNGRAM, 'item' : '16' , $COND: 'pl-sg-long' , $STIM: 'Wer waren die_Sportler, die bei der_Eröffnung des_Wettkampfs des_Verbandes auf der_Tribüne $ umknickte?' }
+{$RACERC_UNGRAM, 'item' : '20' , $COND: 'fem-none' , $STIM: 'Was entdeckte der_Vorarbeiter des_Bauarbeiters, $ die_brüllte?' }
+{$RACERC_GRAM, 'item' : '24' , $COND: 'fem-high' , $STIM: 'Wo wartet die_Sekretärin des_Ministers, $ die_stottert?' }
+{$LOCALITY_UNGRAM, 'item' : '2' , $COND: 'pl-sg-long' , $STIM: 'Wer waren die_Anwälte, die beim_Prozess des_Diebes des_Kunstwerkes im_Gerichtssaal $ log?' }
+{$RACERC_GRAM, 'item' : '2' , $COND: 'masc-amb' , $STIM: 'Wie heißt der_Chef des_Angestellten, $ der_stiehlt?' }
+{$RACERC_GRAM, 'item' : '11' , $COND: 'masc-high' , $STIM: 'Wer kennt den_Kollegen der_Erzieherin, $ der_streikt?' }
+{$LOCALITY_UNGRAM, 'item' : '20' , $COND: 'sg-pl-short' , $STIM: 'Wer war der_Politiker, der bei der_Einweihung im_Saal $ kleckerten?' }
+{$RACERC_UNGRAM, 'item' : '3' , $COND: 'fem-none' , $STIM: 'Was will der_Ausbilder des_Piloten, $ die_wartet?' }
+{$RACERC_GRAM, 'item' : '32' , $COND: 'fem-low' , $STIM: 'Wo wohnt der_Vermieter der_Unternehmerin, $ die_klagte?' }
+{$RACERC_GRAM, 'item' : '30' , $COND: 'masc-high' , $STIM: 'Wo saß der_Kunde der_Floristin, $ der_telefonierte?' }
+{$RACERC_UNGRAM, 'item' : '31' , $COND: 'masc-none' , $STIM: 'Was war mit der_Vorgesetzten der_Beamtin, $ der_schlief?' }
+{$LOCALITY_UNGRAM, 'item' : '22' , $COND: 'sg-pl-short' , $STIM: 'Wer war der_Veteran, der bei der_Feier im_Stadtpark $ hinfielen?' }
+{$LOCALITY_UNGRAM, 'item' : '14' , $COND: 'pl-sg-short' , $STIM: 'Wer waren die_Statiker, die beim_Richtfest auf dem_Dach $ speiste?' }
+{$RACERC_GRAM, 'item' : '4' , $COND: 'masc-low' , $STIM: 'Was sagte die_Ärztin des_Cellisten, $ der_anrief?' }
+{$LOCALITY_GRAM, 'item' : '4' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Künstler, die nach der_Feier des_Geburtstags des_Freundes unter einem_Baum $ zelteten?' }
+{$RACERC_GRAM, 'item' : '15' , $COND: 'fem-low' , $STIM: 'Was bestritt der_Stabschef der_Präsidentin, $ die_log?' }
+{$RACERC_UNGRAM, 'item' : '27' , $COND: 'fem-none' , $STIM: 'Was dachte der_Manager des_Sängers, $ die_schwieg?' }
+{$RACERC_UNGRAM, 'item' : '19' , $COND: 'masc-none' , $STIM: 'Wen lobte die_Tutorin der_Studentin, $ der_nervte?' }
+{$LOCALITY_UNGRAM, 'item' : '13' , $COND: 'pl-sg-short' , $STIM: 'Wer waren die_Mechaniker, die bei der_Reparatur in der_Werkstatt $ rauchte?' }
+{$LOCALITY_UNGRAM, 'item' : '4' , $COND: 'pl-sg-long' , $STIM: 'Wer waren die_Künstler, die nach der_Feier des_Geburtstags des_Freundes unter einem_Baum $ zeltete?' }
+---
+Pause 13 von 15
+---
+{$PRACTICE_UNGRAM, 'item': 67,  $STIM: 'Warum hat der Schotte hat beschlossen doch lieber Hosen zu $ fragen.'}
+{$RACERC_UNGRAM, 'item' : '10' , $COND: 'masc-none' , $STIM: 'Wer verfluchte die_Redakteurin der_Journalistin, $ der_schrie?' }
+{$RACERC_GRAM, 'item' : '31' , $COND: 'masc-high' , $STIM: 'Was war mit dem_Vorgesetzten der_Beamtin, $ der_schlief?' }
+{$RACERC_GRAM, 'item' : '15' , $COND: 'masc-high' , $STIM: 'Was bestritt der_Stabschef der_Präsidentin, $ der_log?' }
+{$RACERC_UNGRAM, 'item' : '16' , $COND: 'fem-none' , $STIM: 'Wer war der_Vorgesetzte des_Postboten, $ die_pfiff?' }
+{$RACERC_GRAM, 'item' : '3' , $COND: 'masc-high' , $STIM: 'Was will der_Ausbilder der_Pilotin, $ der_wartet?' }
+{$RACERC_GRAM, 'item' : '9' , $COND: 'fem-low' , $STIM: 'Was las der_Verleger der_Autorin, $ die_trank?' }
+{$RACERC_UNGRAM, 'item' : '4' , $COND: 'masc-none' , $STIM: 'Was sagte die_Ärztin der_Cellistin, $ der_anrief?' }
+{$RACERC_UNGRAM, 'item' : '22' , $COND: 'fem-none' , $STIM: 'Was verlangte der_Agent des_Schauspielers, $ die_weinte?' }
+{$RACERC_GRAM, 'item' : '21' , $COND: 'masc-high' , $STIM: 'Was fragte der_Schüler der_Fluglehrerin, $ der_schmunzelt?' }
+{$RACERC_GRAM, 'item' : '16' , $COND: 'masc-high' , $STIM: 'Wer war der_Vorgesetzte der_Postbotin, $ der_pfiff?' }
+{$LOCALITY_UNGRAM, 'item' : '4' , $COND: 'pl-sg-short' , $STIM: 'Wer waren die_Ärzte, die bei der_Geburt im_Kreißsaal $ lachte?' }
+{$RACERC_UNGRAM, 'item' : '2' , $COND: 'fem-none' , $STIM: 'Wie heißt der_Chef des_Angestellten, $ die_stiehlt?' }
+{$LOCALITY_GRAM, 'item' : '13' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Mechaniker, die bei der_Reparatur des_Autos des_Bekannten in der_Werkstatt $ rauchten?' }
+{$RACERC_GRAM, 'item' : '26' , $COND: 'masc-amb' , $STIM: 'Was bestritt der_Genosse des_Gewerkschafters, $ der_redet?' }
+{$RACERC_GRAM, 'item' : '27' , $COND: 'fem-low' , $STIM: 'Was dachte der_Manager der_Sängerin, $ die_schwieg?' }
+{$RACERC_UNGRAM, 'item' : '28' , $COND: 'masc-none' , $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ der_tobte?' }
+{$LOCALITY_UNGRAM, 'item' : '6' , $COND: 'pl-sg-long' , $STIM: 'Wer waren die_Angestellten, die bei der_Hochzeit des_Chefs des_Unternehmens in der_Kirche $ sang?' }
+{$RACERC_UNGRAM, 'item' : '1' , $COND: 'masc-none' , $STIM: 'Wer traf die_Freundin der_Malerin, $ der_raucht?' }
+{$LOCALITY_GRAM, 'item' : '17' , $COND: 'sg-sg-long' , $STIM: 'Wer war der_Kritiker, der beim_Lesen des_Buches des_Nobelpreisträgers im_Park $ gähnte?' }
+{$RACERC_UNGRAM, 'item' : '13' , $COND: 'masc-none' , $STIM: 'Was befürchtete die_Lieferantin der_Bäckerin, $ der_anrief?' }
+{$RACERC_GRAM, 'item' : '10' , $COND: 'masc-low' , $STIM: 'Wer verfluchte die_Redakteurin des_Journalisten, $ der_schrie?' }
+{$RACERC_GRAM, 'item' : '19' , $COND: 'masc-amb' , $STIM: 'Wen lobte der_Tutor des_Studenten, $ der_nervte?' }
+{$RACERC_UNGRAM, 'item' : '24' , $COND: 'masc-none' , $STIM: 'Wo wartet die_Sekretärin der_Ministerin, $ der_stottert?' }
+{$RACERC_UNGRAM, 'item' : '21' , $COND: 'fem-none' , $STIM: 'Was fragte der_Schüler des_Fluglehrers, $ die_schmunzelt?' }
+{$RACERC_GRAM, 'item' : '25' , $COND: 'masc-low' , $STIM: 'Wieviel verdient die_Bühnenbildnerin des_Intendanten, $ der_lächelte?' }
+{$RACERC_GRAM, 'item' : '27' , $COND: 'fem-amb' , $STIM: 'Was dachte die_Managerin der_Sängerin, $ die_schwieg?' }
+{$RACERC_UNGRAM, 'item' : '31' , $COND: 'fem-none' , $STIM: 'Was war mit dem_Vorgesetzten des_Beamten, $ die_schlief?' }
+{$RACERC_UNGRAM, 'item' : '30' , $COND: 'fem-none' , $STIM: 'Wo saß der_Kunde des_Floristen, $ die_telefonierte?' }
+{$RACERC_GRAM, 'item' : '9' , $COND: 'masc-amb' , $STIM: 'Was las der_Verleger des_Autors, $ der_trank?' }
+{$RACERC_UNGRAM, 'item' : '18' , $COND: 'masc-none' , $STIM: 'Was nascht die_Doktorandin der_Professorin, $ der_liest?' }
+{$RACERC_UNGRAM, 'item' : '26' , $COND: 'fem-none' , $STIM: 'Was bestritt der_Genosse des_Gewerkschafters, $ die_redet?' }
+{$LOCALITY_GRAM, 'item' : '9' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Fans, die beim_Konzert des_Stars des_Musiksenders auf der_Bühne $ randalierten?' }
+---
+Pause 14 von 15
+---
+{$PRACTICE_GRAM, 'item': 68,  $STIM: 'Warum sollten Bergsteiger, die dick geworden sind, erstmal $ fasten?'}
+{$RACERC_GRAM, 'item' : '21' , $COND: 'fem-low' , $STIM: 'Was fragte der_Schüler der_Fluglehrerin, $ die_schmunzelt?' }
+{$RACERC_UNGRAM, 'item' : '27' , $COND: 'masc-none' , $STIM: 'Was dachte die_Managerin der_Sängerin, $ der_schwieg?' }
+{$RACERC_GRAM, 'item' : '4' , $COND: 'masc-amb' , $STIM: 'Was sagte der_Arzt des_Cellisten, $ der_anrief?' }
+{$RACERC_GRAM, 'item' : '10' , $COND: 'masc-amb' , $STIM: 'Wer verfluchte den_Redakteur des_Journalisten, $ der_schrie?' }
+{$LOCALITY_GRAM, 'item' : '11' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Männer, die beim_Tanzen des_Walzers des_Komponisten im_Festsaal $ diskutierten?' }
+{$RACERC_UNGRAM, 'item' : '18' , $COND: 'fem-none' , $STIM: 'Was nascht der_Doktorand des_Professors, $ die_liest?' }
+{$RACERC_UNGRAM, 'item' : '5' , $COND: 'masc-none' , $STIM: 'Wann kam die_Friseurin der_Köchin, $ der_kicherte?' }
+{$RACERC_GRAM, 'item' : '11' , $COND: 'fem-high' , $STIM: 'Wer kennt die_Kollegin des_Erziehers, $ die_streikt?' }
+{$RACERC_GRAM, 'item' : '26' , $COND: 'masc-high' , $STIM: 'Was bestritt der_Genosse der_Gewerkschafterin, $ der_redet?' }
+{$RACERC_UNGRAM, 'item' : '3' , $COND: 'masc-none' , $STIM: 'Was will die_Ausbilderin der_Pilotin, $ der_wartet?' }
+{$RACERC_UNGRAM, 'item' : '1' , $COND: 'masc-none' , $STIM: 'Wer traf die_Freundin der_Malerin, $ der_raucht?' }
+{$LOCALITY_GRAM, 'item' : '9' , $COND: 'pl-pl-short' , $STIM: 'Wer waren die_Fans, die beim_Konzert auf der_Bühne $ randalierten?' }
+{$LOCALITY_GRAM, 'item' : '32' , $COND: 'sg-sg-long' , $STIM: 'Wer war der_Pendler, der bei der_Ansage des_Schaffners des_Zuges in seinem_Abteil $ hustete?' }
+{$RACERC_GRAM, 'item' : '26' , $COND: 'fem-low' , $STIM: 'Was bestritt der_Genosse der_Gewerkschafterin, $ die_redet?' }
+{$RACERC_UNGRAM, 'item' : '13' , $COND: 'fem-none' , $STIM: 'Was befürchtete der_Lieferant des_Bäckers, $ die_anrief?' }
+{$RACERC_GRAM, 'item' : '31' , $COND: 'fem-high' , $STIM: 'Was war mit  der_Vorgesetzten des_Beamten, $ die_schlief?' }
+{$RACERC_GRAM, 'item' : '14' , $COND: 'masc-low' , $STIM: 'Wer vermisste die_Gärtnerin des_Reporters, $ der_döste?' }
+{$RACERC_GRAM, 'item' : '3' , $COND: 'masc-low' , $STIM: 'Was will die_Ausbilderin des_Piloten, $ der_wartet?' }
+{$LOCALITY_GRAM, 'item' : '4' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Ärzte, die bei der_Geburt des_Kindes des_Kollegen im_Kreißsaal $ lachten?' }
+{$RACERC_GRAM, 'item' : '1' , $COND: 'masc-high' , $STIM: 'Wer traf den_Freund der_Malerin, $ der_raucht?' }
+{$RACERC_UNGRAM, 'item' : '15' , $COND: 'masc-none' , $STIM: 'Was bestritt die_Stabschefin der_Präsidentin, $ der_log?' }
+{$LOCALITY_UNGRAM, 'item' : '18' , $COND: 'sg-pl-short' , $STIM: 'Wer war der_Besucher, der bei dem_Solo in der_Oper $ niesten?' }
+{$RACERC_UNGRAM, 'item' : '4' , $COND: 'fem-none' , $STIM: 'Was sagte der_Arzt des_Cellisten, $ die_anrief?' }
+{$RACERC_GRAM, 'item' : '23' , $COND: 'fem-high' , $STIM: 'Wen belog die_Nachbarin des_Dachdeckers, $ die_lachte?' }
+{$RACERC_GRAM, 'item' : '3' , $COND: 'fem-amb' , $STIM: 'Was will die_Ausbilderin der_Pilotin, $ die_wartet?' }
+{$LOCALITY_GRAM, 'item' : '2' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Anwälte, die beim_Prozess des_Diebes des_Kunstwerkes im_Gerichtssaal $ logen?' }
+{$RACERC_UNGRAM, 'item' : '16' , $COND: 'masc-none' , $STIM: 'Wer war die_Vorgesetzte der_Postbotin, $ der_pfiff?' }
+{$RACERC_UNGRAM, 'item' : '28' , $COND: 'masc-none' , $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ der_tobte?' }
+{$RACERC_GRAM, 'item' : '5' , $COND: 'masc-high' , $STIM: 'Wann kam der_Friseur der_Köchin, $ der_kicherte?' }
+{$RACERC_GRAM, 'item' : '6' , $COND: 'fem-low' , $STIM: 'Wer grüßte den_Trainer der_Tänzerin, $ die_übte?' }
+{$LOCALITY_GRAM, 'item' : '22' , $COND: 'sg-sg-short' , $STIM: 'Wer war der_Veteran, der bei der_Feier im_Stadtpark $ hinfiel?' }
+{$RACERC_UNGRAM, 'item' : '8' , $COND: 'fem-none' , $STIM: 'Wem ähnelt der_Masseur des_Sportlers, $ die_joggte?' }
+---
+Pause 15 von 15
+---
+{$PRACTICE_UNGRAM, 'item': 13,  $STIM: 'Ist es möglich, dass Jana und Franzi $ machen?' }
+{$RACERC_UNGRAM, 'item' : '9' , $COND: 'masc-none' , $STIM: 'Was las die_Verlegerin der_Autorin, $ der_trank?' }
+{$LOCALITY_GRAM, 'item' : '8' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Studenten, die beim_Vortrag des_Professors des_Instituts im_Hörsaal $ entspannten?' }
+{$RACERC_GRAM, 'item' : '13' , $COND: 'masc-low' , $STIM: 'Was befürchtete die_Lieferantin des_Bäckers, $ der_anrief?' }
+{$RACERC_UNGRAM, 'item' : '16' , $COND: 'masc-none' , $STIM: 'Wer war die_Vorgesetzte der_Postbotin, $ der_pfiff?' }
+{$RACERC_GRAM, 'item' : '22' , $COND: 'masc-high' , $STIM: 'Was verlangte der_Agent der_Schauspielerin, $ der_weinte?' }
+{$LOCALITY_GRAM, 'item' : '14' , $COND: 'pl-pl-short' , $STIM: 'Wer waren die_Statiker, die beim_Richtfest auf dem_Dach $ speisten?' }
+{$RACERC_UNGRAM, 'item' : '26' , $COND: 'masc-none' , $STIM: 'Was bestritt die_Genossin der_Gewerkschafterin, $ der_redet?' }
+{$RACERC_GRAM, 'item' : '9' , $COND: 'masc-high' , $STIM: 'Was las der_Verleger der_Autorin, $ der_trank?' }
+{$RACERC_GRAM, 'item' : '12' , $COND: 'fem-low' , $STIM: 'Wer beobachtete den_Auszubildenen der_Buchbinderin, $ die_schreit?' }
+{$RACERC_UNGRAM, 'item' : '7' , $COND: 'masc-none' , $STIM: 'Wo arbeitet die_Visagistin der_Pianistin, $ der_trällerte?' }
+{$RACERC_UNGRAM, 'item' : '3' , $COND: 'fem-none' , $STIM: 'Was will der_Ausbilder des_Piloten, $ die_wartet?' }
+{$LOCALITY_GRAM, 'item' : '11' , $COND: 'pl-pl-short' , $STIM: 'Wer waren die_Männer, die beim_Tanzen im_Festsaal $ diskutierten?' }
+{$RACERC_GRAM, 'item' : '14' , $COND: 'masc-amb' , $STIM: 'Wer vermisste den_Gärtner des_Reporters, $ der_döste?' }
+{$RACERC_GRAM, 'item' : '1' , $COND: 'fem-amb' , $STIM: 'Wer traf die_Freundin der_Malerin, $ die_raucht?' }
+{$RACERC_UNGRAM, 'item' : '10' , $COND: 'fem-none' , $STIM: 'Wer verfluchte den_Redakteur des_Journalisten, $ die_schrie?' }
+{$LOCALITY_GRAM, 'item' : '17' , $COND: 'sg-sg-short' , $STIM: 'Wer war der_Kritiker, der beim_Lesen im_Park $ gähnte?' }
+{$LOCALITY_GRAM, 'item' : '7' , $COND: 'pl-pl-long' , $STIM: 'Wer waren die_Terroristen, die beim_Ball des_Gesandten des_Iran in der_Botschaft $ kellnerten?' }
+{$RACERC_UNGRAM, 'item' : '8' , $COND: 'masc-none' , $STIM: 'Wem ähnelt die_Masseurin der_Sportlerin, $ der_joggte?' }
+{$RACERC_GRAM, 'item' : '21' , $COND: 'masc-amb' , $STIM: 'Was fragte der_Schüler des_Fluglehrers, $ der_schmunzelt?' }
+{$RACERC_GRAM, 'item' : '28' , $COND: 'fem-high' , $STIM: 'Wovon überzeugte man die_Bekannte des_Elektrikers, $ die_tobte?' }
+{$RACERC_UNGRAM, 'item' : '22' , $COND: 'masc-none' , $STIM: 'Was verlangte die_Agentin der_Schauspielerin, $ der_weinte?' }
+{$RACERC_GRAM, 'item' : '24' , $COND: 'masc-amb' , $STIM: 'Wo wartet der_Sekretär des_Ministers, $ der_stottert?' }
+{$RACERC_UNGRAM, 'item' : '3' , $COND: 'masc-none' , $STIM: 'Was will die_Ausbilderin der_Pilotin, $ der_wartet?' }
+{$RACERC_UNGRAM, 'item' : '7' , $COND: 'fem-none' , $STIM: 'Wo arbeitet der_Visagist des_Pianisten, $ die_trällerte?' }
+{$LOCALITY_UNGRAM, 'item' : '8' , $COND: 'pl-sg-long' , $STIM: 'Wer waren die_Studenten, die beim_Vortrag des_Professors des_Instituts im_Hörsaal $ entspannte?' }
+{$RACERC_GRAM, 'item' : '11' , $COND: 'fem-amb' , $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ die_streikt?' }
+{$RACERC_GRAM, 'item' : '17' , $COND: 'masc-amb' , $STIM: 'Was wollte der_Mandant des_Anwalts, $ der_wartete?' }
+{$RACERC_GRAM, 'item' : '8' , $COND: 'masc-amb' , $STIM: 'Wem ähnelt der_Masseur des_Sportlers, $ der_joggte?' }
+{$RACERC_UNGRAM, 'item' : '16' , $COND: 'fem-none' , $STIM: 'Wer war der_Vorgesetzte des_Postboten, $ die_pfiff?' }
+{$RACERC_GRAM, 'item' : '20' , $COND: 'masc-amb' , $STIM: 'Was entdeckte der_Vorarbeiter des_Bauarbeiters, $ der_brüllte?' }
+{$RACERC_GRAM, 'item' : '1' , $COND: 'masc-amb' , $STIM: 'Wer traf den_Freund des_Malers, $ der_raucht?' }
+{$RACERC_UNGRAM, 'item' : '29' , $COND: 'masc-none' , $STIM: 'Wohin rannte die_Kollegin der_Polizistin, $ der_schoss?' }
+---
+Vielen Dank für Ihre Teilnahme!
+---

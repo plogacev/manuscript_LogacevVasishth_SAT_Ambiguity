@@ -1,0 +1,1008 @@
+%include header
+# 
+# NOTE: All stimuli labelled "practiceBasic" should be designed in such a way 
+# that the grammatical status is clear before the onset of the first response
+# signal. The reason is that we are giving the subject feedback. And giving
+# him feedback saying the he did smth wrong even though he did not yet have
+# the information to make the correct decision will be very confusing.
+---
+In diesem Experiment werden Sie Sätze lesen und auf deren Akzeptabilität 
+hin beurteilen. Manche dieser Sätze werden vollkommen akzeptabel sein, 
+so wie z.B. dieser: "Der Peter liebt Kaffee.". 
+Manche werden aber inakzeptablel sein, so wie "Weil Nadine gestern müde
+ist, hatte sie keine Lust mehr was zu unternehmen." oder "Dem Peter den 
+Kaffee liebt es."
+---
+---
+Diese Sätze werden Ihnen Wort für Wort in der Mitte des Bildschirms 
+präsentiert werden.
+ 	
+Im Folgenden sehen Sie ein Beispiel der Satzpräsentation.
+---
+{$PRACTICE_GRAM, 'item':0, $STIM:'Der Adler ist $ gelandet.'}
+---
+Während Sie den Satz lesen, wird eine Reihe von Signaltönen ertönen. 
+Ihre Aufgabe wird es sein, nach jedem Signalton den Satz entweder als
+akzeptabel oder als inakzeptabel zu bewerten.
+ 
+Doch bevor das Experiment losgeht, möchten wir Sie mit der Auffgabe 
+vertraut machen. 
+ 
+Die Übung wird aus drei Teilen bestehen.
+---
+---
+#Wenn Sie denken, dass der Satz soweit akzeptabel scheint, drücken Sie bitte die Taste auf der Seite, auf der der sie unten einen grünen Punkt ('akzeptabel') sehen. Wenn Sie denken dass der Satz inakzeptabel ist, drücken Sie bitte die Taste auf der Seite, auf der der sie unten einen roten Punkt ('inakzeptabel') sehen.
+#
+#Sie haben nicht die volle Zeit bis nächsten Signalton, sondern müssen möglichst schnell antworten. 
+Dies ist der erste Teil der Übung. 
+
+Hierbei sollen Sie zunächst ein Gefühl dafür entwickeln, wie schnell 
+sie auf das Signal reagieren sollen.
+
+Im folgenden Übungsdurchlauf werden Sie eine nach links zeigende 
+Pfeilspitze sehen und eine Sequenz von Signaltönen hören. Ihre Aufgabe 
+wird es sein, nach allen Signaltönen abwechselnd links und rechts zu 
+drücken, d.h. 'links' nach dem ersten Signalton, 'rechts' nach dem 
+zweiten, 'links' nach dem dritten, usw. 
+
+Schauen Sie, während Sie die Tasten drücken, in die obere rechte Ecke.
+---
+{$SLOW_PRACTICE_ARROWS, 'item':0, $STIM:'< $'}
+---
+In der oberen rechten Ecke sahen Sie mehrere graue Kreise, die in 
+Abhängigkeit von ihren Tastendrücken ihre Farbe wechselten. Jeder 
+Kreis steht für die Antwort zu einem Signalton. Falls Sie die 
+richtige Taste drücken, färbt sich der dazugehörige Kreis grün. 
+Falls Sie die falsche Taste drücken, färbt er sich rot.  Falls Sie
+die Taste zu *spät* oder zu *früh* drücken, bleibt der Kreis grau.
+
+Diese Kreise sollen Ihnen im Folgenden dazu dienen zu kontrollieren,
+wie gut Sie die Aufgabe erfüllen.
+---
+---
+Nach Abschluss jedes Übungsdurchlaufs können Sie nun die Anzahl 
+verpasster Antworten(grau) überprüfen, sowie auch die Anzahl 
+korrekter (grün) und inkorrekter (rot) Antworten. Die Kreise 
+verfärben sich entsprechend.
+
+In diesem Teil der Übung ist es ihre Aufgabe immer 'links' zu 
+drücken, wenn Sie eine nach links zeigende Pfeilspitze sehen, 
+und 'rechts' wenn Sie eine nach rechts zeigende sehen. 
+
+Manchmal wird die Pfeilspitze die Richtung wechseln, und 
+machmal nicht.
+
+Versuchen Sie es mal.
+---
+{$SLOW_PRACTICE_ARROWS, 'item':1, $STIM:'> $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':2, $STIM:'< $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':3, $STIM:'> $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':4, $STIM:'< $'}     
+{$SLOW_PRACTICE_ARROWS, 'item':5, $STIM:'> $'}     
+---
+Jetzt wird es ein bisschen schneller. In diesem Tempo werden 
+Sie auch im Experiment reagieren müssen.
+---
+{$NORMAL_PRACTICE_ARROWS, 'item':1, $STIM:'> $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':2, $STIM:'< $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':3, $STIM:'> $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':4, $STIM:'< $'}     
+{$NORMAL_PRACTICE_ARROWS, 'item':5, $STIM:'> $'}     
+---
+Im zweiten Teil der Übung wird sich die Richtung der Pfeilspitzen
+manchmal ändern, und Sie müssen die aktuelle Richtung angeben. 
+Ziel ist es, auf evtl. Richtungsänderungen zu reagieren und jeden
+Signalton zu treffen.
+
+Viel Erfolg!
+---
+{$NORMAL_PRACTICE_ARROWS, 'item':101, $STIM:'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':102, $STIM:'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':103, $STIM:'> > $ > > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':104, $STIM:'< < < < < $ < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':105, $STIM:'< < < $ < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':106, $STIM:'> > > > $ > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':107, $STIM:'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':108, $STIM:'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':109, $STIM:'> $ > > > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':110, $STIM:'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':111, $STIM:'> > $ > > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':112, $STIM:'< < < < $ < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':113, $STIM:'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':114, $STIM:'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':115, $STIM:'< < < $ < < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':116, $STIM:'< < $ < < < < >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':117, $STIM:'> > > $ > > < >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':118, $STIM:'> > $ > > > > <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':119, $STIM:'< < < < $ < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':120, $STIM:'< < $ < < > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':121, $STIM:'> > > > > $ < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':122, $STIM:'< < $ < < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':123, $STIM:'> > > > > $ > <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':124, $STIM:'> > > $ > > > <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':125, $STIM:'< < $ < < < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':126, $STIM:'> > > $ > > > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':127, $STIM:'< < < < < $ > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':128, $STIM:'> > $ > > < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':129, $STIM:'> > $ > < < < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':130, $STIM:'> > > < > $ > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':131, $STIM:'> > < > > $ < <'}
+{$NORMAL_PRACTICE_ARROWS, 'item':132, $STIM:'> > $ < < < > >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':133, $STIM:'> > > $ > < < >'}
+{$NORMAL_PRACTICE_ARROWS, 'item':134, $STIM:'< < < $ > > > >'}
+---
+Dies ist der dritte Teil der Übung. Nun werden auf dem Bildschirm 
+keine Pfeile mehr angezeigt, sondern Sätze. Diese erscheinen Wort
+für Wort in der Mitte des Bildschirms. Unten auf dem Bildschirm 
+finden Sie auf einer Seite einen roten und auf der anderen Seite 
+einen grünen Punkt. Grün steht für "akzeptabel", rot steht für 
+"inakzeptabel".
+Die Taste auf der entsprechenden Seite müssen Sie drücken, je 
+nachdem ob sie den Satz soweit akzeptabel oder inakzeptabel finden.
+---
+---
+Irgendwann im Satz werden die Signaltöne einsetzen. Finden 
+Sie den Satz soweit in Ordnung, drücken Sie die Taste auf der Seite,
+auf der unten ein grüner Punkt angezeigt wird. 
+Ansonsten drücken Sie die Taste auf der Seite, auf der ein roter 
+Punkt angezeigt wird. 
+
+Viel Erfolg!
+---
+{$PRACTICE_GRAM,   'item':1, $STIM:'Der junge Polizist stellte dem_Zeugen die entscheidene $ Frage erst zum_Schluss.'}
+{$PRACTICE_UNGRAM, 'item':2, $STIM:'Der_Fremde regnete dem_Vater $ einen_Hut.'}
+---
+Ist alles klar? Falls Sie Fragen haben, sollten Sie sie jetzt stellen.
+
+Nun geht es weiter.
+---
+{$PRACTICE_UNGRAM, 'item':3, $STIM:'Die_Verkäuferin nichts schickte $ dem_Mädchen.'}
+{$PRACTICE_UNGRAM, 'item':4, $STIM:'Manchmal schlägt Peter seinen Bruder $ am_Nachmittag.'}
+{$PRACTICE_UNGRAM, 'item':5, $STIM:'Maria versteckte das_Hund $ unter der_Bettdecke.'}
+{$PRACTICE_GRAM,   'item':6, $STIM:'Die dickliche Frau im blauen Kleid erzählte dem_Mann $ die ganze Geschichte.'}
+{$PRACTICE_UNGRAM, 'item':7, $STIM:'Einem blondes Jungen kann man $ nicht trauen.'}
+{$PRACTICE_GRAM,   'item':8, $STIM:'Der_Schüler warf dem_Lehrer Geld $ nach.'}
+{$PRACTICE_GRAM,   'item':9, $STIM:'Der_Arzt besaß ein gutes $ Gedächtnis.'}
+{$PRACTICE_UNGRAM, 'item':10, $STIM:'Ohne zu zögern trat die_Diebe $ die_Flucht an.'}
+{$PRACTICE_GRAM,   'item':11, $STIM:'Es war der_Gärtner, der den_Schatz zu verstecken versucht $ hatte.'}
+{$PRACTICE_UNGRAM, 'item':12, $STIM:'Ob wohl die_Gräfin über ärmere Menschen Wasser $ fabrizierte?'}
+{$PRACTICE_UNGRAM, 'item':13, $STIM:'Dem_Vogel hatte dem_Jäger $ eine_Chance erteilt.'}
+{$PRACTICE_UNGRAM, 'item':14, $STIM:'Angesichts seines Zustands der_Villa verblasste das_Leuchten $ in seinen_Augen.'}
+{$PRACTICE_GRAM,   'item':15, $STIM:'Was sollte ein guter Frisör $ kosten?'}
+{$PRACTICE_UNGRAM, 'item':16, $STIM:'Dem_Apfel fällt nichts weit $ vom_Stamm.'}
+{$PRACTICE_GRAM,   'item':17, $STIM:'Es ist der_Pfarrer mit dem die_Bauerntochter in der_Nacht $ durchgebrannt ist.'}
+{$PRACTICE_GRAM,   'item':18, $STIM:'Dem Peter hat er die_Schnürsenkel mehrfach $ verknotet.'}
+{$PRACTICE_UNGRAM, 'item':19, $STIM:'Der_Bürgermeister seine Schlüssel auch nach langem Suchen $ nicht.'}
+{$PRACTICE_GRAM,   'item':20, $STIM:'Doch Hans kannte $ diesen_Mann nicht.'}
+---
+Pause 1 von 16          
+---          
+{$RACERC_UNGRAM, 'item': '13', $COND: 'masc-none', $STIM: 'Was befürchtete die_Lieferant der_Bäckerin, $ der_anrief?' }
+{$RACERC_GRAM, 'item': '17', $COND: 'masc-amb', $STIM: 'Was wollte der_Mandant des_Anwalts, $ der_wartete?' }
+{$RACE_ARG_UNGRAM, 'item': '9-32-8', $COND: 'j', $STIM: 'Wem empfahl das der_Professor damals $ des_Dichters?' }
+{$RACERC_UNGRAM, 'item': '22', $COND: 'fem-none', $STIM: 'Was verlangte der_Agent des_Schauspielers, $ die_weinte?' }
+{$RACE_ARG_GRAM, 'item': '1-11-5', $COND: 'd', $STIM: 'Wem befahl das damals der_Chef $ der_Bäckerin?' }
+{$RACE_ARG_UNGRAM, 'item': '15-29-37', $COND: 'h', $STIM: 'Wem erzählte damals der_Nachbar $ der_Vermieterin?' }
+{$RACE_ARG_GRAM, 'item': '20-17-32', $COND: 'b', $STIM: 'Wessen Dozent präsentierte das damals $ der_Studentin?' }
+{$RACERC_UNGRAM, 'item': '16', $COND: 'fem-none', $STIM: 'Wer war der_Vorgesetzte des_Postboten, $ die_pfiff?' }
+{$RACERC_GRAM, 'item': '8', $COND: 'masc-amb', $STIM: 'Wem ähnelt der_Masseur des_Sportlers, $ der_joggte?' }
+{$RACE_ARG_GRAM, 'item': '9-32-8', $COND: 'd', $STIM: 'Wem empfahl das damals der_Professor $ der_Dichterin?' }
+{$RACE_ARG_GRAM, 'item': '15-29-37', $COND: 'c', $STIM: 'Wem erzählte das damals der_Nachbar $ der_Vermieterin?' }
+{$RACERC_GRAM, 'item': '21', $COND: 'masc-amb', $STIM: 'Was fragte der_Schüler des_Fluglehrers, $ der_schmunzelt?' }
+{$RACE_ARG_GRAM, 'item': '40-14-26', $COND: 'e', $STIM: 'Wem zeigte das damals der_Dekorateur $ der_Rentnerin?' }
+{$RACERC_GRAM, 'item': '11', $COND: 'fem-amb', $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ die_streikt?' }
+{$RACERC_UNGRAM, 'item': '23', $COND: 'fem-none', $STIM: 'Wen belog der_Nachbar des_Dachdeckers, $ die_lachte?' }
+{$RACE_ARG_UNGRAM, 'item': '23-13-7', $COND: 'i', $STIM: 'Wessen Dekan riet das deshalb $ der_Chemikerin?' }
+{$RACE_ARG_GRAM, 'item': '18-37-12', $COND: 'c', $STIM: 'Wem gestattete das deshalb der_Tanzlehrer $ der_Französin?' }
+{$RACERC_UNGRAM, 'item': '10', $COND: 'masc-none', $STIM: 'Wer verfluchte die_Redakteurin der_Journalistin, $ der_schrie?' }
+{$RACERC_GRAM, 'item': '4', $COND: 'masc-amb', $STIM: 'Was sagte der_Arzt des_Cellisten, $ der_anrief?' }
+{$RACE_ARG_UNGRAM, 'item': '5-2-15', $COND: 'f', $STIM: 'Was bewies das damals $ der_Journalistin?' }
+{$RACERC_UNGRAM, 'item': '25', $COND: 'masc-none', $STIM: 'Wieviel verdient die_Bühnenbildnerin der_Intendantin, $ der_lächelte?' }
+{$RACE_ARG_GRAM, 'item': '11-30-3', $COND: 'c', $STIM: 'Wem erklärte das damals der_Pastor $ der_Archäologin?' }
+{$RACE_ARG_UNGRAM, 'item': '15-29-37', $COND: 'i', $STIM: 'Wessen Nachbar erzählte das damals $ der_Vermieterin?' }
+{$RACERC_GRAM, 'item': '16', $COND: 'fem-high', $STIM: 'Wer war die_Vorgesetzte des_Postboten, $ die_pfiff?' }
+{$RACE_ARG_UNGRAM, 'item': '30-33-25', $COND: 'f', $STIM: 'Was verdeutlichte das damals $ der_Raucherin?' }
+{$RACERC_GRAM, 'item': '1', $COND: 'masc-amb', $STIM: 'Wer traf den_Freund des_Malers, $ der_raucht?' }
+{$RACERC_UNGRAM, 'item': '6', $COND: 'masc-none', $STIM: 'Wer grüßte die_Trainerin der_Tänzerin, $ der_übte?' }
+{$RACE_ARG_GRAM, 'item': '6-20-34', $COND: 'e', $STIM: 'Wem bot das damals der_Fitnesstrainer $ der_Tänzerin?' }
+{$RACE_ARG_UNGRAM, 'item': '7-19-27', $COND: 'h', $STIM: 'Wem brachte deshalb der_Fan $ der_Schauspielerin?' }
+{$RACERC_UNGRAM, 'item': '5', $COND: 'fem-none', $STIM: 'Wann kam der_Friseur des_Kochs, $ die_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '34-35-31', $COND: 'a', $STIM: 'Was verschwieg deshalb der_Steuerberater $ der_Sportlerin?' }
+{$RACE_ARG_GRAM, 'item': '19-18-33', $COND: 'c', $STIM: 'Wem lieferte das deshalb der_Fahrer $ der_Sängerin?' }
+{$RACERC_GRAM, 'item': '1', $COND: 'fem-amb', $STIM: 'Wer traf die_Freundin der_Malerin, $ die_raucht?' }
+{$RACE_ARG_UNGRAM, 'item': '24-16-16', $COND: 'h', $STIM: 'Wem sagte damals der_Dolmetscher $ der_Kanzlerin?' }
+{$RACERC_GRAM, 'item': '31', $COND: 'masc-low', $STIM: 'Was war mit der_Vorgesetzten des_Beamten, $ der_schlief?' }
+{$RACERC_GRAM, 'item': '20', $COND: 'masc-low', $STIM: 'Was entdeckte die_Vorarbeiterin des_Bauarbeiters, $ der_brüllte?' }
+{$RACE_ARG_GRAM, 'item': '15-29-37', $COND: 'b', $STIM: 'Wessen Nachbar erzählte das damals $ der_Vermieterin?' }
+{$RACERC_UNGRAM, 'item': '5', $COND: 'masc-none', $STIM: 'Wann kam die_Friseurin der_Köchin, $ der_kicherte?' }
+{$RACE_ARG_UNGRAM, 'item': '21-6-11', $COND: 'i', $STIM: 'Wessen Azubi reparierte das damals $ der_Fotografin?' }
+{$RACERC_GRAM, 'item': '12', $COND: 'fem-low', $STIM: 'Wer beobachtete den_Auszubildenen der_Buchbinderin, $ die_schreit?' }
+{$RACE_ARG_GRAM, 'item': '38-39-18', $COND: 'a', $STIM: 'Was verzieh deshalb der_Vorgesetzte $ der_Lehrerin?' }
+{$RACE_ARG_GRAM, 'item': '27-7-17', $COND: 'e', $STIM: 'Wem spendierte das deshalb der_Bekannte $ der_Kellnerin?' }
+{$RACERC_GRAM, 'item': '9', $COND: 'masc-high', $STIM: 'Was las der_Verleger der_Autorin, $ der_trank?' }
+{$RACE_ARG_UNGRAM, 'item': '24-16-16', $COND: 'g', $STIM: 'Wessen Dolmetscher sagte das damals $ der_Dolmetscher dem_Kanzler?' }
+{$RACERC_UNGRAM, 'item': '26', $COND: 'masc-none', $STIM: 'Wem bestritt die_Genossin der_Gewerkschafterin, $ der_redet?' }
+{$RACERC_GRAM, 'item': '22', $COND: 'masc-high', $STIM: 'Was verlangte der_Agent der_Schauspielerin, $ der_weinte?' }
+{$RACERC_UNGRAM, 'item': '20', $COND: 'masc-none', $STIM: 'Was entdeckte die_Vorarbeiterin der_Bauarbeiterin, $ der_brüllte?' }
+{$RACE_ARG_UNGRAM, 'item': '31-27-22', $COND: 'g', $STIM: 'Wessen Kritiker verheimlichte das deshalb $ der_Kritiker dem_Politiker?' }
+{$RACERC_GRAM, 'item': '28', $COND: 'masc-amb', $STIM: 'Wovon überzeugte man den_Bekannten des_Elektrikers, $ der_tobte?' }
+---          
+Pause 2 von 16          
+---          
+{$RACE_ARG_GRAM, 'item': '28-36-30', $COND: 'e', $STIM: 'Wem stahl das damals der_Student $ der_Soziologin?' }
+{$RACERC_UNGRAM, 'item': '9', $COND: 'masc-none', $STIM: 'Was las der_Verlegerin der_Autorin, $ der_trank?' }
+{$RACERC_UNGRAM, 'item': '8', $COND: 'fem-none', $STIM: 'Wem ähnelt der_Masseur des_Sportlers, $ die_joggte?' }
+{$RACE_ARG_UNGRAM, 'item': '17-12-28', $COND: 'g', $STIM: 'Wessen Dealer garantierte das deshalb $ der_Dealer dem_Schlosser?' }
+{$RACERC_GRAM, 'item': '6', $COND: 'fem-low', $STIM: 'Wer grüßte den_Trainer der_Tänzerin, $ die_übte?' }
+{$RACERC_GRAM, 'item': '5', $COND: 'masc-high', $STIM: 'Wann kam der_Friseur der_Köchin, $ der_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '38-39-18', $COND: 'c', $STIM: 'Wem verzieh das deshalb der_Vorgesetzte $ der_Lehrerin?' }
+{$RACE_ARG_GRAM, 'item': '16-4-1', $COND: 'c', $STIM: 'Wem finanzierte das deshalb der_Arzt $ der_Alkoholikerin?' }
+{$RACERC_UNGRAM, 'item': '12', $COND: 'fem-none', $STIM: 'Wer beobachtete den_Auszubildenen des_Buchbinders, $ die_schreit?' }
+{$RACERC_UNGRAM, 'item': '8', $COND: 'masc-none', $STIM: 'Wem ähnelt die_Masseurin der_Sportlerin, $ der_joggte?' }
+{$RACE_ARG_UNGRAM, 'item': '7-19-27', $COND: 'i', $STIM: 'Wessen Fan brachte das deshalb $ der_Schauspielerin?' }
+{$RACE_ARG_UNGRAM, 'item': '39-26-13', $COND: 'g', $STIM: 'Wessen Koch wünschte das deshalb $ der_Koch dem_Inder?' }
+{$RACERC_GRAM, 'item': '3', $COND: 'masc-high', $STIM: 'Was will der_Ausbilder der_Pilotin, $ der_wartet?' }
+{$RACERC_GRAM, 'item': '23', $COND: 'fem-high', $STIM: 'Wen belog die_Nachbarin des_Dachdeckers, $ die_lachte?' }
+{$RACE_ARG_GRAM, 'item': '28-36-30', $COND: 'c', $STIM: 'Wem stahl das damals der_Student $ der_Soziologin?' }
+{$RACERC_UNGRAM, 'item': '5', $COND: 'masc-none', $STIM: 'Wann kam die_Friseurin der_Köchin, $ der_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '21-6-11', $COND: 'a', $STIM: 'Was reparierte damals der_Azubi $ der_Fotografin?' }
+{$RACERC_UNGRAM, 'item': '30', $COND: 'masc-none', $STIM: 'Wo saß die_Kundin der_Floristin, $ der_telefonierte?' }
+{$RACERC_GRAM, 'item': '1', $COND: 'masc-high', $STIM: 'Wer traf den_Freund der_Malerin, $ der_raucht?' }
+{$RACERC_GRAM, 'item': '3', $COND: 'masc-low', $STIM: 'Was will die_Ausbilderin des_Piloten, $ der_wartet?' }
+{$RACERC_GRAM, 'item': '28', $COND: 'fem-amb', $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ die_tobte?' }
+{$RACE_ARG_GRAM, 'item': '25-28-23', $COND: 'd', $STIM: 'Wem schickte das damals der_Makler $ der_Professorin?' }
+{$RACE_ARG_UNGRAM, 'item': '31-27-22', $COND: 'f', $STIM: 'Was verheimlichte das deshalb $ der_Politikerin?' }
+{$RACERC_UNGRAM, 'item': '10', $COND: 'fem-none', $STIM: 'Wer verfluchte den_Redakteur des_Journalisten, $ die_schrie?' }
+{$RACERC_UNGRAM, 'item': '30', $COND: 'fem-none', $STIM: 'Wo saß der_Kunde des_Floristen, $ die_telefonierte?' }
+{$RACE_ARG_GRAM, 'item': '8-1-14', $COND: 'b', $STIM: 'Wessen Angestellte demonstrierte das deshalb $ der_Informatikerin?' }
+{$RACE_ARG_GRAM, 'item': '3-8-24', $COND: 'a', $STIM: 'Was beschrieb damals der_Besucher $ der_Psychologin?' }
+{$RACE_ARG_GRAM, 'item': '12-38-40', $COND: 'e', $STIM: 'Wem erlaubte das deshalb der_Vermieter $ der_Ärztin?' }
+{$RACERC_GRAM, 'item': '26', $COND: 'fem-low', $STIM: 'Wem bestritt der_Genosse der_Gewerkschafterin, $ die_redet?' }
+{$RACE_ARG_GRAM, 'item': '17-12-28', $COND: 'c', $STIM: 'Wem garantierte das deshalb der_Dealer $ der_Schlosserin?' }
+{$RACERC_UNGRAM, 'item': '17', $COND: 'masc-none', $STIM: 'Was wollte die_Mandantin der_Anwältin, $ der_wartete?' }
+{$RACE_ARG_GRAM, 'item': '28-36-30', $COND: 'd', $STIM: 'Wem stahl das damals der_Student $ der_Soziologin?' }
+{$RACE_ARG_UNGRAM, 'item': '3-8-24', $COND: 'f', $STIM: 'Was beschrieb das damals $ der_Psychologin?' }
+{$RACERC_UNGRAM, 'item': '3', $COND: 'masc-none', $STIM: 'Was will die_Ausbilderin der_Pilotin, $ der_wartet?' }
+{$RACE_ARG_UNGRAM, 'item': '16-4-1', $COND: 'j', $STIM: 'Wem finanzierte das der_Arzt deshalb $ des_Alkoholikers?' }
+{$RACERC_GRAM, 'item': '26', $COND: 'masc-high', $STIM: 'Wem bestritt der_Genosse der_Gewerkschafterin, $ der_redet?' }
+{$RACE_ARG_GRAM, 'item': '32-3-38', $COND: 'e', $STIM: 'Wem verkaufte das damals der_Apotheker $ der_Verrückten?' }
+{$RACE_ARG_GRAM, 'item': '18-37-12', $COND: 'a', $STIM: 'Was gestattete deshalb der_Tanzlehrer $ der_Französin?' }
+{$RACE_ARG_GRAM, 'item': '25-28-23', $COND: 'a', $STIM: 'Was schickte damals der_Makler $ der_Professorin?' }
+{$RACERC_GRAM, 'item': '11', $COND: 'fem-high', $STIM: 'Wer kennt die_Kollegin des_Erziehers, $ die_streikt?' }
+{$RACE_ARG_UNGRAM, 'item': '33-21-29', $COND: 'f', $STIM: 'Was verriet das deshalb $ der_Sekretärin?' }
+{$RACERC_UNGRAM, 'item': '2', $COND: 'masc-none', $STIM: 'Wie heißt die_Chefin der_Angestellten, $ der_stiehlt?' }
+{$RACE_ARG_GRAM, 'item': '20-17-32', $COND: 'e', $STIM: 'Wem präsentierte das damals der_Dozent $ der_Studentin?' }
+{$RACERC_UNGRAM, 'item': '18', $COND: 'fem-none', $STIM: 'Was nascht der_Doktorand des_Professors, $ die_liest?' }
+{$RACERC_GRAM, 'item': '10', $COND: 'masc-amb', $STIM: 'Wer verfluchte den_Redakteur des_Journalisten, $ der_schrie?' }
+{$RACERC_GRAM, 'item': '24', $COND: 'masc-amb', $STIM: 'Wo wartet der_Sekretär des_Ministers, $ der_stottert?' }
+{$RACE_ARG_GRAM, 'item': '11-30-3', $COND: 'd', $STIM: 'Wem erklärte das damals der_Pastor $ der_Archäologin?' }
+{$RACERC_UNGRAM, 'item': '22', $COND: 'masc-none', $STIM: 'Was verlangte die_Agentin der_Schauspielerin, $ der_weinte?' }
+{$RACE_ARG_GRAM, 'item': '22-5-2', $COND: 'e', $STIM: 'Wem reservierte das damals der_Assistent $ der_Anwältin?' }
+---          
+Pause 3 von 16          
+---          
+{$RACERC_GRAM, 'item': '2', $COND: 'fem-low', $STIM: 'Wie heißt der_Chef der_Angestellten, $ die_stiehlt?' }
+{$RACERC_UNGRAM, 'item': '21', $COND: 'fem-none', $STIM: 'Was fragte der_Schüler des_Fluglehrers, $ die_schmunzelt?' }
+{$RACE_ARG_UNGRAM, 'item': '14-25-39', $COND: 'j', $STIM: 'Wem ermöglichte das der_Investor damals $ des_Vietnamesen?' }
+{$RACE_ARG_GRAM, 'item': '30-33-25', $COND: 'c', $STIM: 'Wem verdeutlichte das damals der_Psychologe $ der_Raucherin?' }
+{$RACE_ARG_GRAM, 'item': '19-18-33', $COND: 'd', $STIM: 'Wem lieferte das deshalb der_Fahrer $ der_Sängerin?' }
+{$RACERC_UNGRAM, 'item': '18', $COND: 'masc-none', $STIM: 'Was nascht die_Doktorandin der_Professorin, $ der_liest?' }
+{$RACE_ARG_UNGRAM, 'item': '2-9-9', $COND: 'g', $STIM: 'Wessen Biograf berichtete das damals $ der_Biograf dem_Diplomaten?' }
+{$RACERC_GRAM, 'item': '9', $COND: 'masc-amb', $STIM: 'Was las der_Verleger des_Autors, $ der_trank?' }
+{$RACERC_UNGRAM, 'item': '4', $COND: 'fem-none', $STIM: 'Was sagte der_Arzt des_Cellisten, $ die_anrief?' }
+{$RACE_ARG_GRAM, 'item': '17-12-28', $COND: 'a', $STIM: 'Was garantierte deshalb der_Dealer $ der_Schlosserin?' }
+{$RACERC_UNGRAM, 'item': '20', $COND: 'fem-none', $STIM: 'Was entdeckte der_Vorarbeiter des_Bauarbeiters, $ die_brüllte?' }
+{$RACE_ARG_UNGRAM, 'item': '36-24-35', $COND: 'i', $STIM: 'Wessen Hausmeister versprach das deshalb $ der_Unternehmerin?' }
+{$RACERC_GRAM, 'item': '25', $COND: 'fem-low', $STIM: 'Wieviel verdient der_Bühnenbildner der_Intendantin, $ die_lächelte?' }
+{$RACE_ARG_UNGRAM, 'item': '38-39-18', $COND: 'f', $STIM: 'Was verzieh das deshalb $ der_Lehrerin?' }
+{$RACE_ARG_UNGRAM, 'item': '2-9-9', $COND: 'f', $STIM: 'Was berichtete das damals $ der_Diplomatin?' }
+{$RACERC_GRAM, 'item': '5', $COND: 'fem-amb', $STIM: 'Wann kam die_Friseurin der_Köchin, $ die_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '10-10-19', $COND: 'b', $STIM: 'Wessen Bodyguard entwendete das deshalb $ der_Milliardärin?' }
+{$RACE_ARG_GRAM, 'item': '14-25-39', $COND: 'd', $STIM: 'Wem ermöglichte das damals der_Investor $ der_Vietnamesin?' }
+{$RACE_ARG_GRAM, 'item': '3-8-24', $COND: 'd', $STIM: 'Wem beschrieb das damals der_Besucher $ der_Psychologin?' }
+{$RACERC_UNGRAM, 'item': '1', $COND: 'fem-none', $STIM: 'Wer traf den_Freund des_Malers, $ die_raucht?' }
+{$RACERC_UNGRAM, 'item': '24', $COND: 'masc-none', $STIM: 'Wo wartet die_Sekretärin der_Ministerin, $ der_stottert?' }
+{$RACE_ARG_GRAM, 'item': '26-15-21', $COND: 'a', $STIM: 'Was skizzierte damals der_Doktorand $ der_Polin?' }
+{$RACERC_GRAM, 'item': '16', $COND: 'masc-amb', $STIM: 'Wer war der_Vorgesetzte des_Postboten, $ der_pfiff?' }
+{$RACE_ARG_UNGRAM, 'item': '16-4-1', $COND: 'f', $STIM: 'Was finanzierte das deshalb $ der_Alkoholikerin?' }
+{$RACERC_GRAM, 'item': '10', $COND: 'masc-low', $STIM: 'Wer verfluchte die_Redakteurin des_Journalisten, $ der_schrie?' }
+{$RACE_ARG_GRAM, 'item': '9-32-8', $COND: 'a', $STIM: 'Was empfahl damals der_Professor $ der_Dichterin?' }
+{$RACE_ARG_UNGRAM, 'item': '14-25-39', $COND: 'g', $STIM: 'Wessen Investor ermöglichte das damals $ der_Investor dem_Vietnamesen?' }
+{$RACERC_UNGRAM, 'item': '9', $COND: 'masc-none', $STIM: 'Was las der_Verlegerin der_Autorin, $ der_trank?' }
+{$RACERC_UNGRAM, 'item': '13', $COND: 'masc-none', $STIM: 'Was befürchtete die_Lieferant der_Bäckerin, $ der_anrief?' }
+{$RACE_ARG_UNGRAM, 'item': '28-36-30', $COND: 'i', $STIM: 'Wessen Student stahl das damals $ der_Soziologin?' }
+{$RACE_ARG_GRAM, 'item': '37-22-6', $COND: 'b', $STIM: 'Wessen Gehilfe verweigerte das deshalb $ der_Chefin?' }
+{$RACERC_UNGRAM, 'item': '7', $COND: 'masc-none', $STIM: 'Wo arbeitet die_Visagistin der_Pianistin, $ der_trällerte?' }
+{$RACE_ARG_UNGRAM, 'item': '32-3-38', $COND: 'g', $STIM: 'Wessen Apotheker verkaufte das damals $ der_Apotheker dem_Verrückten?' }
+{$RACE_ARG_GRAM, 'item': '17-12-28', $COND: 'b', $STIM: 'Wessen Dealer garantierte das deshalb $ der_Schlosserin?' }
+{$RACE_ARG_GRAM, 'item': '33-21-29', $COND: 'a', $STIM: 'Was verriet deshalb der_Friseur $ der_Sekretärin?' }
+{$RACERC_GRAM, 'item': '26', $COND: 'masc-amb', $STIM: 'Was bestritt der_Genosse des_Gewerkschafters, $ der_redet?' }
+{$RACE_ARG_UNGRAM, 'item': '27-7-17', $COND: 'i', $STIM: 'Wessen Bekannter spendierte das deshalb $ der_Kellnerin?' }
+{$RACE_ARG_UNGRAM, 'item': '35-34-4', $COND: 'i', $STIM: 'Wessen Schüler versicherte das deshalb $ der_Biologin?' }
+{$RACE_ARG_UNGRAM, 'item': '26-15-21', $COND: 'g', $STIM: 'Wessen Doktorand skizzierte das damals $ der_Doktorand dem_Polen?' }
+{$RACERC_UNGRAM, 'item': '7', $COND: 'fem-none', $STIM: 'Wo arbeitet der_Visagist des_Pianisten, $ die_trällerte?' }
+{$RACE_ARG_UNGRAM, 'item': '18-37-12', $COND: 'i', $STIM: 'Wessen Tanzlehrer gestattete das deshalb $ der_Französin?' }
+{$RACERC_GRAM, 'item': '17', $COND: 'fem-amb', $STIM: 'Was wollte die_Mandantin der_Anwältin, $ die_wartete?' }
+{$RACE_ARG_UNGRAM, 'item': '28-36-30', $COND: 'j', $STIM: 'Wem stahl das der_Student damals $ des_Soziologen?' }
+{$RACE_ARG_UNGRAM, 'item': '16-4-1', $COND: 'g', $STIM: 'Wessen Arzt finanzierte das deshalb $ der_Arzt dem_Alkoholiker?' }
+{$RACERC_GRAM, 'item': '8', $COND: 'fem-amb', $STIM: 'Wem ähnelt die_Masseurin der_Sportlerin, $ die_joggte?' }
+{$RACE_ARG_GRAM, 'item': '24-16-16', $COND: 'c', $STIM: 'Wem sagte das damals der_Dolmetscher $ der_Kanzlerin?' }
+{$RACE_ARG_GRAM, 'item': '32-3-38', $COND: 'd', $STIM: 'Wem verkaufte das damals der_Apotheker $ der_Verrückten?' }
+{$RACERC_UNGRAM, 'item': '13', $COND: 'fem-none', $STIM: 'Was befürchtete der_Lieferant des_Bäckers, $ die_anrief?' }
+{$RACERC_UNGRAM, 'item': '4', $COND: 'masc-none', $STIM: 'Was sagte die_Ärztin der_Cellistin, $ der_anrief?' }
+---          
+Pause 4 von 16          
+---          
+{$RACE_ARG_UNGRAM, 'item': '23-13-7', $COND: 'f', $STIM: 'Was riet das deshalb $ der_Chemikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '19-18-33', $COND: 'g', $STIM: 'Wessen Fahrer lieferte das deshalb $ der_Fahrer dem_Sänger?' }
+{$RACE_ARG_GRAM, 'item': '38-39-18', $COND: 'b', $STIM: 'Wessen Vorgesetzter verzieh das deshalb $ der_Lehrerin?' }
+{$RACERC_GRAM, 'item': '9', $COND: 'fem-low', $STIM: 'Was las dem_Verleger der_Autorin, $ die_trank?' }
+{$RACERC_GRAM, 'item': '3', $COND: 'fem-amb', $STIM: 'Was will die_Ausbilderin der_Pilotin, $ die_wartet?' }
+{$RACERC_UNGRAM, 'item': '16', $COND: 'fem-none', $STIM: 'Wer war der_Vorgesetzte des_Postboten, $ die_pfiff?' }
+{$RACERC_GRAM, 'item': '15', $COND: 'masc-high', $STIM: 'Was bestritt der_Stabschef der_Präsidentin, $ der_log?' }
+{$RACE_ARG_GRAM, 'item': '8-1-14', $COND: 'd', $STIM: 'Wem demonstrierte das deshalb der_Angestellter $ der_Informatikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '15-29-37', $COND: 'f', $STIM: 'Was erzählte das damals $ der_Vermieterin?' }
+{$RACERC_GRAM, 'item': '18', $COND: 'masc-high', $STIM: 'Was nascht der_Doktorand der_Professorin, $ der_liest?' }
+{$RACE_ARG_GRAM, 'item': '18-37-12', $COND: 'd', $STIM: 'Wem gestattete das deshalb der_Tanzlehrer $ der_Französin?' }
+{$RACE_ARG_UNGRAM, 'item': '24-16-16', $COND: 'i', $STIM: 'Wessen Dolmetscher sagte das damals $ der_Kanzlerin?' }
+{$RACERC_UNGRAM, 'item': '24', $COND: 'fem-none', $STIM: 'Wo wartet der_Sekretär des_Ministers, $ die_stottert?' }
+{$RACE_ARG_GRAM, 'item': '1-11-5', $COND: 'c', $STIM: 'Wem befahl das damals der_Chef $ der_Bäckerin?' }
+{$RACE_ARG_GRAM, 'item': '33-21-29', $COND: 'e', $STIM: 'Wem verriet das deshalb der_Friseur $ der_Sekretärin?' }
+{$RACE_ARG_UNGRAM, 'item': '7-19-27', $COND: 'g', $STIM: 'Wessen Fan brachte das deshalb $ der_Fan dem_Schauspieler?' }
+{$RACERC_UNGRAM, 'item': '3', $COND: 'masc-none', $STIM: 'Was will die_Ausbilderin der_Pilotin, $ der_wartet?' }
+{$RACE_ARG_GRAM, 'item': '12-38-40', $COND: 'c', $STIM: 'Wem erlaubte das deshalb der_Vermieter $ der_Ärztin?' }
+{$RACERC_UNGRAM, 'item': '27', $COND: 'fem-none', $STIM: 'Was dachte der_Manager des_Sängers, $ die_schwieg?' }
+{$RACE_ARG_GRAM, 'item': '39-26-13', $COND: 'e', $STIM: 'Wem wünschte das deshalb der_Koch $ der_Inderin?' }
+{$RACE_ARG_GRAM, 'item': '5-2-15', $COND: 'a', $STIM: 'Was bewies damals der_Anwalt $ der_Journalistin?' }
+{$RACERC_GRAM, 'item': '15', $COND: 'fem-low', $STIM: 'Was bestritt der_Stabschef der_Präsidentin, $ die_log?' }
+{$RACE_ARG_GRAM, 'item': '2-9-9', $COND: 'b', $STIM: 'Wessen Biograf berichtete das damals $ der_Diplomatin?' }
+{$RACERC_GRAM, 'item': '30', $COND: 'masc-low', $STIM: 'Wo saß die_Kundin des_Floristen, $ der_telefonierte?' }
+{$RACERC_UNGRAM, 'item': '21', $COND: 'masc-none', $STIM: 'Was fragte die_Schülerin der_Fluglehrerin, $ der_schmunzelt?' }
+{$RACE_ARG_GRAM, 'item': '37-22-6', $COND: 'c', $STIM: 'Wem verweigerte das deshalb der_Gehilfe $ der_Chefin?' }
+{$RACERC_GRAM, 'item': '27', $COND: 'masc-high', $STIM: 'Was dachte der_Manager der_Sängerin, $ der_schwieg?' }
+{$RACE_ARG_UNGRAM, 'item': '29-40-36', $COND: 'g', $STIM: 'Wessen Yogalehrer verbot das deshalb $ der_Yogalehrer dem_Verkäufer?' }
+{$RACERC_GRAM, 'item': '7', $COND: 'fem-low', $STIM: 'Wo arbeitet der_Visagist der_Pianistin, $ die_trällerte?' }
+{$RACE_ARG_GRAM, 'item': '11-30-3', $COND: 'e', $STIM: 'Wem erklärte das damals der_Pastor $ der_Archäologin?' }
+{$RACERC_UNGRAM, 'item': '3', $COND: 'fem-none', $STIM: 'Was will der_Ausbilder des_Piloten, $ die_wartet?' }
+{$RACERC_GRAM, 'item': '14', $COND: 'masc-low', $STIM: 'Wer vermisste die_Gärtnerin des_Reporters, $ der_döste?' }
+{$RACE_ARG_UNGRAM, 'item': '12-38-40', $COND: 'h', $STIM: 'Wem erlaubte deshalb der_Vermieter $ der_Ärztin?' }
+{$RACE_ARG_GRAM, 'item': '33-21-29', $COND: 'd', $STIM: 'Wem verriet das deshalb der_Friseur $ der_Sekretärin?' }
+{$RACERC_GRAM, 'item': '27', $COND: 'masc-low', $STIM: 'Was dachte die_Managerin des_Sängers, $ der_schwieg?' }
+{$RACERC_GRAM, 'item': '10', $COND: 'fem-low', $STIM: 'Wer verfluchte den_Redakteur der_Journalistin, $ die_schrie?' }
+{$RACE_ARG_GRAM, 'item': '32-3-38', $COND: 'a', $STIM: 'Was verkaufte damals der_Apotheker $ der_Verrückten?' }
+{$RACERC_UNGRAM, 'item': '20', $COND: 'fem-none', $STIM: 'Was entdeckte der_Vorarbeiter des_Bauarbeiters, $ die_brüllte?' }
+{$RACERC_UNGRAM, 'item': '2', $COND: 'fem-none', $STIM: 'Wie heißt der_Chef des_Angestellten, $ die_stiehlt?' }
+{$RACE_ARG_GRAM, 'item': '31-27-22', $COND: 'b', $STIM: 'Wessen Kritiker verheimlichte das deshalb $ der_Politikerin?' }
+{$RACE_ARG_GRAM, 'item': '35-34-4', $COND: 'e', $STIM: 'Wem versicherte das deshalb der_Schüler $ der_Biologin?' }
+{$RACERC_GRAM, 'item': '18', $COND: 'masc-low', $STIM: 'Was nascht die_Doktorandin des_Professors, $ der_liest?' }
+{$RACE_ARG_GRAM, 'item': '19-18-33', $COND: 'b', $STIM: 'Wessen Fahrer lieferte das deshalb $ der_Sängerin?' }
+{$RACE_ARG_GRAM, 'item': '26-15-21', $COND: 'b', $STIM: 'Wessen Doktorand skizzierte das damals $ der_Polin?' }
+{$RACERC_GRAM, 'item': '25', $COND: 'fem-high', $STIM: 'Wieviel verdient die_Bühnenbildnerin des_Intendanten, $ die_lächelte?' }
+{$RACE_ARG_UNGRAM, 'item': '5-2-15', $COND: 'i', $STIM: 'Wessen Anwalt bewies das damals $ der_Journalistin?' }
+{$RACERC_UNGRAM, 'item': '6', $COND: 'fem-none', $STIM: 'Wer grüßte den_Trainer des_Tänzers, $ die_übte?' }
+{$RACERC_GRAM, 'item': '27', $COND: 'fem-low', $STIM: 'Was dachte der_Manager der_Sängerin, $ die_schwieg?' }
+{$RACERC_GRAM, 'item': '21', $COND: 'fem-high', $STIM: 'Was fragte die_Schülerin des_Fluglehrers, $ die_schmunzelt?' }
+---          
+Pause 5 von 16          
+---          
+{$RACE_ARG_GRAM, 'item': '14-25-39', $COND: 'c', $STIM: 'Wem ermöglichte das damals der_Investor $ der_Vietnamesin?' }
+{$RACE_ARG_UNGRAM, 'item': '11-30-3', $COND: 'i', $STIM: 'Wessen Pastor erklärte das damals $ der_Archäologin?' }
+{$RACERC_UNGRAM, 'item': '25', $COND: 'fem-none', $STIM: 'Wieviel verdient der_Bühnenbildner des_Intendanten, $ die_lächelte?' }
+{$RACE_ARG_UNGRAM, 'item': '10-10-19', $COND: 'h', $STIM: 'Wem entwendete deshalb der_Bodyguard $ der_Milliardärin?' }
+{$RACE_ARG_GRAM, 'item': '6-20-34', $COND: 'b', $STIM: 'Wessen Fitnesstrainer bot das damals $ der_Tänzerin?' }
+{$RACERC_UNGRAM, 'item': '27', $COND: 'fem-none', $STIM: 'Was dachte der_Manager des_Sängers, $ die_schwieg?' }
+{$RACE_ARG_UNGRAM, 'item': '24-16-16', $COND: 'f', $STIM: 'Was sagte das damals $ der_Kanzlerin?' }
+{$RACE_ARG_GRAM, 'item': '36-24-35', $COND: 'a', $STIM: 'Was versprach deshalb der_Hausmeister $ der_Unternehmerin?' }
+{$RACE_ARG_UNGRAM, 'item': '26-15-21', $COND: 'i', $STIM: 'Wessen Doktorand skizzierte das damals $ der_Polin?' }
+{$RACE_ARG_GRAM, 'item': '29-40-36', $COND: 'd', $STIM: 'Wem verbot das deshalb der_Yogalehrer $ der_Verkäuferin?' }
+{$RACERC_GRAM, 'item': '13', $COND: 'fem-amb', $STIM: 'Was befürchtete die_Lieferant der_Bäckerin, $ die_anrief?' }
+{$RACE_ARG_GRAM, 'item': '26-15-21', $COND: 'c', $STIM: 'Wem skizzierte das damals der_Doktorand $ der_Polin?' }
+{$RACE_ARG_UNGRAM, 'item': '40-14-26', $COND: 'g', $STIM: 'Wessen Dekorateur zeigte das damals $ der_Dekorateur dem_Rentner?' }
+{$RACE_ARG_UNGRAM, 'item': '1-11-5', $COND: 'h', $STIM: 'Wem befahl damals der_Chef $ der_Bäckerin?' }
+{$RACE_ARG_UNGRAM, 'item': '37-22-6', $COND: 'i', $STIM: 'Wessen Gehilfe verweigerte das deshalb $ der_Chefin?' }
+{$RACERC_UNGRAM, 'item': '31', $COND: 'masc-none', $STIM: 'Was war mit der_Vorgesetzten der_Beamtin, $ der_schlief?' }
+{$RACERC_UNGRAM, 'item': '10', $COND: 'fem-none', $STIM: 'Wer verfluchte den_Redakteur des_Journalisten, $ die_schrie?' }
+{$RACE_ARG_GRAM, 'item': '2-9-9', $COND: 'e', $STIM: 'Wem berichtete das damals der_Biograf $ der_Diplomatin?' }
+{$RACERC_UNGRAM, 'item': '15', $COND: 'fem-none', $STIM: 'Was bestritt der_Stabschef des_Präsidenten, $ die_log?' }
+{$RACE_ARG_GRAM, 'item': '22-5-2', $COND: 'd', $STIM: 'Wem reservierte das damals der_Assistent $ der_Anwältin?' }
+{$RACE_ARG_UNGRAM, 'item': '2-9-9', $COND: 'j', $STIM: 'Wem berichtete das der_Biograf damals $ des_Diplomaten?' }
+{$RACERC_GRAM, 'item': '8', $COND: 'masc-low', $STIM: 'Wem ähnelt die_Masseurin des_Sportlers, $ der_joggte?' }
+{$RACE_ARG_UNGRAM, 'item': '27-7-17', $COND: 'j', $STIM: 'Wem spendierte das der_Bekannte deshalb $ des_Kellners?' }
+{$RACE_ARG_GRAM, 'item': '27-7-17', $COND: 'a', $STIM: 'Was spendierte deshalb der_Bekannte $ der_Kellnerin?' }
+{$RACERC_UNGRAM, 'item': '21', $COND: 'fem-none', $STIM: 'Was fragte der_Schüler des_Fluglehrers, $ die_schmunzelt?' }
+{$RACERC_UNGRAM, 'item': '11', $COND: 'fem-none', $STIM: 'Wer kennt den_Kollegen des_Erziehers, $ die_streikt?' }
+{$RACE_ARG_UNGRAM, 'item': '12-38-40', $COND: 'i', $STIM: 'Wessen Vermieter erlaubte das deshalb $ der_Ärztin?' }
+{$RACERC_GRAM, 'item': '9', $COND: 'fem-high', $STIM: 'Was las der_Verlegerin des_Autors, $ die_trank?' }
+{$RACERC_UNGRAM, 'item': '17', $COND: 'fem-none', $STIM: 'Was wollte der_Mandant des_Anwalts, $ die_wartete?' }
+{$RACE_ARG_GRAM, 'item': '6-20-34', $COND: 'd', $STIM: 'Wem bot das damals der_Fitnesstrainer $ der_Tänzerin?' }
+{$RACE_ARG_GRAM, 'item': '40-14-26', $COND: 'a', $STIM: 'Was zeigte damals der_Dekorateur $ der_Rentnerin?' }
+{$RACERC_UNGRAM, 'item': '1', $COND: 'fem-none', $STIM: 'Wer traf den_Freund des_Malers, $ die_raucht?' }
+{$RACERC_GRAM, 'item': '3', $COND: 'masc-amb', $STIM: 'Was will der_Ausbilder des_Piloten, $ der_wartet?' }
+{$RACE_ARG_GRAM, 'item': '14-25-39', $COND: 'a', $STIM: 'Was ermöglichte damals der_Investor $ der_Vietnamesin?' }
+{$RACERC_GRAM, 'item': '10', $COND: 'fem-high', $STIM: 'Wer verfluchte die_Redakteurin des_Journalisten, $ die_schrie?' }
+{$RACE_ARG_GRAM, 'item': '1-11-5', $COND: 'b', $STIM: 'Wessen Chef befahl das damals $ der_Bäckerin?' }
+{$RACE_ARG_GRAM, 'item': '2-9-9', $COND: 'c', $STIM: 'Wem berichtete das damals der_Biograf $ der_Diplomatin?' }
+{$RACERC_UNGRAM, 'item': '14', $COND: 'masc-none', $STIM: 'Wer vermisste die_Gärtnerin der_Reporterin, $ der_döste?' }
+{$RACERC_GRAM, 'item': '2', $COND: 'masc-high', $STIM: 'Wie heißt der_Chef der_Angestellten, $ der_stiehlt?' }
+{$RACERC_UNGRAM, 'item': '32', $COND: 'fem-none', $STIM: 'Wo wohnt der_Vermieter des_Unternehmers, $ die_klagte?' }
+{$RACE_ARG_GRAM, 'item': '31-27-22', $COND: 'e', $STIM: 'Wem verheimlichte das deshalb der_Kritiker $ der_Politikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '22-5-2', $COND: 'f', $STIM: 'Was reservierte das damals $ der_Anwältin?' }
+{$RACERC_GRAM, 'item': '16', $COND: 'masc-high', $STIM: 'Wer war der_Vorgesetzte der_Postbotin, $ der_pfiff?' }
+{$RACE_ARG_UNGRAM, 'item': '34-35-31', $COND: 'i', $STIM: 'Wessen Steuerberater verschwieg das deshalb $ der_Sportlerin?' }
+{$RACERC_UNGRAM, 'item': '28', $COND: 'fem-none', $STIM: 'Wovon überzeugte man den_Bekannten des_Elektrikers, $ die_tobte?' }
+{$RACE_ARG_GRAM, 'item': '39-26-13', $COND: 'd', $STIM: 'Wem wünschte das deshalb der_Koch $ der_Inderin?' }
+{$RACERC_GRAM, 'item': '32', $COND: 'fem-low', $STIM: 'Wo wohnt der_Vermieter der_Unternehmerin, $ die_klagte?' }
+{$RACE_ARG_GRAM, 'item': '18-37-12', $COND: 'e', $STIM: 'Wem gestattete das deshalb der_Tanzlehrer $ der_Französin?' }
+{$RACERC_GRAM, 'item': '11', $COND: 'masc-low', $STIM: 'Wer kennt die_Kollegin des_Erziehers, $ der_streikt?' }
+---          
+Pause 6 von 16          
+---          
+{$RACE_ARG_UNGRAM, 'item': '39-26-13', $COND: 'i', $STIM: 'Wessen Koch wünschte das deshalb $ der_Inderin?' }
+{$RACERC_UNGRAM, 'item': '4', $COND: 'fem-none', $STIM: 'Was sagte der_Arzt des_Cellisten, $ die_anrief?' }
+{$RACE_ARG_GRAM, 'item': '39-26-13', $COND: 'b', $STIM: 'Wessen Koch wünschte das deshalb $ der_Inderin?' }
+{$RACE_ARG_GRAM, 'item': '17-12-28', $COND: 'e', $STIM: 'Wem garantierte das deshalb der_Dealer $ der_Schlosserin?' }
+{$RACERC_UNGRAM, 'item': '21', $COND: 'masc-none', $STIM: 'Was fragte die_Schülerin der_Fluglehrerin, $ der_schmunzelt?' }
+{$RACE_ARG_UNGRAM, 'item': '1-11-5', $COND: 'j', $STIM: 'Wem befahl das der_Chef damals $ des_Bäckers?' }
+{$RACERC_GRAM, 'item': '7', $COND: 'fem-amb', $STIM: 'Wo arbeitet die_Visagistin der_Pianistin, $ die_trällerte?' }
+{$RACERC_GRAM, 'item': '19', $COND: 'masc-amb', $STIM: 'Wen lobte der_Tutor des_Studenten, $ der_nervte?' }
+{$RACE_ARG_GRAM, 'item': '36-24-35', $COND: 'd', $STIM: 'Wem versprach das deshalb der_Hausmeister $ der_Unternehmerin?' }
+{$RACERC_UNGRAM, 'item': '26', $COND: 'fem-none', $STIM: 'Wem bestritt der_Genosse des_Gewerkschafters, $ die_redet?' }
+{$RACE_ARG_UNGRAM, 'item': '9-32-8', $COND: 'i', $STIM: 'Wessen Professor empfahl das damals $ der_Dichterin?' }
+{$RACERC_GRAM, 'item': '29', $COND: 'fem-amb', $STIM: 'Wohin rannte die_Kollegin der_Polizistin, $ die_schoss?' }
+{$RACE_ARG_GRAM, 'item': '38-39-18', $COND: 'e', $STIM: 'Wem verzieh das deshalb der_Vorgesetzte $ der_Lehrerin?' }
+{$RACERC_UNGRAM, 'item': '14', $COND: 'fem-none', $STIM: 'Wer vermisste der_Gärtner des_Reporters, $ die_döste?' }
+{$RACERC_UNGRAM, 'item': '19', $COND: 'fem-none', $STIM: 'Wen lobte der_Tutor des_Studenten, $ die_nervte?' }
+{$RACE_ARG_GRAM, 'item': '37-22-6', $COND: 'e', $STIM: 'Wem verweigerte das deshalb der_Gehilfe $ der_Chefin?' }
+{$RACE_ARG_UNGRAM, 'item': '10-10-19', $COND: 'f', $STIM: 'Was entwendete das deshalb $ der_Milliardärin?' }
+{$RACERC_GRAM, 'item': '12', $COND: 'masc-amb', $STIM: 'Wer beobachtete den_Auszubildenen des_Buchbinders, $ der_arbeitete?' }
+{$RACERC_GRAM, 'item': '31', $COND: 'fem-low', $STIM: 'Was war mit dem_Vorgesetzten der_Beamtin, $ die_schlief?' }
+{$RACE_ARG_GRAM, 'item': '34-35-31', $COND: 'd', $STIM: 'Wem verschwieg das deshalb der_Steuerberater $ der_Sportlerin?' }
+{$RACE_ARG_GRAM, 'item': '22-5-2', $COND: 'b', $STIM: 'Wessen Assistent reservierte das damals $ der_Anwältin?' }
+{$RACERC_UNGRAM, 'item': '11', $COND: 'masc-none', $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ der_streikt?' }
+{$RACE_ARG_UNGRAM, 'item': '8-1-14', $COND: 'g', $STIM: 'Wessen Angestellte demonstrierte das deshalb $ der_Angestellter dem_Informatiker?' }
+{$RACERC_UNGRAM, 'item': '23', $COND: 'masc-none', $STIM: 'Wen belog die_Nachbarin der_Dachdeckerin, $ der_lachte?' }
+{$RACERC_GRAM, 'item': '14', $COND: 'fem-low', $STIM: 'Wer vermisste den_Gärtner der_Reporterin, $ die_döste?' }
+{$RACE_ARG_UNGRAM, 'item': '3-8-24', $COND: 'j', $STIM: 'Wem beschrieb das der_Besucher damals $ des_Psychologen?' }
+{$RACERC_UNGRAM, 'item': '24', $COND: 'masc-none', $STIM: 'Wo wartet die_Sekretärin der_Ministerin, $ der_stottert?' }
+{$RACE_ARG_GRAM, 'item': '29-40-36', $COND: 'c', $STIM: 'Wem verbot das deshalb der_Yogalehrer $ der_Verkäuferin?' }
+{$RACERC_GRAM, 'item': '5', $COND: 'masc-amb', $STIM: 'Wann kam der_Friseur des_Kochs, $ der_kicherte?' }
+{$RACERC_GRAM, 'item': '12', $COND: 'fem-amb', $STIM: 'Wer beobachtete die_Auszubildene der_Buchbinderin, $ die_schreit?' }
+{$RACERC_GRAM, 'item': '4', $COND: 'fem-low', $STIM: 'Was sagte der_Arzt der_Cellistin, $ die_anrief?' }
+{$RACE_ARG_UNGRAM, 'item': '34-35-31', $COND: 'g', $STIM: 'Wessen Steuerberater verschwieg das deshalb $ der_Steuerberater dem_Sportler?' }
+{$RACERC_GRAM, 'item': '17', $COND: 'fem-high', $STIM: 'Was wollte die_Mandantin des_Anwalts, $ die_wartete?' }
+{$RACERC_GRAM, 'item': '27', $COND: 'fem-high', $STIM: 'Was dachte die_Managerin des_Sängers, $ die_schwieg?' }
+{$RACE_ARG_GRAM, 'item': '12-38-40', $COND: 'b', $STIM: 'Wessen Vermieter erlaubte das deshalb $ der_Ärztin?' }
+{$RACE_ARG_GRAM, 'item': '19-18-33', $COND: 'e', $STIM: 'Wem lieferte das deshalb der_Fahrer $ der_Sängerin?' }
+{$RACERC_UNGRAM, 'item': '25', $COND: 'fem-none', $STIM: 'Wieviel verdient der_Bühnenbildner des_Intendanten, $ die_lächelte?' }
+{$RACE_ARG_GRAM, 'item': '18-37-12', $COND: 'b', $STIM: 'Wessen Tanzlehrer gestattete das deshalb $ der_Französin?' }
+{$RACERC_GRAM, 'item': '15', $COND: 'masc-low', $STIM: 'Was bestritt die_Stabschefin des_Präsidenten, $ der_log?' }
+{$RACERC_UNGRAM, 'item': '14', $COND: 'fem-none', $STIM: 'Wer vermisste der_Gärtner des_Reporters, $ die_döste?' }
+{$RACE_ARG_UNGRAM, 'item': '33-21-29', $COND: 'h', $STIM: 'Wem verriet deshalb der_Friseur $ der_Sekretärin?' }
+{$RACERC_GRAM, 'item': '17', $COND: 'fem-low', $STIM: 'Was wollte der_Mandant der_Anwältin, $ die_wartete?' }
+{$RACERC_UNGRAM, 'item': '10', $COND: 'fem-none', $STIM: 'Wer verfluchte den_Redakteur des_Journalisten, $ die_schrie?' }
+{$RACE_ARG_UNGRAM, 'item': '19-18-33', $COND: 'j', $STIM: 'Wem lieferte das der_Fahrer deshalb $ des_Sängers?' }
+{$RACE_ARG_GRAM, 'item': '21-6-11', $COND: 'b', $STIM: 'Wessen Azubi reparierte das damals $ der_Fotografin?' }
+{$RACERC_UNGRAM, 'item': '19', $COND: 'fem-none', $STIM: 'Wen lobte der_Tutor des_Studenten, $ die_nervte?' }
+{$RACE_ARG_GRAM, 'item': '35-34-4', $COND: 'c', $STIM: 'Wem versicherte das deshalb der_Schüler $ der_Biologin?' }
+{$RACERC_GRAM, 'item': '4', $COND: 'masc-low', $STIM: 'Was sagte die_Ärztin des_Cellisten, $ der_anrief?' }
+{$RACE_ARG_GRAM, 'item': '20-17-32', $COND: 'd', $STIM: 'Wem präsentierte das damals der_Dozent $ der_Studentin?' }
+---          
+Pause 7 von 16          
+---          
+{$RACERC_GRAM, 'item': '23', $COND: 'fem-amb', $STIM: 'Wen belog die_Nachbarin der_Dachdeckerin, $ die_lachte?' }
+{$RACERC_UNGRAM, 'item': '26', $COND: 'fem-none', $STIM: 'Wem bestritt der_Genosse des_Gewerkschafters, $ die_redet?' }
+{$RACERC_GRAM, 'item': '28', $COND: 'fem-low', $STIM: 'Wovon überzeugte man den_Bekannten der_Elektrikerin, $ die_tobte?' }
+{$RACE_ARG_GRAM, 'item': '39-26-13', $COND: 'c', $STIM: 'Wem wünschte das deshalb der_Koch $ der_Inderin?' }
+{$RACERC_UNGRAM, 'item': '15', $COND: 'masc-none', $STIM: 'Was bestritt die_Stabschefin der_Präsidentin, $ der_log?' }
+{$RACE_ARG_UNGRAM, 'item': '9-32-8', $COND: 'f', $STIM: 'Was empfahl das damals $ der_Dichterin?' }
+{$RACERC_GRAM, 'item': '25', $COND: 'fem-amb', $STIM: 'Wieviel verdient die_Bühnenbildnerin der_Intendantin, $ die_lächelte?' }
+{$RACERC_UNGRAM, 'item': '6', $COND: 'fem-none', $STIM: 'Wer grüßte den_Trainer des_Tänzers, $ die_übte?' }
+{$RACERC_UNGRAM, 'item': '19', $COND: 'masc-none', $STIM: 'Wen lobte die_Tutorin der_Studentin, $ der_nervte?' }
+{$RACE_ARG_GRAM, 'item': '39-26-13', $COND: 'a', $STIM: 'Was wünschte deshalb der_Koch $ der_Inderin?' }
+{$RACE_ARG_GRAM, 'item': '40-14-26', $COND: 'd', $STIM: 'Wem zeigte das damals der_Dekorateur $ der_Rentnerin?' }
+{$RACERC_UNGRAM, 'item': '17', $COND: 'masc-none', $STIM: 'Was wollte die_Mandantin der_Anwältin, $ der_wartete?' }
+{$RACE_ARG_GRAM, 'item': '23-13-7', $COND: 'd', $STIM: 'Wem riet das deshalb der_Dekan $ der_Chemikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '38-39-18', $COND: 'i', $STIM: 'Wessen Vorgesetzter verzieh das deshalb $ der_Lehrerin?' }
+{$RACERC_GRAM, 'item': '31', $COND: 'masc-amb', $STIM: 'Was war mit dem_Vorgesetzten des_Beamten, $ der_schlief?' }
+{$RACERC_UNGRAM, 'item': '11', $COND: 'masc-none', $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ der_streikt?' }
+{$RACE_ARG_GRAM, 'item': '29-40-36', $COND: 'b', $STIM: 'Wessen Yogalehrer verbot das deshalb $ der_Verkäuferin?' }
+{$RACERC_GRAM, 'item': '29', $COND: 'masc-amb', $STIM: 'Wohin rannte der_Kollege des_Polizisten, $ der_schoss?' }
+{$RACE_ARG_GRAM, 'item': '7-19-27', $COND: 'b', $STIM: 'Wessen Fan brachte das deshalb $ der_Schauspielerin?' }
+{$RACE_ARG_UNGRAM, 'item': '21-6-11', $COND: 'g', $STIM: 'Wessen Azubi reparierte das damals $ der_Azubi dem_Fotografen?' }
+{$RACERC_UNGRAM, 'item': '4', $COND: 'masc-none', $STIM: 'Was sagte die_Ärztin der_Cellistin, $ der_anrief?' }
+{$RACE_ARG_GRAM, 'item': '11-30-3', $COND: 'b', $STIM: 'Wessen Pastor erklärte das damals $ der_Archäologin?' }
+{$RACERC_GRAM, 'item': '24', $COND: 'masc-low', $STIM: 'Wo wartet die_Sekretärin des_Ministers, $ der_stottert?' }
+{$RACE_ARG_UNGRAM, 'item': '22-5-2', $COND: 'h', $STIM: 'Wem reservierte damals der_Assistent $ der_Anwältin?' }
+{$RACE_ARG_GRAM, 'item': '29-40-36', $COND: 'a', $STIM: 'Was verbot deshalb der_Yogalehrer $ der_Verkäuferin?' }
+{$RACE_ARG_UNGRAM, 'item': '11-30-3', $COND: 'g', $STIM: 'Wessen Pastor erklärte das damals $ der_Pastor dem_Archäologen?' }
+{$RACERC_GRAM, 'item': '22', $COND: 'fem-amb', $STIM: 'Was verlangte die_Agentin der_Schauspielerin, $ die_weinte?' }
+{$RACE_ARG_UNGRAM, 'item': '3-8-24', $COND: 'h', $STIM: 'Wem beschrieb damals der_Besucher $ der_Psychologin?' }
+{$RACERC_UNGRAM, 'item': '27', $COND: 'masc-none', $STIM: 'Was dachte die_Managerin der_Sängerin, $ der_schwieg?' }
+{$RACE_ARG_GRAM, 'item': '33-21-29', $COND: 'b', $STIM: 'Wessen Friseur verriet das deshalb $ der_Sekretärin?' }
+{$RACE_ARG_UNGRAM, 'item': '29-40-36', $COND: 'h', $STIM: 'Wem verbot deshalb der_Yogalehrer $ der_Verkäuferin?' }
+{$RACERC_GRAM, 'item': '13', $COND: 'masc-low', $STIM: 'Was befürchtete die_Lieferant des_Bäckers, $ der_anrief?' }
+{$RACE_ARG_GRAM, 'item': '28-36-30', $COND: 'a', $STIM: 'Was stahl damals der_Student $ der_Soziologin?' }
+{$RACERC_UNGRAM, 'item': '29', $COND: 'masc-none', $STIM: 'Wohin rannte die_Kollegin der_Polizistin, $ der_schoss?' }
+{$RACERC_GRAM, 'item': '32', $COND: 'masc-high', $STIM: 'Wo wohnt der_Vermieter der_Unternehmerin, $ der_klagte?' }
+{$RACERC_UNGRAM, 'item': '20', $COND: 'masc-none', $STIM: 'Was entdeckte die_Vorarbeiterin der_Bauarbeiterin, $ der_brüllte?' }
+{$RACE_ARG_GRAM, 'item': '34-35-31', $COND: 'e', $STIM: 'Wem verschwieg das deshalb der_Steuerberater $ der_Sportlerin?' }
+{$RACERC_UNGRAM, 'item': '24', $COND: 'fem-none', $STIM: 'Wo wartet der_Sekretär des_Ministers, $ die_stottert?' }
+{$RACERC_GRAM, 'item': '23', $COND: 'masc-low', $STIM: 'Wen belog die_Nachbarin des_Dachdeckers, $ der_lachte?' }
+{$RACE_ARG_UNGRAM, 'item': '32-3-38', $COND: 'i', $STIM: 'Wessen Apotheker verkaufte das damals $ der_Verrückten?' }
+{$RACE_ARG_UNGRAM, 'item': '16-4-1', $COND: 'h', $STIM: 'Wem finanzierte deshalb der_Arzt $ der_Alkoholikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '30-33-25', $COND: 'g', $STIM: 'Wessen Psychologe verdeutlichte das damals $ der_Psychologe dem_Raucher?' }
+{$RACE_ARG_GRAM, 'item': '4-31-20', $COND: 'b', $STIM: 'Wessen Praktikant bestellte das deshalb $ der_Neurologin?' }
+{$RACERC_UNGRAM, 'item': '30', $COND: 'fem-none', $STIM: 'Wo saß der_Kunde des_Floristen, $ die_telefonierte?' }
+{$RACE_ARG_UNGRAM, 'item': '25-28-23', $COND: 'h', $STIM: 'Wem schickte damals der_Makler $ der_Professorin?' }
+{$RACE_ARG_GRAM, 'item': '16-4-1', $COND: 'b', $STIM: 'Wessen Arzt finanzierte das deshalb $ der_Alkoholikerin?' }
+{$RACERC_GRAM, 'item': '21', $COND: 'fem-amb', $STIM: 'Was fragte die_Schülerin der_Fluglehrerin, $ die_schmunzelt?' }
+{$RACE_ARG_GRAM, 'item': '8-1-14', $COND: 'e', $STIM: 'Wem demonstrierte das deshalb der_Angestellter $ der_Informatikerin?' }
+{$RACERC_UNGRAM, 'item': '23', $COND: 'fem-none', $STIM: 'Wen belog der_Nachbar des_Dachdeckers, $ die_lachte?' }
+---          
+Pause 8 von 16          
+---          
+{$RACE_ARG_GRAM, 'item': '6-20-34', $COND: 'a', $STIM: 'Was bot damals der_Fitnesstrainer $ der_Tänzerin?' }
+{$RACE_ARG_UNGRAM, 'item': '27-7-17', $COND: 'h', $STIM: 'Wem spendierte deshalb der_Bekannte $ der_Kellnerin?' }
+{$RACE_ARG_UNGRAM, 'item': '36-24-35', $COND: 'g', $STIM: 'Wessen Hausmeister versprach das deshalb $ der_Hausmeister dem_Unternehmer?' }
+{$RACERC_UNGRAM, 'item': '32', $COND: 'fem-none', $STIM: 'Wo wohnt der_Vermieter des_Unternehmers, $ die_klagte?' }
+{$RACERC_GRAM, 'item': '28', $COND: 'masc-high', $STIM: 'Wovon überzeugte man den_Bekannten der_Elektrikerin, $ der_tobte?' }
+{$RACE_ARG_GRAM, 'item': '26-15-21', $COND: 'd', $STIM: 'Wem skizzierte das damals der_Doktorand $ der_Polin?' }
+{$RACERC_GRAM, 'item': '29', $COND: 'masc-low', $STIM: 'Wohin rannte die_Kollegin des_Polizisten, $ der_schoss?' }
+{$RACERC_GRAM, 'item': '1', $COND: 'fem-high', $STIM: 'Wer traf die_Freundin des_Malers, $ die_raucht?' }
+{$RACE_ARG_GRAM, 'item': '5-2-15', $COND: 'e', $STIM: 'Wem bewies das damals der_Anwalt $ der_Journalistin?' }
+{$RACERC_GRAM, 'item': '5', $COND: 'masc-low', $STIM: 'Wann kam die_Friseurin des_Kochs, $ der_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '10-10-19', $COND: 'd', $STIM: 'Wem entwendete das deshalb der_Bodyguard $ der_Milliardärin?' }
+{$RACERC_UNGRAM, 'item': '9', $COND: 'fem-none', $STIM: 'Was las dem_Verleger des_Autors, $ die_trank?' }
+{$RACE_ARG_GRAM, 'item': '12-38-40', $COND: 'd', $STIM: 'Wem erlaubte das deshalb der_Vermieter $ der_Ärztin?' }
+{$RACE_ARG_GRAM, 'item': '36-24-35', $COND: 'e', $STIM: 'Wem versprach das deshalb der_Hausmeister $ der_Unternehmerin?' }
+{$RACE_ARG_GRAM, 'item': '1-11-5', $COND: 'e', $STIM: 'Wem befahl das damals der_Chef $ der_Bäckerin?' }
+{$RACERC_GRAM, 'item': '10', $COND: 'masc-high', $STIM: 'Wer verfluchte den_Redakteur der_Journalistin, $ der_schrie?' }
+{$RACERC_GRAM, 'item': '26', $COND: 'fem-amb', $STIM: 'Wem bestritt die_Genossin der_Gewerkschafterin, $ die_redet?' }
+{$RACE_ARG_UNGRAM, 'item': '25-28-23', $COND: 'g', $STIM: 'Wessen Makler schickte das damals $ der_Makler dem_Professor?' }
+{$RACE_ARG_GRAM, 'item': '4-31-20', $COND: 'a', $STIM: 'Was bestellte deshalb der_Praktikant $ der_Neurologin?' }
+{$RACERC_UNGRAM, 'item': '8', $COND: 'masc-none', $STIM: 'Wem ähnelt die_Masseurin der_Sportlerin, $ der_joggte?' }
+{$RACERC_GRAM, 'item': '21', $COND: 'fem-low', $STIM: 'Was fragte der_Schüler der_Fluglehrerin, $ die_schmunzelt?' }
+{$RACE_ARG_GRAM, 'item': '16-4-1', $COND: 'a', $STIM: 'Was finanzierte deshalb der_Arzt $ der_Alkoholikerin?' }
+{$RACERC_GRAM, 'item': '9', $COND: 'masc-low', $STIM: 'Was las die_Verlegerin des_Autors, $ der_trank?' }
+{$RACE_ARG_GRAM, 'item': '9-32-8', $COND: 'e', $STIM: 'Wem empfahl das damals der_Professor $ der_Dichterin?' }
+{$RACE_ARG_GRAM, 'item': '30-33-25', $COND: 'b', $STIM: 'Wessen Psychologe verdeutlichte das damals $ der_Raucherin?' }
+{$RACERC_UNGRAM, 'item': '23', $COND: 'masc-none', $STIM: 'Wen belog die_Nachbarin der_Dachdeckerin, $ der_lachte?' }
+{$RACE_ARG_GRAM, 'item': '31-27-22', $COND: 'd', $STIM: 'Wem verheimlichte das deshalb der_Kritiker $ der_Politikerin?' }
+{$RACERC_UNGRAM, 'item': '1', $COND: 'masc-none', $STIM: 'Wer traf die_Freundin der_Malerin, $ der_raucht?' }
+{$RACE_ARG_UNGRAM, 'item': '35-34-4', $COND: 'f', $STIM: 'Was versicherte das deshalb $ der_Biologin?' }
+{$RACERC_UNGRAM, 'item': '18', $COND: 'fem-none', $STIM: 'Was nascht der_Doktorand des_Professors, $ die_liest?' }
+{$RACE_ARG_GRAM, 'item': '35-34-4', $COND: 'd', $STIM: 'Wem versicherte das deshalb der_Schüler $ der_Biologin?' }
+{$RACERC_GRAM, 'item': '32', $COND: 'fem-amb', $STIM: 'Wo wohnt die_Vermieterin der_Unternehmerin, $ die_klagte?' }
+{$RACE_ARG_UNGRAM, 'item': '26-15-21', $COND: 'f', $STIM: 'Was skizzierte das damals $ der_Polin?' }
+{$RACE_ARG_GRAM, 'item': '27-7-17', $COND: 'c', $STIM: 'Wem spendierte das deshalb der_Bekannte $ der_Kellnerin?' }
+{$RACERC_UNGRAM, 'item': '4', $COND: 'masc-none', $STIM: 'Was sagte die_Ärztin der_Cellistin, $ der_anrief?' }
+{$RACERC_GRAM, 'item': '29', $COND: 'masc-high', $STIM: 'Wohin rannte der_Kollege der_Polizistin, $ der_schoss?' }
+{$RACE_ARG_UNGRAM, 'item': '33-21-29', $COND: 'g', $STIM: 'Wessen Friseur verriet das deshalb $ der_Friseur dem_Sekretär?' }
+{$RACE_ARG_GRAM, 'item': '25-28-23', $COND: 'e', $STIM: 'Wem schickte das damals der_Makler $ der_Professorin?' }
+{$RACERC_UNGRAM, 'item': '13', $COND: 'fem-none', $STIM: 'Was befürchtete der_Lieferant des_Bäckers, $ die_anrief?' }
+{$RACE_ARG_UNGRAM, 'item': '14-25-39', $COND: 'f', $STIM: 'Was ermöglichte das damals $ der_Vietnamesin?' }
+{$RACE_ARG_UNGRAM, 'item': '25-28-23', $COND: 'f', $STIM: 'Was schickte das damals $ der_Professorin?' }
+{$RACERC_UNGRAM, 'item': '17', $COND: 'fem-none', $STIM: 'Was wollte der_Mandant des_Anwalts, $ die_wartete?' }
+{$RACE_ARG_GRAM, 'item': '4-31-20', $COND: 'e', $STIM: 'Wem bestellte das deshalb der_Praktikant $ der_Neurologin?' }
+{$RACERC_GRAM, 'item': '23', $COND: 'masc-high', $STIM: 'Wen belog der_Nachbar der_Dachdeckerin, $ der_lachte?' }
+{$RACE_ARG_UNGRAM, 'item': '22-5-2', $COND: 'i', $STIM: 'Wessen Assistent reservierte das damals $ der_Anwältin?' }
+{$RACERC_UNGRAM, 'item': '32', $COND: 'fem-none', $STIM: 'Wo wohnt der_Vermieter des_Unternehmers, $ die_klagte?' }
+{$RACERC_UNGRAM, 'item': '22', $COND: 'masc-none', $STIM: 'Was verlangte die_Agentin der_Schauspielerin, $ der_weinte?' }
+{$RACE_ARG_UNGRAM, 'item': '39-26-13', $COND: 'f', $STIM: 'Was wünschte das deshalb $ der_Inderin?' }
+{$RACE_ARG_GRAM, 'item': '12-38-40', $COND: 'a', $STIM: 'Was erlaubte deshalb der_Vermieter $ der_Ärztin?' }
+---          
+Pause 9 von 16          
+---          
+{$RACERC_GRAM, 'item': '25', $COND: 'masc-high', $STIM: 'Wieviel verdient der_Bühnenbildner der_Intendantin, $ der_lächelte?' }
+{$RACERC_UNGRAM, 'item': '31', $COND: 'fem-none', $STIM: 'Was war mit dem_Vorgesetzten des_Beamten, $ die_schlief?' }
+{$RACE_ARG_UNGRAM, 'item': '36-24-35', $COND: 'f', $STIM: 'Was versprach das deshalb $ der_Unternehmerin?' }
+{$RACE_ARG_UNGRAM, 'item': '26-15-21', $COND: 'h', $STIM: 'Wem skizzierte damals der_Doktorand $ der_Polin?' }
+{$RACERC_UNGRAM, 'item': '16', $COND: 'fem-none', $STIM: 'Wer war der_Vorgesetzte des_Postboten, $ die_pfiff?' }
+{$RACERC_GRAM, 'item': '24', $COND: 'fem-amb', $STIM: 'Wo wartet die_Sekretärin der_Ministerin, $ die_stottert?' }
+{$RACE_ARG_UNGRAM, 'item': '29-40-36', $COND: 'i', $STIM: 'Wessen Yogalehrer verbot das deshalb $ der_Verkäuferin?' }
+{$RACERC_UNGRAM, 'item': '27', $COND: 'masc-none', $STIM: 'Was dachte die_Managerin der_Sängerin, $ der_schwieg?' }
+{$RACE_ARG_UNGRAM, 'item': '32-3-38', $COND: 'h', $STIM: 'Wem verkaufte damals der_Apotheker $ der_Verrückten?' }
+{$RACERC_UNGRAM, 'item': '12', $COND: 'masc-none', $STIM: 'Wer beobachtete die_Auszubildene der_Buchbinderin, $ der_schreit?' }
+{$RACE_ARG_UNGRAM, 'item': '37-22-6', $COND: 'f', $STIM: 'Was verweigerte das deshalb $ der_Chefin?' }
+{$RACERC_UNGRAM, 'item': '22', $COND: 'fem-none', $STIM: 'Was verlangte der_Agent des_Schauspielers, $ die_weinte?' }
+{$RACE_ARG_UNGRAM, 'item': '22-5-2', $COND: 'g', $STIM: 'Wessen Assistent reservierte das damals $ der_Assistent dem_Anwalt?' }
+{$RACERC_UNGRAM, 'item': '15', $COND: 'fem-none', $STIM: 'Was bestritt der_Stabschef des_Präsidenten, $ die_log?' }
+{$RACE_ARG_GRAM, 'item': '27-7-17', $COND: 'd', $STIM: 'Wem spendierte das deshalb der_Bekannte $ der_Kellnerin?' }
+{$RACE_ARG_GRAM, 'item': '31-27-22', $COND: 'c', $STIM: 'Wem verheimlichte das deshalb der_Kritiker $ der_Politikerin?' }
+{$RACERC_GRAM, 'item': '23', $COND: 'fem-low', $STIM: 'Wen belog der_Nachbar der_Dachdeckerin, $ die_lachte?' }
+{$RACERC_UNGRAM, 'item': '32', $COND: 'masc-none', $STIM: 'Wo wohnt die_Vermieterin der_Unternehmerin, $ der_klagte?' }
+{$RACERC_GRAM, 'item': '30', $COND: 'masc-amb', $STIM: 'Wo saß der_Kunde des_Floristen, $ der_telefonierte?' }
+{$RACE_ARG_GRAM, 'item': '40-14-26', $COND: 'c', $STIM: 'Wem zeigte das damals der_Dekorateur $ der_Rentnerin?' }
+{$RACE_ARG_UNGRAM, 'item': '8-1-14', $COND: 'j', $STIM: 'Wem demonstrierte das der_Angestellter deshalb $ des_Informatikers?' }
+{$RACERC_GRAM, 'item': '15', $COND: 'fem-amb', $STIM: 'Was bestritt die_Stabschefin der_Präsidentin, $ die_log?' }
+{$RACE_ARG_UNGRAM, 'item': '6-20-34', $COND: 'f', $STIM: 'Was bot das damals $ der_Tänzerin?' }
+{$RACE_ARG_UNGRAM, 'item': '9-32-8', $COND: 'h', $STIM: 'Wem empfahl damals der_Professor $ der_Dichterin?' }
+{$RACERC_UNGRAM, 'item': '9', $COND: 'masc-none', $STIM: 'Was las der_Verlegerin der_Autorin, $ der_trank?' }
+{$RACERC_GRAM, 'item': '22', $COND: 'masc-amb', $STIM: 'Was verlangte der_Agent des_Schauspielers, $ der_weinte?' }
+{$RACERC_GRAM, 'item': '4', $COND: 'masc-high', $STIM: 'Was sagte der_Arzt der_Cellistin, $ der_anrief?' }
+{$RACERC_UNGRAM, 'item': '11', $COND: 'fem-none', $STIM: 'Wer kennt den_Kollegen des_Erziehers, $ die_streikt?' }
+{$RACE_ARG_UNGRAM, 'item': '18-37-12', $COND: 'h', $STIM: 'Wem gestattete deshalb der_Tanzlehrer $ der_Französin?' }
+{$RACE_ARG_GRAM, 'item': '7-19-27', $COND: 'd', $STIM: 'Wem brachte das deshalb der_Fan $ der_Schauspielerin?' }
+{$RACERC_UNGRAM, 'item': '32', $COND: 'masc-none', $STIM: 'Wo wohnt die_Vermieterin der_Unternehmerin, $ der_klagte?' }
+{$RACERC_GRAM, 'item': '19', $COND: 'fem-low', $STIM: 'Wen lobte der_Tutor der_Studentin, $ die_nervte?' }
+{$RACERC_GRAM, 'item': '2', $COND: 'masc-low', $STIM: 'Wie heißt die_Chefin des_Angestellten, $ der_stiehlt?' }
+{$RACERC_GRAM, 'item': '7', $COND: 'masc-low', $STIM: 'Wo arbeitet die_Visagistin des_Pianisten, $ der_trällerte?' }
+{$RACERC_GRAM, 'item': '13', $COND: 'masc-amb', $STIM: 'Was befürchtete der_Lieferant des_Bäckers, $ der_anrief?' }
+{$RACE_ARG_UNGRAM, 'item': '18-37-12', $COND: 'j', $STIM: 'Wem gestattete das der_Tanzlehrer deshalb $ des_Franzosen?' }
+{$RACE_ARG_UNGRAM, 'item': '14-25-39', $COND: 'h', $STIM: 'Wem ermöglichte damals der_Investor $ der_Vietnamesin?' }
+{$RACERC_GRAM, 'item': '4', $COND: 'fem-high', $STIM: 'Was sagte die_Ärztin des_Cellisten, $ die_anrief?' }
+{$RACE_ARG_GRAM, 'item': '24-16-16', $COND: 'e', $STIM: 'Wem sagte das damals der_Dolmetscher $ der_Kanzlerin?' }
+{$RACERC_UNGRAM, 'item': '15', $COND: 'masc-none', $STIM: 'Was bestritt die_Stabschefin der_Präsidentin, $ der_log?' }
+{$RACERC_UNGRAM, 'item': '26', $COND: 'fem-none', $STIM: 'Wem bestritt der_Genosse des_Gewerkschafters, $ die_redet?' }
+{$RACE_ARG_GRAM, 'item': '10-10-19', $COND: 'c', $STIM: 'Wem entwendete das deshalb der_Bodyguard $ der_Milliardärin?' }
+{$RACE_ARG_UNGRAM, 'item': '8-1-14', $COND: 'f', $STIM: 'Was demonstrierte das deshalb $ der_Informatikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '7-19-27', $COND: 'f', $STIM: 'Was brachte das deshalb $ der_Schauspielerin?' }
+{$RACERC_GRAM, 'item': '11', $COND: 'fem-low', $STIM: 'Wer kennt den_Kollegen der_Erzieherin, $ die_streikt?' }
+{$RACE_ARG_GRAM, 'item': '27-7-17', $COND: 'b', $STIM: 'Wessen Bekannter spendierte das deshalb $ der_Kellnerin?' }
+{$RACE_ARG_UNGRAM, 'item': '6-20-34', $COND: 'h', $STIM: 'Wem bot damals der_Fitnesstrainer $ der_Tänzerin?' }
+{$RACERC_UNGRAM, 'item': '24', $COND: 'masc-none', $STIM: 'Wo wartet die_Sekretärin der_Ministerin, $ der_stottert?' }
+{$RACE_ARG_UNGRAM, 'item': '4-31-20', $COND: 'j', $STIM: 'Wem bestellte das der_Praktikant deshalb $ des_Neurologen?' }
+---          
+Pause 10 von 16          
+---          
+{$RACE_ARG_UNGRAM, 'item': '1-11-5', $COND: 'i', $STIM: 'Wessen Chef befahl das damals $ der_Bäckerin?' }
+{$RACERC_UNGRAM, 'item': '12', $COND: 'fem-none', $STIM: 'Wer beobachtete den_Auszubildenen des_Buchbinders, $ die_schreit?' }
+{$RACE_ARG_UNGRAM, 'item': '34-35-31', $COND: 'h', $STIM: 'Wem verschwieg deshalb der_Steuerberater $ der_Sportlerin?' }
+{$RACERC_GRAM, 'item': '20', $COND: 'masc-amb', $STIM: 'Was entdeckte der_Vorarbeiter des_Bauarbeiters, $ der_brüllte?' }
+{$RACERC_GRAM, 'item': '28', $COND: 'masc-low', $STIM: 'Wovon überzeugte man die_Bekannte des_Elektrikers, $ der_tobte?' }
+{$RACE_ARG_UNGRAM, 'item': '2-9-9', $COND: 'i', $STIM: 'Wessen Biograf berichtete das damals $ der_Diplomatin?' }
+{$RACE_ARG_GRAM, 'item': '3-8-24', $COND: 'e', $STIM: 'Wem beschrieb das damals der_Besucher $ der_Psychologin?' }
+{$RACERC_UNGRAM, 'item': '30', $COND: 'masc-none', $STIM: 'Wo saß die_Kundin der_Floristin, $ der_telefonierte?' }
+{$RACE_ARG_UNGRAM, 'item': '11-30-3', $COND: 'j', $STIM: 'Wem erklärte das der_Pastor damals $ des_Archäologen?' }
+{$RACE_ARG_GRAM, 'item': '35-34-4', $COND: 'a', $STIM: 'Was versicherte deshalb der_Schüler $ der_Biologin?' }
+{$RACERC_UNGRAM, 'item': '8', $COND: 'fem-none', $STIM: 'Wem ähnelt der_Masseur des_Sportlers, $ die_joggte?' }
+{$RACE_ARG_UNGRAM, 'item': '22-5-2', $COND: 'j', $STIM: 'Wem reservierte das der_Assistent damals $ des_Anwälts?' }
+{$RACE_ARG_GRAM, 'item': '21-6-11', $COND: 'c', $STIM: 'Wem reparierte das damals der_Azubi $ der_Fotografin?' }
+{$RACERC_UNGRAM, 'item': '27', $COND: 'fem-none', $STIM: 'Was dachte der_Manager des_Sängers, $ die_schwieg?' }
+{$RACERC_UNGRAM, 'item': '26', $COND: 'masc-none', $STIM: 'Wem bestritt die_Genossin der_Gewerkschafterin, $ der_redet?' }
+{$RACE_ARG_UNGRAM, 'item': '38-39-18', $COND: 'g', $STIM: 'Wessen Vorgesetzter verzieh das deshalb $ der_Vorgesetzte dem_Lehrer?' }
+{$RACE_ARG_GRAM, 'item': '13-23-10', $COND: 'a', $STIM: 'Was erläuterte damals der_Guru $ der_Esoterikerin?' }
+{$RACERC_GRAM, 'item': '1', $COND: 'fem-low', $STIM: 'Wer traf den_Freund der_Malerin, $ der_raucht?' }
+{$RACERC_GRAM, 'item': '21', $COND: 'masc-low', $STIM: 'Was fragte die_Schülerin des_Fluglehrers, $ der_schmunzelt?' }
+{$RACERC_UNGRAM, 'item': '31', $COND: 'masc-none', $STIM: 'Was war mit der_Vorgesetzten der_Beamtin, $ der_schlief?' }
+{$RACE_ARG_UNGRAM, 'item': '13-23-10', $COND: 'i', $STIM: 'Wessen Guru erläuterte das damals $ der_Esoterikerin?' }
+{$RACE_ARG_GRAM, 'item': '30-33-25', $COND: 'e', $STIM: 'Wem verdeutlichte das damals der_Psychologe $ der_Raucherin?' }
+{$RACERC_UNGRAM, 'item': '6', $COND: 'masc-none', $STIM: 'Wer grüßte die_Trainerin der_Tänzerin, $ der_übte?' }
+{$RACE_ARG_GRAM, 'item': '38-39-18', $COND: 'd', $STIM: 'Wem verzieh das deshalb der_Vorgesetzte $ der_Lehrerin?' }
+{$RACE_ARG_GRAM, 'item': '4-31-20', $COND: 'd', $STIM: 'Wem bestellte das deshalb der_Praktikant $ der_Neurologin?' }
+{$RACERC_GRAM, 'item': '22', $COND: 'fem-low', $STIM: 'Was verlangte der_Agent der_Schauspielerin, $ die_weinte?' }
+{$RACE_ARG_GRAM, 'item': '32-3-38', $COND: 'b', $STIM: 'Wessen Apotheker verkaufte das damals $ der_Verrückten?' }
+{$RACERC_GRAM, 'item': '32', $COND: 'fem-high', $STIM: 'Wo wohnt die_Vermieterin des_Unternehmers, $ die_klagte?' }
+{$RACE_ARG_UNGRAM, 'item': '40-14-26', $COND: 'i', $STIM: 'Wessen Dekorateur zeigte das damals $ der_Rentnerin?' }
+{$RACERC_GRAM, 'item': '10', $COND: 'fem-amb', $STIM: 'Wer verfluchte die_Redakteurin der_Journalistin, $ die_schrie?' }
+{$RACE_ARG_UNGRAM, 'item': '21-6-11', $COND: 'j', $STIM: 'Wem reparierte das der_Azubi damals $ des_Fotografen?' }
+{$RACERC_UNGRAM, 'item': '11', $COND: 'masc-none', $STIM: 'Wer kennt die_Kollegin der_Erzieherin, $ der_streikt?' }
+{$RACERC_UNGRAM, 'item': '1', $COND: 'masc-none', $STIM: 'Wer traf die_Freundin der_Malerin, $ der_raucht?' }
+{$RACE_ARG_UNGRAM, 'item': '39-26-13', $COND: 'j', $STIM: 'Wem wünschte das der_Koch deshalb $ des_Inders?' }
+{$RACE_ARG_UNGRAM, 'item': '33-21-29', $COND: 'i', $STIM: 'Wessen Friseur verriet das deshalb $ der_Sekretärin?' }
+{$RACE_ARG_UNGRAM, 'item': '19-18-33', $COND: 'i', $STIM: 'Wessen Fahrer lieferte das deshalb $ der_Sängerin?' }
+{$RACERC_UNGRAM, 'item': '26', $COND: 'masc-none', $STIM: 'Wem bestritt die_Genossin der_Gewerkschafterin, $ der_redet?' }
+{$RACERC_GRAM, 'item': '2', $COND: 'masc-amb', $STIM: 'Wie heißt der_Chef des_Angestellten, $ der_stiehlt?' }
+{$RACE_ARG_UNGRAM, 'item': '25-28-23', $COND: 'i', $STIM: 'Wessen Makler schickte das damals $ der_Professorin?' }
+{$RACERC_GRAM, 'item': '14', $COND: 'fem-high', $STIM: 'Wer vermisste die_Gärtnerin des_Reporters, $ die_döste?' }
+{$RACE_ARG_UNGRAM, 'item': '1-11-5', $COND: 'f', $STIM: 'Was befahl das damals $ der_Bäckerin?' }
+{$RACERC_UNGRAM, 'item': '23', $COND: 'masc-none', $STIM: 'Wen belog die_Nachbarin der_Dachdeckerin, $ der_lachte?' }
+{$RACERC_UNGRAM, 'item': '27', $COND: 'masc-none', $STIM: 'Was dachte die_Managerin der_Sängerin, $ der_schwieg?' }
+{$RACE_ARG_GRAM, 'item': '10-10-19', $COND: 'a', $STIM: 'Was entwendete deshalb der_Bodyguard $ der_Milliardärin?' }
+{$RACERC_GRAM, 'item': '12', $COND: 'masc-low', $STIM: 'Wer beobachtete die_Auszubildene des_Buchbinders, $ der_arbeitete?' }
+{$RACERC_UNGRAM, 'item': '22', $COND: 'masc-none', $STIM: 'Was verlangte die_Agentin der_Schauspielerin, $ der_weinte?' }
+{$RACERC_GRAM, 'item': '7', $COND: 'fem-high', $STIM: 'Wo arbeitet die_Visagistin des_Pianisten, $ die_trällerte?' }
+{$RACERC_GRAM, 'item': '16', $COND: 'fem-amb', $STIM: 'Wer war die_Vorgesetzte der_Postbotin, $ die_pfiff?' }
+{$RACE_ARG_UNGRAM, 'item': '39-26-13', $COND: 'h', $STIM: 'Wem wünschte deshalb der_Koch $ der_Inderin?' }
+---          
+Pause 11 von 16          
+---          
+{$RACE_ARG_GRAM, 'item': '20-17-32', $COND: 'c', $STIM: 'Wem präsentierte das damals der_Dozent $ der_Studentin?' }
+{$RACE_ARG_UNGRAM, 'item': '30-33-25', $COND: 'j', $STIM: 'Wem verdeutlichte das der_Psychologe damals $ des_Rauchers?' }
+{$RACERC_UNGRAM, 'item': '5', $COND: 'fem-none', $STIM: 'Wann kam der_Friseur des_Kochs, $ die_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '34-35-31', $COND: 'b', $STIM: 'Wessen Steuerberater verschwieg das deshalb $ der_Sportlerin?' }
+{$RACE_ARG_GRAM, 'item': '3-8-24', $COND: 'c', $STIM: 'Wem beschrieb das damals der_Besucher $ der_Psychologin?' }
+{$RACE_ARG_GRAM, 'item': '25-28-23', $COND: 'c', $STIM: 'Wem schickte das damals der_Makler $ der_Professorin?' }
+{$RACERC_UNGRAM, 'item': '12', $COND: 'masc-none', $STIM: 'Wer beobachtete die_Auszubildene der_Buchbinderin, $ der_schreit?' }
+{$RACE_ARG_GRAM, 'item': '14-25-39', $COND: 'b', $STIM: 'Wessen Investor ermöglichte das damals $ der_Vietnamesin?' }
+{$RACE_ARG_UNGRAM, 'item': '16-4-1', $COND: 'i', $STIM: 'Wessen Arzt finanzierte das deshalb $ der_Alkoholikerin?' }
+{$RACERC_UNGRAM, 'item': '10', $COND: 'masc-none', $STIM: 'Wer verfluchte die_Redakteurin der_Journalistin, $ der_schrie?' }
+{$RACERC_GRAM, 'item': '19', $COND: 'masc-high', $STIM: 'Wen lobte der_Tutor der_Studentin, $ der_nervte?' }
+{$RACE_ARG_GRAM, 'item': '15-29-37', $COND: 'd', $STIM: 'Wem erzählte das damals der_Nachbar $ der_Vermieterin?' }
+{$RACERC_UNGRAM, 'item': '29', $COND: 'masc-none', $STIM: 'Wohin rannte die_Kollegin der_Polizistin, $ der_schoss?' }
+{$RACE_ARG_UNGRAM, 'item': '11-30-3', $COND: 'f', $STIM: 'Was erklärte das damals $ der_Archäologin?' }
+{$RACERC_GRAM, 'item': '3', $COND: 'fem-low', $STIM: 'Was will der_Ausbilder der_Pilotin, $ die_wartet?' }
+{$RACE_ARG_UNGRAM, 'item': '13-23-10', $COND: 'h', $STIM: 'Wem erläuterte damals der_Guru $ der_Esoterikerin?' }
+{$RACERC_UNGRAM, 'item': '28', $COND: 'masc-none', $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ der_tobte?' }
+{$RACERC_UNGRAM, 'item': '5', $COND: 'masc-none', $STIM: 'Wann kam die_Friseurin der_Köchin, $ der_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '7-19-27', $COND: 'e', $STIM: 'Wem brachte das deshalb der_Fan $ der_Schauspielerin?' }
+{$RACERC_GRAM, 'item': '6', $COND: 'masc-high', $STIM: 'Wer grüßte den_Trainer der_Tänzerin, $ der_übte?' }
+{$RACE_ARG_UNGRAM, 'item': '6-20-34', $COND: 'g', $STIM: 'Wessen Fitnesstrainer bot das damals $ der_Fitnesstrainer dem_Tänzer?' }
+{$RACE_ARG_UNGRAM, 'item': '35-34-4', $COND: 'j', $STIM: 'Wem versicherte das der_Schüler deshalb $ des_Biologen?' }
+{$RACERC_UNGRAM, 'item': '17', $COND: 'masc-none', $STIM: 'Was wollte die_Mandantin der_Anwältin, $ der_wartete?' }
+{$RACE_ARG_UNGRAM, 'item': '31-27-22', $COND: 'h', $STIM: 'Wem verheimlichte deshalb der_Kritiker $ der_Politikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '29-40-36', $COND: 'f', $STIM: 'Was verbot das deshalb $ der_Verkäuferin?' }
+{$RACERC_GRAM, 'item': '20', $COND: 'fem-high', $STIM: 'Was entdeckte die_Vorarbeiterin des_Bauarbeiters, $ die_brüllte?' }
+{$RACE_ARG_UNGRAM, 'item': '40-14-26', $COND: 'h', $STIM: 'Wem zeigte damals der_Dekorateur $ der_Rentnerin?' }
+{$RACE_ARG_UNGRAM, 'item': '10-10-19', $COND: 'i', $STIM: 'Wessen Bodyguard entwendete das deshalb $ der_Milliardärin?' }
+{$RACERC_UNGRAM, 'item': '1', $COND: 'fem-none', $STIM: 'Wer traf den_Freund des_Malers, $ die_raucht?' }
+{$RACE_ARG_GRAM, 'item': '10-10-19', $COND: 'e', $STIM: 'Wem entwendete das deshalb der_Bodyguard $ der_Milliardärin?' }
+{$RACE_ARG_GRAM, 'item': '26-15-21', $COND: 'e', $STIM: 'Wem skizzierte das damals der_Doktorand $ der_Polin?' }
+{$RACERC_GRAM, 'item': '21', $COND: 'masc-high', $STIM: 'Was fragte der_Schüler der_Fluglehrerin, $ der_schmunzelt?' }
+{$RACERC_GRAM, 'item': '23', $COND: 'masc-amb', $STIM: 'Wen belog der_Nachbar des_Dachdeckers, $ der_lachte?' }
+{$RACE_ARG_UNGRAM, 'item': '37-22-6', $COND: 'g', $STIM: 'Wessen Gehilfe verweigerte das deshalb $ der_Gehilfe dem_Chef?' }
+{$RACERC_UNGRAM, 'item': '22', $COND: 'fem-none', $STIM: 'Was verlangte der_Agent des_Schauspielers, $ die_weinte?' }
+{$RACE_ARG_UNGRAM, 'item': '23-13-7', $COND: 'j', $STIM: 'Wem riet das der_Dekan deshalb $ des_Chemikers?' }
+{$RACERC_UNGRAM, 'item': '13', $COND: 'masc-none', $STIM: 'Was befürchtete die_Lieferant der_Bäckerin, $ der_anrief?' }
+{$RACE_ARG_GRAM, 'item': '24-16-16', $COND: 'a', $STIM: 'Was sagte damals der_Dolmetscher $ der_Kanzlerin?' }
+{$RACE_ARG_GRAM, 'item': '16-4-1', $COND: 'd', $STIM: 'Wem finanzierte das deshalb der_Arzt $ der_Alkoholikerin?' }
+{$RACERC_UNGRAM, 'item': '31', $COND: 'fem-none', $STIM: 'Was war mit dem_Vorgesetzten des_Beamten, $ die_schlief?' }
+{$RACE_ARG_UNGRAM, 'item': '17-12-28', $COND: 'j', $STIM: 'Wem garantierte das der_Dealer deshalb $ des_Schlossers?' }
+{$RACERC_GRAM, 'item': '16', $COND: 'masc-low', $STIM: 'Wer war die_Vorgesetzte des_Postboten, $ der_pfiff?' }
+{$RACERC_UNGRAM, 'item': '4', $COND: 'fem-none', $STIM: 'Was sagte der_Arzt des_Cellisten, $ die_anrief?' }
+{$RACE_ARG_UNGRAM, 'item': '8-1-14', $COND: 'i', $STIM: 'Wessen Angestellte demonstrierte das deshalb $ der_Informatikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '31-27-22', $COND: 'j', $STIM: 'Wem verheimlichte das der_Kritiker deshalb $ des_Politikers?' }
+{$RACERC_UNGRAM, 'item': '2', $COND: 'fem-none', $STIM: 'Wie heißt der_Chef des_Angestellten, $ die_stiehlt?' }
+{$RACE_ARG_UNGRAM, 'item': '12-38-40', $COND: 'f', $STIM: 'Was erlaubte das deshalb $ der_Ärztin?' }
+{$RACE_ARG_GRAM, 'item': '1-11-5', $COND: 'a', $STIM: 'Was befahl damals der_Chef $ der_Bäckerin?' }
+{$RACERC_UNGRAM, 'item': '6', $COND: 'masc-none', $STIM: 'Wer grüßte die_Trainerin der_Tänzerin, $ der_übte?' }
+---          
+Pause 12 von 16          
+---          
+{$RACE_ARG_GRAM, 'item': '36-24-35', $COND: 'c', $STIM: 'Wem versprach das deshalb der_Hausmeister $ der_Unternehmerin?' }
+{$RACERC_GRAM, 'item': '22', $COND: 'fem-high', $STIM: 'Was verlangte die_Agentin des_Schauspielers, $ die_weinte?' }
+{$RACE_ARG_GRAM, 'item': '31-27-22', $COND: 'a', $STIM: 'Was verheimlichte deshalb der_Kritiker $ der_Politikerin?' }
+{$RACERC_GRAM, 'item': '17', $COND: 'masc-high', $STIM: 'Was wollte der_Mandant der_Anwältin, $ der_wartete?' }
+{$RACERC_GRAM, 'item': '26', $COND: 'masc-low', $STIM: 'Wem bestritt die_Genossin des_Gewerkschafters, $ der_redet?' }
+{$RACE_ARG_UNGRAM, 'item': '24-16-16', $COND: 'j', $STIM: 'Wem sagte das der_Dolmetscher damals $ des_Kanzlers?' }
+{$RACERC_UNGRAM, 'item': '13', $COND: 'fem-none', $STIM: 'Was befürchtete der_Lieferant des_Bäckers, $ die_anrief?' }
+{$RACERC_GRAM, 'item': '18', $COND: 'fem-high', $STIM: 'Was nascht die_Doktorandin des_Professors, $ die_liest?' }
+{$RACE_ARG_GRAM, 'item': '3-8-24', $COND: 'b', $STIM: 'Wessen Besucher beschrieb das damals $ der_Psychologin?' }
+{$RACE_ARG_UNGRAM, 'item': '28-36-30', $COND: 'h', $STIM: 'Wem stahl damals der_Student $ der_Soziologin?' }
+{$RACERC_UNGRAM, 'item': '31', $COND: 'masc-none', $STIM: 'Was war mit der_Vorgesetzten der_Beamtin, $ der_schlief?' }
+{$RACE_ARG_GRAM, 'item': '23-13-7', $COND: 'e', $STIM: 'Wem riet das deshalb der_Dekan $ der_Chemikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '4-31-20', $COND: 'f', $STIM: 'Was bestellte das deshalb $ der_Neurologin?' }
+{$RACERC_UNGRAM, 'item': '25', $COND: 'fem-none', $STIM: 'Wieviel verdient der_Bühnenbildner des_Intendanten, $ die_lächelte?' }
+{$RACE_ARG_UNGRAM, 'item': '18-37-12', $COND: 'f', $STIM: 'Was gestattete das deshalb $ der_Französin?' }
+{$RACERC_GRAM, 'item': '8', $COND: 'fem-high', $STIM: 'Wem ähnelt die_Masseurin des_Sportlers, $ die_joggte?' }
+{$RACERC_GRAM, 'item': '24', $COND: 'fem-low', $STIM: 'Wo wartet der_Sekretär der_Ministerin, $ die_stottert?' }
+{$RACERC_UNGRAM, 'item': '21', $COND: 'masc-none', $STIM: 'Was fragte die_Schülerin der_Fluglehrerin, $ der_schmunzelt?' }
+{$RACE_ARG_UNGRAM, 'item': '12-38-40', $COND: 'g', $STIM: 'Wessen Vermieter erlaubte das deshalb $ der_Vermieter dem_Arzt?' }
+{$RACERC_GRAM, 'item': '19', $COND: 'fem-amb', $STIM: 'Wen lobte die_Tutorin der_Studentin, $ die_nervte?' }
+{$RACE_ARG_GRAM, 'item': '24-16-16', $COND: 'b', $STIM: 'Wessen Dolmetscher sagte das damals $ der_Kanzlerin?' }
+{$RACE_ARG_GRAM, 'item': '35-34-4', $COND: 'b', $STIM: 'Wessen Schüler versicherte das deshalb $ der_Biologin?' }
+{$RACERC_UNGRAM, 'item': '30', $COND: 'fem-none', $STIM: 'Wo saß der_Kunde des_Floristen, $ die_telefonierte?' }
+{$RACE_ARG_UNGRAM, 'item': '13-23-10', $COND: 'f', $STIM: 'Was erläuterte das damals $ der_Esoterikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '19-18-33', $COND: 'h', $STIM: 'Wem lieferte deshalb der_Fahrer $ der_Sängerin?' }
+{$RACERC_UNGRAM, 'item': '8', $COND: 'fem-none', $STIM: 'Wem ähnelt der_Masseur des_Sportlers, $ die_joggte?' }
+{$RACE_ARG_UNGRAM, 'item': '36-24-35', $COND: 'j', $STIM: 'Wem versprach das der_Hausmeister deshalb $ des_Unternehmers?' }
+{$RACE_ARG_UNGRAM, 'item': '37-22-6', $COND: 'j', $STIM: 'Wem verweigerte das der_Gehilfe deshalb $ des_Chefs?' }
+{$RACERC_GRAM, 'item': '24', $COND: 'masc-high', $STIM: 'Wo wartet der_Sekretär der_Ministerin, $ der_stottert?' }
+{$RACE_ARG_GRAM, 'item': '37-22-6', $COND: 'a', $STIM: 'Was verweigerte deshalb der_Gehilfe $ der_Chefin?' }
+{$RACERC_GRAM, 'item': '14', $COND: 'fem-amb', $STIM: 'Wer vermisste die_Gärtnerin der_Reporterin, $ die_döste?' }
+{$RACERC_UNGRAM, 'item': '11', $COND: 'fem-none', $STIM: 'Wer kennt den_Kollegen des_Erziehers, $ die_streikt?' }
+{$RACE_ARG_GRAM, 'item': '32-3-38', $COND: 'c', $STIM: 'Wem verkaufte das damals der_Apotheker $ der_Verrückten?' }
+{$RACE_ARG_UNGRAM, 'item': '9-32-8', $COND: 'g', $STIM: 'Wessen Professor empfahl das damals $ der_Professor dem_Dichter?' }
+{$RACERC_UNGRAM, 'item': '10', $COND: 'masc-none', $STIM: 'Wer verfluchte die_Redakteurin der_Journalistin, $ der_schrie?' }
+{$RACERC_GRAM, 'item': '6', $COND: 'masc-low', $STIM: 'Wer grüßte die_Trainerin des_Tänzers, $ der_übte?' }
+{$RACE_ARG_UNGRAM, 'item': '1-11-5', $COND: 'g', $STIM: 'Wessen Chef befahl das damals $ der_Chef dem_Bäcker?' }
+{$RACERC_GRAM, 'item': '11', $COND: 'masc-high', $STIM: 'Wer kennt den_Kollegen der_Erzieherin, $ der_streikt?' }
+{$RACERC_UNGRAM, 'item': '29', $COND: 'fem-none', $STIM: 'Wohin rannte der_Kollege des_Polizisten, $ die_schoss?' }
+{$RACERC_GRAM, 'item': '18', $COND: 'fem-amb', $STIM: 'Was nascht die_Doktorandin der_Professorin, $ die_liest?' }
+{$RACERC_UNGRAM, 'item': '32', $COND: 'masc-none', $STIM: 'Wo wohnt die_Vermieterin der_Unternehmerin, $ der_klagte?' }
+{$RACE_ARG_UNGRAM, 'item': '20-17-32', $COND: 'f', $STIM: 'Was präsentierte das damals $ der_Studentin?' }
+{$RACE_ARG_GRAM, 'item': '13-23-10', $COND: 'd', $STIM: 'Wem erläuterte das damals der_Guru $ der_Esoterikerin?' }
+{$RACERC_GRAM, 'item': '31', $COND: 'fem-amb', $STIM: 'Was war mit  der_Vorgesetzten der_Beamtin, $ die_schlief?' }
+{$RACERC_GRAM, 'item': '6', $COND: 'masc-amb', $STIM: 'Wer grüßte den_Trainer des_Tänzers, $ der_übte?' }
+{$RACE_ARG_UNGRAM, 'item': '10-10-19', $COND: 'j', $STIM: 'Wem entwendete das der_Bodyguard deshalb $ des_Milliardärs?' }
+{$RACE_ARG_GRAM, 'item': '21-6-11', $COND: 'd', $STIM: 'Wem reparierte das damals der_Azubi $ der_Fotografin?' }
+{$RACE_ARG_UNGRAM, 'item': '2-9-9', $COND: 'h', $STIM: 'Wem berichtete damals der_Biograf $ der_Diplomatin?' }
+{$RACERC_GRAM, 'item': '2', $COND: 'fem-high', $STIM: 'Wie heißt die_Chefin des_Angestellten, $ die_stiehlt?' }
+---          
+Pause 13 von 16          
+---          
+{$RACE_ARG_UNGRAM, 'item': '38-39-18', $COND: 'h', $STIM: 'Wem verzieh deshalb der_Vorgesetzte $ der_Lehrerin?' }
+{$RACE_ARG_UNGRAM, 'item': '20-17-32', $COND: 'i', $STIM: 'Wessen Dozent präsentierte das damals $ der_Studentin?' }
+{$RACE_ARG_GRAM, 'item': '34-35-31', $COND: 'c', $STIM: 'Wem verschwieg das deshalb der_Steuerberater $ der_Sportlerin?' }
+{$RACERC_UNGRAM, 'item': '19', $COND: 'masc-none', $STIM: 'Wen lobte die_Tutorin der_Studentin, $ der_nervte?' }
+{$RACERC_UNGRAM, 'item': '3', $COND: 'fem-none', $STIM: 'Was will der_Ausbilder des_Piloten, $ die_wartet?' }
+{$RACE_ARG_GRAM, 'item': '23-13-7', $COND: 'c', $STIM: 'Wem riet das deshalb der_Dekan $ der_Chemikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '13-23-10', $COND: 'j', $STIM: 'Wem erläuterte das der_Guru damals $ des_Esoterikers?' }
+{$RACERC_GRAM, 'item': '32', $COND: 'masc-amb', $STIM: 'Wo wohnt der_Vermieter des_Unternehmers, $ der_klagte?' }
+{$RACE_ARG_UNGRAM, 'item': '21-6-11', $COND: 'h', $STIM: 'Wem reparierte damals der_Azubi $ der_Fotografin?' }
+{$RACE_ARG_GRAM, 'item': '28-36-30', $COND: 'b', $STIM: 'Wessen Student stahl das damals $ der_Soziologin?' }
+{$RACERC_UNGRAM, 'item': '30', $COND: 'masc-none', $STIM: 'Wo saß die_Kundin der_Floristin, $ der_telefonierte?' }
+{$RACERC_GRAM, 'item': '20', $COND: 'fem-low', $STIM: 'Was entdeckte der_Vorarbeiter der_Bauarbeiterin, $ die_brüllte?' }
+{$RACE_ARG_UNGRAM, 'item': '34-35-31', $COND: 'j', $STIM: 'Wem verschwieg das der_Steuerberater deshalb $ des_Sportlers?' }
+{$RACE_ARG_UNGRAM, 'item': '19-18-33', $COND: 'f', $STIM: 'Was lieferte das deshalb $ der_Sängerin?' }
+{$RACERC_UNGRAM, 'item': '2', $COND: 'masc-none', $STIM: 'Wie heißt die_Chefin der_Angestellten, $ der_stiehlt?' }
+{$RACE_ARG_GRAM, 'item': '5-2-15', $COND: 'b', $STIM: 'Wessen Anwalt bewies das damals $ der_Journalistin?' }
+{$RACERC_UNGRAM, 'item': '12', $COND: 'fem-none', $STIM: 'Wer beobachtete den_Auszubildenen des_Buchbinders, $ die_schreit?' }
+{$RACE_ARG_UNGRAM, 'item': '7-19-27', $COND: 'j', $STIM: 'Wem brachte das der_Fan deshalb $ des_Schauspielers?' }
+{$RACERC_UNGRAM, 'item': '14', $COND: 'masc-none', $STIM: 'Wer vermisste die_Gärtnerin der_Reporterin, $ der_döste?' }
+{$RACERC_GRAM, 'item': '28', $COND: 'fem-high', $STIM: 'Wovon überzeugte man die_Bekannte des_Elektrikers, $ die_tobte?' }
+{$RACE_ARG_GRAM, 'item': '6-20-34', $COND: 'c', $STIM: 'Wem bot das damals der_Fitnesstrainer $ der_Tänzerin?' }
+{$RACERC_UNGRAM, 'item': '7', $COND: 'fem-none', $STIM: 'Wo arbeitet der_Visagist des_Pianisten, $ die_trällerte?' }
+{$RACE_ARG_UNGRAM, 'item': '23-13-7', $COND: 'h', $STIM: 'Wem riet deshalb der_Dekan $ der_Chemikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '20-17-32', $COND: 'j', $STIM: 'Wem präsentierte das der_Dozent damals $ des_Studenten?' }
+{$RACERC_GRAM, 'item': '15', $COND: 'masc-amb', $STIM: 'Was bestritt der_Stabschef des_Präsidenten, $ der_log?' }
+{$RACE_ARG_UNGRAM, 'item': '34-35-31', $COND: 'f', $STIM: 'Was verschwieg das deshalb $ der_Sportlerin?' }
+{$RACERC_GRAM, 'item': '16', $COND: 'fem-low', $STIM: 'Wer war der_Vorgesetzte der_Postbotin, $ die_pfiff?' }
+{$RACERC_UNGRAM, 'item': '25', $COND: 'masc-none', $STIM: 'Wieviel verdient die_Bühnenbildnerin der_Intendantin, $ der_lächelte?' }
+{$RACE_ARG_GRAM, 'item': '22-5-2', $COND: 'a', $STIM: 'Was reservierte damals der_Assistent $ der_Anwältin?' }
+{$RACE_ARG_GRAM, 'item': '8-1-14', $COND: 'c', $STIM: 'Wem demonstrierte das deshalb der_Angestellter $ der_Informatikerin?' }
+{$RACERC_GRAM, 'item': '15', $COND: 'fem-high', $STIM: 'Was bestritt die_Stabschefin des_Präsidenten, $ die_log?' }
+{$RACERC_GRAM, 'item': '30', $COND: 'fem-low', $STIM: 'Wo saß der_Kunde der_Floristin, $ die_telefonierte?' }
+{$RACERC_UNGRAM, 'item': '18', $COND: 'fem-none', $STIM: 'Was nascht der_Doktorand des_Professors, $ die_liest?' }
+{$RACE_ARG_UNGRAM, 'item': '13-23-10', $COND: 'g', $STIM: 'Wessen Guru erläuterte das damals $ der_Guru dem_Esoteriker?' }
+{$RACE_ARG_GRAM, 'item': '13-23-10', $COND: 'c', $STIM: 'Wem erläuterte das damals der_Guru $ der_Esoterikerin?' }
+{$RACERC_UNGRAM, 'item': '5', $COND: 'fem-none', $STIM: 'Wann kam der_Friseur des_Kochs, $ die_kicherte?' }
+{$RACE_ARG_GRAM, 'item': '5-2-15', $COND: 'c', $STIM: 'Wem bewies das damals der_Anwalt $ der_Journalistin?' }
+{$RACERC_GRAM, 'item': '30', $COND: 'masc-high', $STIM: 'Wo saß der_Kunde der_Floristin, $ der_telefonierte?' }
+{$RACE_ARG_GRAM, 'item': '36-24-35', $COND: 'b', $STIM: 'Wessen Hausmeister versprach das deshalb $ der_Unternehmerin?' }
+{$RACERC_UNGRAM, 'item': '28', $COND: 'fem-none', $STIM: 'Wovon überzeugte man den_Bekannten des_Elektrikers, $ die_tobte?' }
+{$RACERC_UNGRAM, 'item': '12', $COND: 'masc-none', $STIM: 'Wer beobachtete die_Auszubildene der_Buchbinderin, $ der_schreit?' }
+{$RACE_ARG_UNGRAM, 'item': '33-21-29', $COND: 'j', $STIM: 'Wem verriet das der_Friseur deshalb $ des_Sekretärs?' }
+{$RACE_ARG_GRAM, 'item': '14-25-39', $COND: 'e', $STIM: 'Wem ermöglichte das damals der_Investor $ der_Vietnamesin?' }
+{$RACERC_GRAM, 'item': '30', $COND: 'fem-high', $STIM: 'Wo saß die_Kundin des_Floristen, $ die_telefonierte?' }
+{$RACERC_UNGRAM, 'item': '29', $COND: 'masc-none', $STIM: 'Wohin rannte die_Kollegin der_Polizistin, $ der_schoss?' }
+{$RACE_ARG_GRAM, 'item': '23-13-7', $COND: 'b', $STIM: 'Wessen Dekan riet das deshalb $ der_Chemikerin?' }
+{$RACERC_UNGRAM, 'item': '19', $COND: 'masc-none', $STIM: 'Wen lobte die_Tutorin der_Studentin, $ der_nervte?' }
+{$RACE_ARG_GRAM, 'item': '7-19-27', $COND: 'c', $STIM: 'Wem brachte das deshalb der_Fan $ der_Schauspielerin?' }
+{$RACE_ARG_UNGRAM, 'item': '32-3-38', $COND: 'j', $STIM: 'Wem verkaufte das der_Apotheker damals $ des_Verrückten?' }
+---          
+Pause 14 von 16          
+---          
+{$RACERC_GRAM, 'item': '5', $COND: 'fem-high', $STIM: 'Wann kam die_Friseurin des_Kochs, $ die_kicherte?' }
+{$RACERC_UNGRAM, 'item': '3', $COND: 'masc-none', $STIM: 'Was will die_Ausbilderin der_Pilotin, $ der_wartet?' }
+{$RACE_ARG_UNGRAM, 'item': '36-24-35', $COND: 'h', $STIM: 'Wem versprach deshalb der_Hausmeister $ der_Unternehmerin?' }
+{$RACE_ARG_UNGRAM, 'item': '28-36-30', $COND: 'f', $STIM: 'Was stahl das damals $ der_Soziologin?' }
+{$RACERC_UNGRAM, 'item': '28', $COND: 'masc-none', $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ der_tobte?' }
+{$RACE_ARG_UNGRAM, 'item': '14-25-39', $COND: 'i', $STIM: 'Wessen Investor ermöglichte das damals $ der_Vietnamesin?' }
+{$RACERC_GRAM, 'item': '13', $COND: 'fem-high', $STIM: 'Was befürchtete die_Lieferant des_Bäckers, $ die_anrief?' }
+{$RACERC_GRAM, 'item': '31', $COND: 'fem-high', $STIM: 'Was war mit  der_Vorgesetzten des_Beamten, $ die_schlief?' }
+{$RACERC_GRAM, 'item': '25', $COND: 'masc-amb', $STIM: 'Wieviel verdient der_Bühnenbildner des_Intendanten, $ der_lächelte?' }
+{$RACERC_GRAM, 'item': '29', $COND: 'fem-low', $STIM: 'Wohin rannte der_Kollege der_Polizistin, $ die_schoss?' }
+{$RACE_ARG_UNGRAM, 'item': '20-17-32', $COND: 'h', $STIM: 'Wem präsentierte damals der_Dozent $ der_Studentin?' }
+{$RACERC_UNGRAM, 'item': '7', $COND: 'masc-none', $STIM: 'Wo arbeitet die_Visagistin der_Pianistin, $ der_trällerte?' }
+{$RACE_ARG_GRAM, 'item': '30-33-25', $COND: 'a', $STIM: 'Was verdeutlichte damals der_Psychologe $ der_Raucherin?' }
+{$RACERC_UNGRAM, 'item': '16', $COND: 'masc-none', $STIM: 'Wer war die_Vorgesetzte der_Postbotin, $ der_pfiff?' }
+{$RACE_ARG_GRAM, 'item': '29-40-36', $COND: 'e', $STIM: 'Wem verbot das deshalb der_Yogalehrer $ der_Verkäuferin?' }
+{$RACERC_GRAM, 'item': '20', $COND: 'fem-amb', $STIM: 'Was entdeckte die_Vorarbeiterin der_Bauarbeiterin, $ die_brüllte?' }
+{$RACE_ARG_UNGRAM, 'item': '5-2-15', $COND: 'g', $STIM: 'Wessen Anwalt bewies das damals $ der_Anwalt dem_Journalisten?' }
+{$RACE_ARG_GRAM, 'item': '15-29-37', $COND: 'e', $STIM: 'Wem erzählte das damals der_Nachbar $ der_Vermieterin?' }
+{$RACE_ARG_UNGRAM, 'item': '25-28-23', $COND: 'j', $STIM: 'Wem schickte das der_Makler damals $ des_Professors?' }
+{$RACE_ARG_UNGRAM, 'item': '12-38-40', $COND: 'j', $STIM: 'Wem erlaubte das der_Vermieter deshalb $ des_Arztes?' }
+{$RACERC_GRAM, 'item': '6', $COND: 'fem-high', $STIM: 'Wer grüßte die_Trainerin des_Tänzers, $ die_übte?' }
+{$RACE_ARG_GRAM, 'item': '21-6-11', $COND: 'e', $STIM: 'Wem reparierte das damals der_Azubi $ der_Fotografin?' }
+{$RACE_ARG_UNGRAM, 'item': '32-3-38', $COND: 'f', $STIM: 'Was verkaufte das damals $ der_Verrückten?' }
+{$RACERC_UNGRAM, 'item': '16', $COND: 'masc-none', $STIM: 'Wer war die_Vorgesetzte der_Postbotin, $ der_pfiff?' }
+{$RACERC_UNGRAM, 'item': '23', $COND: 'fem-none', $STIM: 'Wen belog der_Nachbar des_Dachdeckers, $ die_lachte?' }
+{$RACERC_GRAM, 'item': '13', $COND: 'masc-high', $STIM: 'Was befürchtete der_Lieferant der_Bäckerin, $ der_anrief?' }
+{$RACERC_UNGRAM, 'item': '14', $COND: 'fem-none', $STIM: 'Wer vermisste der_Gärtner des_Reporters, $ die_döste?' }
+{$RACERC_GRAM, 'item': '27', $COND: 'fem-amb', $STIM: 'Was dachte die_Managerin der_Sängerin, $ die_schwieg?' }
+{$RACE_ARG_GRAM, 'item': '9-32-8', $COND: 'c', $STIM: 'Wem empfahl das damals der_Professor $ der_Dichterin?' }
+{$RACERC_GRAM, 'item': '2', $COND: 'fem-amb', $STIM: 'Wie heißt die_Chefin der_Angestellten, $ die_stiehlt?' }
+{$RACE_ARG_GRAM, 'item': '7-19-27', $COND: 'a', $STIM: 'Was brachte deshalb der_Fan $ der_Schauspielerin?' }
+{$RACERC_UNGRAM, 'item': '29', $COND: 'fem-none', $STIM: 'Wohin rannte der_Kollege des_Polizisten, $ die_schoss?' }
+{$RACERC_UNGRAM, 'item': '25', $COND: 'masc-none', $STIM: 'Wieviel verdient die_Bühnenbildnerin der_Intendantin, $ der_lächelte?' }
+{$RACE_ARG_UNGRAM, 'item': '3-8-24', $COND: 'g', $STIM: 'Wessen Besucher beschrieb das damals $ der_Besucher dem_Psychologen?' }
+{$RACERC_GRAM, 'item': '26', $COND: 'fem-high', $STIM: 'Wem bestritt die_Genossin des_Gewerkschafters, $ die_redet?' }
+{$RACE_ARG_UNGRAM, 'item': '30-33-25', $COND: 'i', $STIM: 'Wessen Psychologe verdeutlichte das damals $ der_Raucherin?' }
+{$RACERC_UNGRAM, 'item': '16', $COND: 'masc-none', $STIM: 'Wer war die_Vorgesetzte der_Postbotin, $ der_pfiff?' }
+{$RACE_ARG_UNGRAM, 'item': '17-12-28', $COND: 'h', $STIM: 'Wem garantierte deshalb der_Dealer $ der_Schlosserin?' }
+{$RACE_ARG_UNGRAM, 'item': '4-31-20', $COND: 'g', $STIM: 'Wessen Praktikant bestellte das deshalb $ der_Praktikant dem_Neurologen?' }
+{$RACE_ARG_UNGRAM, 'item': '40-14-26', $COND: 'f', $STIM: 'Was zeigte das damals $ der_Rentnerin?' }
+{$RACERC_GRAM, 'item': '29', $COND: 'fem-high', $STIM: 'Wohin rannte die_Kollegin des_Polizisten, $ die_schoss?' }
+{$RACERC_GRAM, 'item': '4', $COND: 'fem-amb', $STIM: 'Was sagte die_Ärztin der_Cellistin, $ die_anrief?' }
+{$RACE_ARG_GRAM, 'item': '23-13-7', $COND: 'a', $STIM: 'Was riet deshalb der_Dekan $ der_Chemikerin?' }
+{$RACERC_UNGRAM, 'item': '14', $COND: 'masc-none', $STIM: 'Wer vermisste die_Gärtnerin der_Reporterin, $ der_döste?' }
+{$RACE_ARG_GRAM, 'item': '19-18-33', $COND: 'a', $STIM: 'Was lieferte deshalb der_Fahrer $ der_Sängerin?' }
+{$RACERC_GRAM, 'item': '7', $COND: 'masc-high', $STIM: 'Wo arbeitet der_Visagist der_Pianistin, $ der_trällerte?' }
+{$RACERC_GRAM, 'item': '18', $COND: 'masc-amb', $STIM: 'Was nascht der_Doktorand des_Professors, $ der_liest?' }
+{$RACE_ARG_GRAM, 'item': '33-21-29', $COND: 'c', $STIM: 'Wem verriet das deshalb der_Friseur $ der_Sekretärin?' }
+{$RACERC_GRAM, 'item': '3', $COND: 'fem-high', $STIM: 'Was will die_Ausbilderin des_Piloten, $ die_wartet?' }
+---          
+Pause 15 von 16          
+---          
+{$RACE_ARG_GRAM, 'item': '5-2-15', $COND: 'd', $STIM: 'Wem bewies das damals der_Anwalt $ der_Journalistin?' }
+{$RACERC_UNGRAM, 'item': '19', $COND: 'fem-none', $STIM: 'Wen lobte die_Tutor des_Studenten, $ die_nervte?' }
+{$RACERC_UNGRAM, 'item': '15', $COND: 'fem-none', $STIM: 'Was bestritt der_Stabschef des_Präsidenten, $ die_log?' }
+{$RACE_ARG_UNGRAM, 'item': '3-8-24', $COND: 'i', $STIM: 'Wessen Besucher beschrieb das damals $ der_Psychologin?' }
+{$RACE_ARG_UNGRAM, 'item': '40-14-26', $COND: 'j', $STIM: 'Wem zeigte das der_Dekorateur damals $ des_Rentners?' }
+{$RACERC_UNGRAM, 'item': '3', $COND: 'fem-none', $STIM: 'Was will der_Ausbilder des_Piloten, $ die_wartet?' }
+{$RACE_ARG_GRAM, 'item': '16-4-1', $COND: 'e', $STIM: 'Wem finanzierte das deshalb der_Arzt $ der_Alkoholikerin?' }
+{$RACERC_GRAM, 'item': '1', $COND: 'masc-low', $STIM: 'Wer traf die_Freundin des_Malers, $ der_raucht?' }
+{$RACE_ARG_UNGRAM, 'item': '17-12-28', $COND: 'f', $STIM: 'Was garantierte das deshalb $ der_Schlosserin?' }
+{$RACE_ARG_GRAM, 'item': '13-23-10', $COND: 'e', $STIM: 'Wem erläuterte das damals der_Guru $ der_Esoterikerin?' }
+{$RACE_ARG_GRAM, 'item': '4-31-20', $COND: 'c', $STIM: 'Wem bestellte das deshalb der_Praktikant $ der_Neurologin?' }
+{$RACERC_GRAM, 'item': '6', $COND: 'fem-amb', $STIM: 'Wer grüßte die_Trainerin der_Tänzerin, $ die_übte?' }
+{$RACE_ARG_UNGRAM, 'item': '28-36-30', $COND: 'g', $STIM: 'Wessen Student stahl das damals $ der_Student dem_Soziologen?' }
+{$RACERC_GRAM, 'item': '24', $COND: 'fem-high', $STIM: 'Wo wartet die_Sekretärin des_Ministers, $ die_stottert?' }
+{$RACERC_UNGRAM, 'item': '9', $COND: 'fem-none', $STIM: 'Was las dem_Verleger des_Autors, $ die_trank?' }
+{$RACERC_GRAM, 'item': '5', $COND: 'fem-low', $STIM: 'Wann kam der_Friseur der_Köchin, $ die_kicherte?' }
+{$RACE_ARG_UNGRAM, 'item': '15-29-37', $COND: 'g', $STIM: 'Wessen Nachbar erzählte das damals $ der_Nachbar dem_Vermieter?' }
+{$RACE_ARG_GRAM, 'item': '15-29-37', $COND: 'a', $STIM: 'Was erzählte damals der_Nachbar $ der_Vermieterin?' }
+{$RACERC_UNGRAM, 'item': '17', $COND: 'fem-none', $STIM: 'Was wollte der_Mandant des_Anwalts, $ die_wartete?' }
+{$RACE_ARG_UNGRAM, 'item': '20-17-32', $COND: 'g', $STIM: 'Wessen Dozent präsentierte das damals $ der_Dozent dem_Studenten?' }
+{$RACE_ARG_UNGRAM, 'item': '30-33-25', $COND: 'h', $STIM: 'Wem verdeutlichte damals der_Psychologe $ der_Raucherin?' }
+{$RACERC_GRAM, 'item': '14', $COND: 'masc-amb', $STIM: 'Wer vermisste den_Gärtner des_Reporters, $ der_döste?' }
+{$RACERC_GRAM, 'item': '13', $COND: 'fem-low', $STIM: 'Was befürchtete der_Lieferant der_Bäckerin, $ die_anrief?' }
+{$RACERC_UNGRAM, 'item': '20', $COND: 'masc-none', $STIM: 'Was entdeckte die_Vorarbeiterin der_Bauarbeiterin, $ der_brüllte?' }
+{$RACERC_UNGRAM, 'item': '9', $COND: 'fem-none', $STIM: 'Was las dem_Verleger des_Autors, $ die_trank?' }
+{$RACE_ARG_UNGRAM, 'item': '5-2-15', $COND: 'j', $STIM: 'Wem bewies das der_Anwalt damals $ des_Journalisten?' }
+{$RACERC_GRAM, 'item': '18', $COND: 'fem-low', $STIM: 'Was nascht der_Doktorand der_Professorin, $ die_liest?' }
+{$RACERC_GRAM, 'item': '7', $COND: 'masc-amb', $STIM: 'Wo arbeitet der_Visagist des_Pianisten, $ der_trällerte?' }
+{$RACERC_UNGRAM, 'item': '28', $COND: 'fem-none', $STIM: 'Wovon überzeugte man den_Bekannten des_Elektrikers, $ die_tobte?' }
+{$RACE_ARG_GRAM, 'item': '8-1-14', $COND: 'a', $STIM: 'Was demonstrierte deshalb der_Angestellter $ der_Informatikerin?' }
+{$RACE_ARG_GRAM, 'item': '30-33-25', $COND: 'd', $STIM: 'Wem verdeutlichte das damals der_Psychologe $ der_Raucherin?' }
+{$RACE_ARG_UNGRAM, 'item': '35-34-4', $COND: 'g', $STIM: 'Wessen Schüler versicherte das deshalb $ der_Schüler dem_Biologen?' }
+{$RACERC_UNGRAM, 'item': '20', $COND: 'fem-none', $STIM: 'Was entdeckte der_Vorarbeiter des_Bauarbeiters, $ die_brüllte?' }
+{$RACE_ARG_GRAM, 'item': '22-5-2', $COND: 'c', $STIM: 'Wem reservierte das damals der_Assistent $ der_Anwältin?' }
+{$RACERC_GRAM, 'item': '12', $COND: 'masc-high', $STIM: 'Wer beobachtete den_Auszubildenen der_Buchbinderin, $ der_arbeitete?' }
+{$RACE_ARG_UNGRAM, 'item': '4-31-20', $COND: 'h', $STIM: 'Wem bestellte deshalb der_Praktikant $ der_Neurologin?' }
+{$RACERC_GRAM, 'item': '32', $COND: 'masc-low', $STIM: 'Wo wohnt die_Vermieterin des_Unternehmers, $ der_klagte?' }
+{$RACERC_UNGRAM, 'item': '7', $COND: 'masc-none', $STIM: 'Wo arbeitet die_Visagistin der_Pianistin, $ der_trällerte?' }
+{$RACE_ARG_GRAM, 'item': '24-16-16', $COND: 'd', $STIM: 'Wem sagte das damals der_Dolmetscher $ der_Kanzlerin?' }
+{$RACE_ARG_UNGRAM, 'item': '35-34-4', $COND: 'h', $STIM: 'Wem versicherte deshalb der_Schüler $ der_Biologin?' }
+{$RACERC_UNGRAM, 'item': '21', $COND: 'fem-none', $STIM: 'Was fragte der_Schüler des_Fluglehrers, $ die_schmunzelt?' }
+{$RACE_ARG_GRAM, 'item': '9-32-8', $COND: 'b', $STIM: 'Wessen Professor empfahl das damals $ der_Dichterin?' }
+{$RACE_ARG_UNGRAM, 'item': '18-37-12', $COND: 'g', $STIM: 'Wessen Tanzlehrer gestattete das deshalb $ der_Tanzlehrer dem_Franzosen?' }
+{$RACERC_UNGRAM, 'item': '18', $COND: 'masc-none', $STIM: 'Was nascht die_Doktorandin der_Professorin, $ der_liest?' }
+{$RACE_ARG_GRAM, 'item': '13-23-10', $COND: 'b', $STIM: 'Wessen Guru erläuterte das damals $ der_Esoterikerin?' }
+{$RACERC_GRAM, 'item': '19', $COND: 'masc-low', $STIM: 'Wen lobte die_Tutorin des_Studenten, $ der_nervte?' }
+{$RACERC_UNGRAM, 'item': '29', $COND: 'fem-none', $STIM: 'Wohin rannte der_Kollege des_Polizisten, $ die_schoss?' }
+{$RACERC_GRAM, 'item': '8', $COND: 'fem-low', $STIM: 'Wem ähnelt der_Masseur der_Sportlerin, $ die_joggte?' }
+{$RACE_ARG_UNGRAM, 'item': '17-12-28', $COND: 'i', $STIM: 'Wessen Dealer garantierte das deshalb $ der_Schlosserin?' }
+---          
+Pause 16 von 16          
+---          
+{$RACE_ARG_UNGRAM, 'item': '4-31-20', $COND: 'i', $STIM: 'Wessen Praktikant bestellte das deshalb $ der_Neurologin?' }
+{$RACE_ARG_UNGRAM, 'item': '6-20-34', $COND: 'i', $STIM: 'Wessen Fitnesstrainer bot das damals $ der_Tänzerin?' }
+{$RACERC_GRAM, 'item': '27', $COND: 'masc-amb', $STIM: 'Was dachte der_Manager des_Sängers, $ der_schwieg?' }
+{$RACE_ARG_UNGRAM, 'item': '8-1-14', $COND: 'h', $STIM: 'Wem demonstrierte deshalb der_Angestellter $ der_Informatikerin?' }
+{$RACERC_UNGRAM, 'item': '31', $COND: 'fem-none', $STIM: 'Was war mit dem_Vorgesetzten des_Beamten, $ die_schlief?' }
+{$RACE_ARG_UNGRAM, 'item': '11-30-3', $COND: 'h', $STIM: 'Wem erklärte damals der_Pastor $ der_Archäologin?' }
+{$RACE_ARG_GRAM, 'item': '17-12-28', $COND: 'd', $STIM: 'Wem garantierte das deshalb der_Dealer $ der_Schlosserin?' }
+{$RACE_ARG_GRAM, 'item': '37-22-6', $COND: 'd', $STIM: 'Wem verweigerte das deshalb der_Gehilfe $ der_Chefin?' }
+{$RACE_ARG_GRAM, 'item': '25-28-23', $COND: 'b', $STIM: 'Wessen Makler schickte das damals $ der_Professorin?' }
+{$RACERC_GRAM, 'item': '9', $COND: 'fem-amb', $STIM: 'Was las die_Verlegerin der_Autorin, $ die_trank?' }
+{$RACERC_UNGRAM, 'item': '18', $COND: 'masc-none', $STIM: 'Was nascht die_Doktorandin der_Professorin, $ der_liest?' }
+{$RACE_ARG_UNGRAM, 'item': '37-22-6', $COND: 'h', $STIM: 'Wem verweigerte deshalb der_Gehilfe $ der_Chefin?' }
+{$RACERC_GRAM, 'item': '14', $COND: 'masc-high', $STIM: 'Wer vermisste den_Gärtner der_Reporterin, $ der_döste?' }
+{$RACERC_GRAM, 'item': '20', $COND: 'masc-high', $STIM: 'Was entdeckte der_Vorarbeiter der_Bauarbeiterin, $ der_brüllte?' }
+{$RACE_ARG_UNGRAM, 'item': '27-7-17', $COND: 'f', $STIM: 'Was spendierte das deshalb $ der_Kellnerin?' }
+{$RACE_ARG_UNGRAM, 'item': '15-29-37', $COND: 'j', $STIM: 'Wem erzählte das der_Nachbar damals $ des_Vermieters?' }
+{$RACERC_GRAM, 'item': '19', $COND: 'fem-high', $STIM: 'Wen lobte die_Tutorin des_Studenten, $ die_nervte?' }
+{$RACERC_UNGRAM, 'item': '6', $COND: 'fem-none', $STIM: 'Wer grüßte den_Trainer des_Tänzers, $ die_übte?' }
+{$RACE_ARG_GRAM, 'item': '2-9-9', $COND: 'd', $STIM: 'Wem berichtete das damals der_Biograf $ der_Diplomatin?' }
+{$RACERC_GRAM, 'item': '11', $COND: 'masc-amb', $STIM: 'Wer kennt den_Kollegen des_Erziehers, $ der_streikt?' }
+{$RACERC_UNGRAM, 'item': '7', $COND: 'fem-none', $STIM: 'Wo arbeitet der_Visagist des_Pianisten, $ die_trällerte?' }
+{$RACE_ARG_UNGRAM, 'item': '26-15-21', $COND: 'j', $STIM: 'Wem skizzierte das der_Doktorand damals $ des_Polen?' }
+{$RACERC_UNGRAM, 'item': '2', $COND: 'fem-none', $STIM: 'Wie heißt der_Chef des_Angestellten, $ die_stiehlt?' }
+{$RACE_ARG_GRAM, 'item': '2-9-9', $COND: 'a', $STIM: 'Was berichtete damals der_Biograf $ der_Diplomatin?' }
+{$RACERC_GRAM, 'item': '22', $COND: 'masc-low', $STIM: 'Was verlangte die_Agentin des_Schauspielers, $ der_weinte?' }
+{$RACE_ARG_UNGRAM, 'item': '27-7-17', $COND: 'g', $STIM: 'Wessen Bekannter spendierte das deshalb $ der_Bekannte dem_Kellner?' }
+{$RACERC_GRAM, 'item': '8', $COND: 'masc-high', $STIM: 'Wem ähnelt der_Masseur der_Sportlerin, $ der_joggte?' }
+{$RACERC_UNGRAM, 'item': '1', $COND: 'masc-none', $STIM: 'Wer traf die_Freundin der_Malerin, $ der_raucht?' }
+{$RACERC_GRAM, 'item': '30', $COND: 'fem-amb', $STIM: 'Wo saß die_Kundin der_Floristin, $ die_telefonierte?' }
+{$RACE_ARG_UNGRAM, 'item': '38-39-18', $COND: 'j', $STIM: 'Wem verzieh das der_Vorgesetzte deshalb $ des_Lehrers?' }
+{$RACERC_GRAM, 'item': '12', $COND: 'fem-high', $STIM: 'Wer beobachtete die_Auszubildene des_Buchbinders, $ die_schreit?' }
+{$RACERC_GRAM, 'item': '17', $COND: 'masc-low', $STIM: 'Was wollte die_Mandantin des_Anwalts, $ der_wartete?' }
+{$RACERC_UNGRAM, 'item': '15', $COND: 'masc-none', $STIM: 'Was bestritt die_Stabschefin der_Präsidentin, $ der_log?' }
+{$RACE_ARG_UNGRAM, 'item': '10-10-19', $COND: 'g', $STIM: 'Wessen Bodyguard entwendete das deshalb $ der_Bodyguard dem_Milliardär?' }
+{$RACE_ARG_UNGRAM, 'item': '29-40-36', $COND: 'j', $STIM: 'Wem verbot das der_Yogalehrer deshalb $ des_Verkäufers?' }
+{$RACE_ARG_UNGRAM, 'item': '21-6-11', $COND: 'f', $STIM: 'Was reparierte das damals $ der_Fotografin?' }
+{$RACERC_GRAM, 'item': '25', $COND: 'masc-low', $STIM: 'Wieviel verdient die_Bühnenbildnerin des_Intendanten, $ der_lächelte?' }
+{$RACE_ARG_UNGRAM, 'item': '6-20-34', $COND: 'j', $STIM: 'Wem bot das der_Fitnesstrainer damals $ des_Tänzers?' }
+{$RACERC_UNGRAM, 'item': '2', $COND: 'masc-none', $STIM: 'Wie heißt die_Chefin der_Angestellten, $ der_stiehlt?' }
+{$RACE_ARG_UNGRAM, 'item': '31-27-22', $COND: 'i', $STIM: 'Wessen Kritiker verheimlichte das deshalb $ der_Politikerin?' }
+{$RACE_ARG_UNGRAM, 'item': '5-2-15', $COND: 'h', $STIM: 'Wem bewies damals der_Anwalt $ der_Journalistin?' }
+{$RACERC_UNGRAM, 'item': '8', $COND: 'masc-none', $STIM: 'Wem ähnelt die_Masseurin der_Sportlerin, $ der_joggte?' }
+{$RACERC_GRAM, 'item': '31', $COND: 'masc-high', $STIM: 'Was war mit dem_Vorgesetzten der_Beamtin, $ der_schlief?' }
+{$RACE_ARG_GRAM, 'item': '11-30-3', $COND: 'a', $STIM: 'Was erklärte damals der_Pastor $ der_Archäologin?' }
+{$RACERC_UNGRAM, 'item': '28', $COND: 'masc-none', $STIM: 'Wovon überzeugte man die_Bekannte der_Elektrikerin, $ der_tobte?' }
+{$RACERC_UNGRAM, 'item': '24', $COND: 'fem-none', $STIM: 'Wo wartet der_Sekretär des_Ministers, $ die_stottert?' }
+{$RACE_ARG_UNGRAM, 'item': '23-13-7', $COND: 'g', $STIM: 'Wessen Dekan riet das deshalb $ der_Dekan dem_Chemiker?' }
+{$RACE_ARG_GRAM, 'item': '20-17-32', $COND: 'a', $STIM: 'Was präsentierte damals der_Dozent $ der_Studentin?' }
+{$RACE_ARG_GRAM, 'item': '40-14-26', $COND: 'b', $STIM: 'Wessen Dekorateur zeigte das damals $ der_Rentnerin?' }
