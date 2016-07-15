@@ -134,3 +134,7 @@ SAMPLING FOR MODEL 'rc_exp_mlm_subj_model_code' NOW (CHAIN 4).
 
 Chain 3, Iteration:    1 / 3000 [  0%]  (Warmup)
 Chain 4, Iteration:    1 / 3000 [  0%]  (Warmup)
+Chain 1, Iteration:  300 / 3000 [ 10%]  (Warmup)
+Chain 2, Iteration:  300 / 3000 [ 10%]  (Warmup)
+Chain 3, Iteration:  300 / 3000 [ 10%]  (Warmup)
+Chain 4, Iteration:  300 / 3000 [ 10%]  (Warmup)
