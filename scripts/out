@@ -62,7 +62,7 @@ Loading required package: parallel
 +   fname_model_code <- base_fname_models %>% paste0(., "_model_code.stan")
 +   fname_params <- base_fname_models %>% paste0(., "_params.rda")
 +   
-+   base_fname_samples <- base_fname %>% file.path(models_path, .)
++   base_fname_samples <- base_fname %>% file.path(samples_path, .)
 +   fname_samples <- base_fname_samples %>% paste0(., sprintf("_iter%d.rda", iter))
 + 
 +   (load(fname_params))
@@ -91,44 +91,46 @@ Loading required package: parallel
 > #########################################################################################
 > cat("Running rc_exp_mlm_subj: test\n")
 Running rc_exp_mlm_subj: test
-> estimate(base_fname = "rc_exp_mlm_subj", iter = 10, chains = 1, cores = 1) 
+> estimate(base_fname = "rc_exp_mlm_subj", iter = 30, chains = 1, cores = 1) 
 
-SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 1).
+SAMPLING FOR MODEL 'rc_exp_mlm_subj_model_code' NOW (CHAIN 1).
 WARNING: No variance estimation is
          performed for num_warmup < 20
 
 
-Chain 1, Iteration: 1 / 10 [ 10%]  (Warmup)
-Chain 1, Iteration: 2 / 10 [ 20%]  (Warmup)
-Chain 1, Iteration: 3 / 10 [ 30%]  (Warmup)
-Chain 1, Iteration: 4 / 10 [ 40%]  (Warmup)
-Chain 1, Iteration: 5 / 10 [ 50%]  (Warmup)
-Chain 1, Iteration: 6 / 10 [ 60%]  (Sampling)
-Chain 1, Iteration: 7 / 10 [ 70%]  (Sampling)
-Chain 1, Iteration: 8 / 10 [ 80%]  (Sampling)
-Chain 1, Iteration: 9 / 10 [ 90%]  (Sampling)
-Chain 1, Iteration: 10 / 10 [100%]  (Sampling)
- Elapsed Time: 2.92919 seconds (Warm-up)
-               2.50724 seconds (Sampling)
-               5.43644 seconds (Total)
+Chain 1, Iteration:  1 / 30 [  3%]  (Warmup)
+Chain 1, Iteration:  3 / 30 [ 10%]  (Warmup)
+Chain 1, Iteration:  6 / 30 [ 20%]  (Warmup)
+Chain 1, Iteration:  9 / 30 [ 30%]  (Warmup)
+Chain 1, Iteration: 12 / 30 [ 40%]  (Warmup)
+Chain 1, Iteration: 15 / 30 [ 50%]  (Warmup)
+Chain 1, Iteration: 16 / 30 [ 53%]  (Sampling)
+Chain 1, Iteration: 18 / 30 [ 60%]  (Sampling)
+Chain 1, Iteration: 21 / 30 [ 70%]  (Sampling)
+Chain 1, Iteration: 24 / 30 [ 80%]  (Sampling)
+Chain 1, Iteration: 27 / 30 [ 90%]  (Sampling)
+Chain 1, Iteration: 30 / 30 [100%]  (Sampling)
+ Elapsed Time: 18.1176 seconds (Warm-up)
+               5.12623 seconds (Sampling)
+               23.2439 seconds (Total)
 
 > cat("Running rc_exp_mlm_subj: real\n")
 Running rc_exp_mlm_subj: real
 > estimate(base_fname = "rc_exp_mlm_subj", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
-starting worker pid=7747 on localhost:11023 at 18:04:25.320
-starting worker pid=7759 on localhost:11023 at 18:04:25.491
-starting worker pid=7771 on localhost:11023 at 18:04:25.658
-starting worker pid=7783 on localhost:11023 at 18:04:25.832
+starting worker pid=8657 on localhost:11765 at 00:54:49.665
+starting worker pid=8669 on localhost:11765 at 00:54:49.835
+starting worker pid=8681 on localhost:11765 at 00:54:50.005
+starting worker pid=8693 on localhost:11765 at 00:54:50.174
 
-SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 1).
+SAMPLING FOR MODEL 'rc_exp_mlm_subj_model_code' NOW (CHAIN 1).
 
-SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 2).
-
-SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 3).
-
-SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 4).
+SAMPLING FOR MODEL 'rc_exp_mlm_subj_model_code' NOW (CHAIN 2).
 
 Chain 1, Iteration:    1 / 3000 [  0%]  (Warmup)
+SAMPLING FOR MODEL 'rc_exp_mlm_subj_model_code' NOW (CHAIN 3).
+
 Chain 2, Iteration:    1 / 3000 [  0%]  (Warmup)
+SAMPLING FOR MODEL 'rc_exp_mlm_subj_model_code' NOW (CHAIN 4).
+
 Chain 3, Iteration:    1 / 3000 [  0%]  (Warmup)
 Chain 4, Iteration:    1 / 3000 [  0%]  (Warmup)

@@ -155,6 +155,36 @@ transformed parameters {
   vector[N] eta_asymptote; 
   // group-specific effects 
   matrix[N_asymptote_1, K_asymptote_1] r_asymptote_1; 
+  vector[N_asymptote_1] r_asymptote_1_1; 
+  vector[N_asymptote_1] r_asymptote_1_2; 
+  vector[N_asymptote_1] r_asymptote_1_3; 
+  vector[N] eta_invrate; 
+  // group-specific effects 
+  matrix[N_invrate_1, K_invrate_1] r_invrate_1; 
+  vector[N_invrate_1] r_invrate_1_1; 
+  vector[N_invrate_1] r_invrate_1_2; 
+  vector[N_invrate_1] r_invrate_1_3; 
+  vector[N] eta_intercept; 
+  // group-specific effects 
+  matrix[N_intercept_1, K_intercept_1] r_intercept_1; 
+  vector[N_intercept_1] r_intercept_1_1; 
+  vector[N_intercept_1] r_intercept_1_2; 
+  vector[N_intercept_1] r_intercept_1_3; 
+  vector[N] eta_critasymptote; 
+  // group-specific effects 
+  vector[N_critasymptote_1] r_critasymptote_1; 
+  vector[N] eta_critintercept; 
+  // group-specific effects 
+  vector[N_critintercept_1] r_critintercept_1; 
+  vector[N] eta_critinvrate; 
+  // group-specific effects 
+  vector[N_critinvrate_1] r_critinvrate_1; 
+  vector[N] eta_critinit; 
+  // group-specific effects 
+  vector[N_critinit_1] r_critinit_1; 
+  vector[N] eta;   vector[N] eta_asymptote; 
+  // group-specific effects 
+  matrix[N_asymptote_1, K_asymptote_1] r_asymptote_1; 
   //vector[N_asymptote_1] r_asymptote_1_1; 
   //vector[N_asymptote_1] r_asymptote_1_2; 
   //vector[N_asymptote_1] r_asymptote_1_3; 

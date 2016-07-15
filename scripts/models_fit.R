@@ -26,7 +26,7 @@ estimate <- function(base_fname, iter, ...) {
   fname_model_code <- base_fname_models %>% paste0(., "_model_code.stan")
   fname_params <- base_fname_models %>% paste0(., "_params.rda")
   
-  base_fname_samples <- base_fname %>% file.path(models_path, .)
+  base_fname_samples <- base_fname %>% file.path(samples_path, .)
   fname_samples <- base_fname_samples %>% paste0(., sprintf("_iter%d.rda", iter))
 
   (load(fname_params))
@@ -54,7 +54,7 @@ estimate <- function(base_fname, iter, ...) {
 ### Generate multi-level model with condition contrasts and by-subject random effects ###
 #########################################################################################
 cat("Running rc_exp_mlm_subj: test\n")
-estimate(base_fname = "rc_exp_mlm_subj", iter = 10, chains = 1, cores = 1) 
+estimate(base_fname = "rc_exp_mlm_subj", iter = 30, chains = 1, cores = 1) 
 cat("Running rc_exp_mlm_subj: real\n")
 estimate(base_fname = "rc_exp_mlm_subj", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
 
