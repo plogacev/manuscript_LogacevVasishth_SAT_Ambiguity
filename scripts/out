@@ -185,3 +185,9 @@ Chain 3, Iteration: 3000 / 3000 [100%]  (Sampling)
                300549 seconds (Sampling)
                414180 seconds (Total)
 
+
+Chain 1, Iteration: 3000 / 3000 [100%]  (Sampling)
+ Elapsed Time: 105284 seconds (Warm-up)
+               317032 seconds (Sampling)
+               422316 seconds (Total)
+
