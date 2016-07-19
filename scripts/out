@@ -180,3 +180,8 @@ Chain 4, Iteration: 3000 / 3000 [100%]  (Sampling)
 Chain 3, Iteration: 2800 / 3000 [ 93%]  (Sampling)
 Chain 1, Iteration: 2800 / 3000 [ 93%]  (Sampling)
 Chain 2, Iteration: 2800 / 3000 [ 93%]  (Sampling)
+Chain 3, Iteration: 3000 / 3000 [100%]  (Sampling)
+ Elapsed Time: 113632 seconds (Warm-up)
+               300549 seconds (Sampling)
+               414180 seconds (Total)
+
