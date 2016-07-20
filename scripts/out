@@ -191,3 +191,54 @@ Chain 1, Iteration: 3000 / 3000 [100%]  (Sampling)
                317032 seconds (Sampling)
                422316 seconds (Total)
 
+
+Chain 2, Iteration: 3000 / 3000 [100%]  (Sampling)
+ Elapsed Time: 112925 seconds (Warm-up)
+               318322 seconds (Sampling)
+               431247 seconds (Total)
+
+> 
+> 
+> #############################################################################################
+> ### Multi-level model with condition contrasts and by-subject and by-items random effects ###
+> #############################################################################################
+> 
+> estimate(base_fname = "rc_exp_mlm_subj_item", iter = 10, chains = 1, cores = 1) 
+
+SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 1).
+WARNING: No variance estimation is
+         performed for num_warmup < 20
+
+
+Chain 1, Iteration: 1 / 10 [ 10%]  (Warmup)
+Chain 1, Iteration: 2 / 10 [ 20%]  (Warmup)
+Chain 1, Iteration: 3 / 10 [ 30%]  (Warmup)
+Chain 1, Iteration: 4 / 10 [ 40%]  (Warmup)
+Chain 1, Iteration: 5 / 10 [ 50%]  (Warmup)
+Chain 1, Iteration: 6 / 10 [ 60%]  (Sampling)
+Chain 1, Iteration: 7 / 10 [ 70%]  (Sampling)
+Chain 1, Iteration: 8 / 10 [ 80%]  (Sampling)
+Chain 1, Iteration: 9 / 10 [ 90%]  (Sampling)
+Chain 1, Iteration: 10 / 10 [100%]  (Sampling)
+ Elapsed Time: 3.97761 seconds (Warm-up)
+               3.65661 seconds (Sampling)
+               7.63422 seconds (Total)
+
+> estimate(base_fname = "rc_exp_mlm_subj_item", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
+starting worker pid=19759 on localhost:11765 at 00:44:23.958
+starting worker pid=19771 on localhost:11765 at 00:44:24.131
+starting worker pid=19783 on localhost:11765 at 00:44:24.303
+starting worker pid=19795 on localhost:11765 at 00:44:24.477
+
+SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 1).
+
+SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 2).
+
+SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 3).
+
+Chain 1, Iteration:    1 / 3000 [  0%]  (Warmup)
+SAMPLING FOR MODEL 'bernoulli(logit) brms-model' NOW (CHAIN 4).
+
+Chain 2, Iteration:    1 / 3000 [  0%]  (Warmup)
+Chain 3, Iteration:    1 / 3000 [  0%]  (Warmup)
+Chain 4, Iteration:    1 / 3000 [  0%]  (Warmup)
