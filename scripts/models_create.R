@@ -68,9 +68,7 @@ real dprime_fn(real time, real disabled, real asymptote_unconstrained, real invr
   
   asymptote = 10 * inv_logit(asymptote_unconstrained);
   invrate = exp(invrate_unconstrained) + 10;
-  //asymptote = asymptote_unconstrained;
-  //invrate = invrate_unconstrained;
-  
+
   return asymptote * (1 - exp(-1/invrate * (time - intercept)) );
   }
   return 0;
@@ -82,7 +80,6 @@ real criterion_fn(real time, real init_unconstrained, real asymptote_unconstrain
   real init; 
   
   init = 10 * (inv_logit(init_unconstrained) - .5);
-  //init = init_unconstrained;
   criterion = init;
   
   if (time >= intercept) {
@@ -91,14 +88,41 @@ real criterion_fn(real time, real init_unconstrained, real asymptote_unconstrain
   
   asymptote = 10 * (inv_logit(asymptote_unconstrained) - .5) - init;
   invrate = exp(invrate_unconstrained) + 10;
-  //asymptote = asymptote_unconstrained - init;
-  //invrate = invrate_unconstrained;
-  
+
   criterion = criterion + (asymptote-init) * (1 - exp(-1/invrate * (time - intercept)) );
   }
   return criterion;
 }
 "
+
+format_brm_model_boxcox = function(model, digits = 0) {
+  
+    n_warmup <- sapply(model$fit@stan_args, function(x) x$warmup) %>% unique
+    stopifnot( length(n_warmup) == 1 )
+    
+    samples <- brms::posterior_samples(model, add_chain = TRUE)
+    samples %<>% subset(iter > n_warmup)
+    
+    isRC_cN1Singular <- with(samples, dv_inv_transform(b_Intercept + b_isRC + `b_cN1Singular:isRC`) - 
+                               dv_inv_transform(b_Intercept + b_isRC ) ) %>% 
+      TeachingDemos::emp.hpd(.)
+    
+    if ("b_cN2Singular:isRC" %in% colnames(samples))
+    {
+      isRC_cN2Singular <- with(samples, dv_inv_transform(b_Intercept + b_isRC + `b_cN2Singular:isRC`) - 
+                                 dv_inv_transform(b_Intercept + b_isRC ) ) %>% 
+        TeachingDemos::emp.hpd(.)
+    } else {
+      isRC_cN2Singular <- NULL
+    }
+    
+    res <- rbind(isRC_cN1Singular, isRC_cN2Singular) 
+    
+    res %T>% 
+    { colnames(.) <- c("Lower", "Upper")} %>%
+      round(digits = digits)
+}
+
 
 contrasts_priors <- c(set_prior(nlpar = "asymptote", "normal(-1, 2)", class = "b"), # for exp: normal(1, .5), for inv_logit: "normal(-1, 2)";
                       set_prior(nlpar = "intercept", "normal(500, 500)", class = "b", lb = 10, ub = 5000),
@@ -193,7 +217,7 @@ generate_model <- function(satf_formula, contrasts, contrasts_priors, data, fnam
 base_fname <- file.path(models_path, "rc_exp_mlm_subj")
 fname_model_code <- base_fname %>% paste0(., "_model_code.stan")
 fname_params <- base_fname %>% paste0(., "_params.rda")
-if (!file.exists(fname_model_code))
+if (TRUE) #!file.exists(fname_model_code))
 {
   contrasts <- list(asymptote ~ cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1 + (cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1|subject),
                     invrate ~ cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1 + (cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1|subject),
@@ -217,7 +241,7 @@ if (!file.exists(fname_model_code))
 base_fname <- file.path(models_path, "rc_exp_mlm_subj_item")
 fname_model_code <- base_fname %>% paste0(., "_model_code.stan")
 fname_params <- base_fname %>% paste0(., "_params.rda")
-if (!file.exists(fname_model_code))
+if (TRUE) #!file.exists(fname_model_code))
 {
   contrasts <- list(asymptote ~ cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1 +
                                     (cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1|subject) +
@@ -245,7 +269,7 @@ if (!file.exists(fname_model_code))
 base_fname <- file.path(models_path, "rc_exp_mlm_subj_item_cor")
 fname_model_code <- base_fname %>% paste0(., "_model_code.stan")
 fname_params <- base_fname %>% paste0(., "_params.rda")
-if (!file.exists(fname_model_code))
+if (TRUE) #!file.exists(fname_model_code))
 {
   contrasts <- list(asymptote ~ cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1 +
                                     (cAttachmentAmb + cAttachmentHigh + cAttachmentLow - 1|subject) +

@@ -10,9 +10,7 @@ real dprime_fn(real time, real disabled, real asymptote_unconstrained, real invr
   
   asymptote = 10 * inv_logit(asymptote_unconstrained);
   invrate = exp(invrate_unconstrained) + 10;
-  //asymptote = asymptote_unconstrained;
-  //invrate = invrate_unconstrained;
-  
+
   return asymptote * (1 - exp(-1/invrate * (time - intercept)) );
   }
   return 0;
@@ -24,7 +22,6 @@ real criterion_fn(real time, real init_unconstrained, real asymptote_unconstrain
   real init; 
   
   init = 10 * (inv_logit(init_unconstrained) - .5);
-  //init = init_unconstrained;
   criterion = init;
   
   if (time >= intercept) {
@@ -33,9 +30,7 @@ real criterion_fn(real time, real init_unconstrained, real asymptote_unconstrain
   
   asymptote = 10 * (inv_logit(asymptote_unconstrained) - .5) - init;
   invrate = exp(invrate_unconstrained) + 10;
-  //asymptote = asymptote_unconstrained - init;
-  //invrate = invrate_unconstrained;
-  
+
   criterion = criterion + (asymptote-init) * (1 - exp(-1/invrate * (time - intercept)) );
   }
   return criterion;
@@ -219,36 +214,36 @@ transformed parameters {
   vector[N] eta_asymptote; 
   // group-specific effects 
   matrix[N_asymptote_1, K_asymptote_1] r_asymptote_1; 
-  //vector[N_asymptote_1] r_asymptote_1_1; 
-  //vector[N_asymptote_1] r_asymptote_1_2; 
-  //vector[N_asymptote_1] r_asymptote_1_3; 
+  vector[N_asymptote_1] r_asymptote_1_1; 
+  vector[N_asymptote_1] r_asymptote_1_2; 
+  vector[N_asymptote_1] r_asymptote_1_3; 
   // group-specific effects 
   matrix[N_asymptote_2, K_asymptote_2] r_asymptote_2; 
-  //vector[N_asymptote_2] r_asymptote_2_1; 
-  //vector[N_asymptote_2] r_asymptote_2_2; 
-  //vector[N_asymptote_2] r_asymptote_2_3; 
+  vector[N_asymptote_2] r_asymptote_2_1; 
+  vector[N_asymptote_2] r_asymptote_2_2; 
+  vector[N_asymptote_2] r_asymptote_2_3; 
   vector[N] eta_invrate; 
   // group-specific effects 
   matrix[N_invrate_1, K_invrate_1] r_invrate_1; 
-  //vector[N_invrate_1] r_invrate_1_1; 
-  //vector[N_invrate_1] r_invrate_1_2; 
-  //vector[N_invrate_1] r_invrate_1_3; 
+  vector[N_invrate_1] r_invrate_1_1; 
+  vector[N_invrate_1] r_invrate_1_2; 
+  vector[N_invrate_1] r_invrate_1_3; 
   // group-specific effects 
   matrix[N_invrate_2, K_invrate_2] r_invrate_2; 
-  //vector[N_invrate_2] r_invrate_2_1; 
-  //vector[N_invrate_2] r_invrate_2_2; 
-  //vector[N_invrate_2] r_invrate_2_3; 
+  vector[N_invrate_2] r_invrate_2_1; 
+  vector[N_invrate_2] r_invrate_2_2; 
+  vector[N_invrate_2] r_invrate_2_3; 
   vector[N] eta_intercept; 
   // group-specific effects 
   matrix[N_intercept_1, K_intercept_1] r_intercept_1; 
-  //vector[N_intercept_1] r_intercept_1_1; 
-  //vector[N_intercept_1] r_intercept_1_2; 
-  //vector[N_intercept_1] r_intercept_1_3; 
+  vector[N_intercept_1] r_intercept_1_1; 
+  vector[N_intercept_1] r_intercept_1_2; 
+  vector[N_intercept_1] r_intercept_1_3; 
   // group-specific effects 
   matrix[N_intercept_2, K_intercept_2] r_intercept_2; 
-  //vector[N_intercept_2] r_intercept_2_1; 
-  //vector[N_intercept_2] r_intercept_2_2; 
-  //vector[N_intercept_2] r_intercept_2_3; 
+  vector[N_intercept_2] r_intercept_2_1; 
+  vector[N_intercept_2] r_intercept_2_2; 
+  vector[N_intercept_2] r_intercept_2_3; 
   vector[N] eta_critasymptote; 
   // group-specific effects 
   vector[N_critasymptote_1] r_critasymptote_1; 
@@ -272,31 +267,31 @@ transformed parameters {
   vector[N] eta; 
   eta_asymptote = X_asymptote * b_asymptote; 
   r_asymptote_1 = (diag_pre_multiply(sd_asymptote_1, L_asymptote_1) * z_asymptote_1)'; 
-  //r_asymptote_1_1 = r_asymptote_1[, 1];  
-  //r_asymptote_1_2 = r_asymptote_1[, 2];  
-  //r_asymptote_1_3 = r_asymptote_1[, 3];  
+  r_asymptote_1_1 = r_asymptote_1[, 1];  
+  r_asymptote_1_2 = r_asymptote_1[, 2];  
+  r_asymptote_1_3 = r_asymptote_1[, 3];  
   r_asymptote_2 = (diag_pre_multiply(sd_asymptote_2, L_asymptote_2) * z_asymptote_2)'; 
-  //r_asymptote_2_1 = r_asymptote_2[, 1];  
-  //r_asymptote_2_2 = r_asymptote_2[, 2];  
-  //r_asymptote_2_3 = r_asymptote_2[, 3];  
+  r_asymptote_2_1 = r_asymptote_2[, 1];  
+  r_asymptote_2_2 = r_asymptote_2[, 2];  
+  r_asymptote_2_3 = r_asymptote_2[, 3];  
   eta_invrate = X_invrate * b_invrate; 
   r_invrate_1 = (diag_pre_multiply(sd_invrate_1, L_invrate_1) * z_invrate_1)'; 
-  //r_invrate_1_1 = r_invrate_1[, 1];  
-  //r_invrate_1_2 = r_invrate_1[, 2];  
-  //r_invrate_1_3 = r_invrate_1[, 3];  
+  r_invrate_1_1 = r_invrate_1[, 1];  
+  r_invrate_1_2 = r_invrate_1[, 2];  
+  r_invrate_1_3 = r_invrate_1[, 3];  
   r_invrate_2 = (diag_pre_multiply(sd_invrate_2, L_invrate_2) * z_invrate_2)'; 
-  //r_invrate_2_1 = r_invrate_2[, 1];  
-  //r_invrate_2_2 = r_invrate_2[, 2];  
-  //r_invrate_2_3 = r_invrate_2[, 3];  
+  r_invrate_2_1 = r_invrate_2[, 1];  
+  r_invrate_2_2 = r_invrate_2[, 2];  
+  r_invrate_2_3 = r_invrate_2[, 3];  
   eta_intercept = X_intercept * b_intercept; 
   r_intercept_1 = (diag_pre_multiply(sd_intercept_1, L_intercept_1) * z_intercept_1)'; 
-  //r_intercept_1_1 = r_intercept_1[, 1];  
-  //r_intercept_1_2 = r_intercept_1[, 2];  
-  //r_intercept_1_3 = r_intercept_1[, 3];  
+  r_intercept_1_1 = r_intercept_1[, 1];  
+  r_intercept_1_2 = r_intercept_1[, 2];  
+  r_intercept_1_3 = r_intercept_1[, 3];  
   r_intercept_2 = (diag_pre_multiply(sd_intercept_2, L_intercept_2) * z_intercept_2)'; 
-  //r_intercept_2_1 = r_intercept_2[, 1];  
-  //r_intercept_2_2 = r_intercept_2[, 2];  
-  //r_intercept_2_3 = r_intercept_2[, 3];  
+  r_intercept_2_1 = r_intercept_2[, 1];  
+  r_intercept_2_2 = r_intercept_2[, 2];  
+  r_intercept_2_3 = r_intercept_2[, 3];  
   eta_critasymptote = X_critasymptote * b_critasymptote; 
   r_critasymptote_1 = sd_critasymptote_1 * (z_critasymptote_1);
   r_critasymptote_2 = sd_critasymptote_2 * (z_critasymptote_2);
@@ -309,39 +304,16 @@ transformed parameters {
   eta_critinit = X_critinit * b_critinit; 
   r_critinit_1 = sd_critinit_1 * (z_critinit_1);
   r_critinit_2 = sd_critinit_2 * (z_critinit_2);
-  
-  eta_asymptote = eta_asymptote + r_asymptote_1[J_asymptote_1, 1] .* Z_asymptote_1_1 + 
-                                  r_asymptote_1[J_asymptote_1, 2] .* Z_asymptote_1_2 + 
-                                  r_asymptote_1[J_asymptote_1, 3] .* Z_asymptote_1_3 + 
-                                  r_asymptote_2[J_asymptote_2, 1] .* Z_asymptote_2_1 + 
-                                  r_asymptote_2[J_asymptote_2, 2] .* Z_asymptote_2_2 + 
-                                  r_asymptote_2[J_asymptote_2, 3] .* Z_asymptote_2_3; 
-  eta_invrate = eta_invrate + r_invrate_1[J_invrate_1, 1] .* Z_invrate_1_1 + 
-                              r_invrate_1[J_invrate_1, 2] .* Z_invrate_1_2 + 
-                              r_invrate_1[J_invrate_1, 3] .* Z_invrate_1_3 + 
-                              r_invrate_2[J_invrate_2, 1] .* Z_invrate_2_1 + 
-                              r_invrate_2[J_invrate_2, 2] .* Z_invrate_2_2 + 
-                              r_invrate_2[J_invrate_2, 3] .* Z_invrate_2_3; 
-  eta_intercept = eta_intercept + r_intercept_1[J_intercept_1, 1] .* Z_intercept_1_1 + 
-                                  r_intercept_1[J_intercept_1, 2] .* Z_intercept_1_2 + 
-                                  r_intercept_1[J_intercept_1, 3] .* Z_intercept_1_3 + 
-                                  r_intercept_2[J_intercept_2, 1] .* Z_intercept_2_1 + 
-                                  r_intercept_2[J_intercept_2, 2] .* Z_intercept_2_2 + 
-                                  r_intercept_2[J_intercept_2, 3] .* Z_intercept_2_3; 
-  eta_critasymptote = eta_critasymptote + r_critasymptote_1[J_critasymptote_1] .* Z_critasymptote_1 + 
-                                          r_critasymptote_2[J_critasymptote_2] .* Z_critasymptote_2; 
-  eta_critintercept = eta_critintercept + r_critintercept_1[J_critintercept_1] .* Z_critintercept_1 + 
-                                          r_critintercept_2[J_critintercept_2] .* Z_critintercept_2; 
-  eta_critinvrate = eta_critinvrate + r_critinvrate_1[J_critinvrate_1] .* Z_critinvrate_1 + 
-                                      r_critinvrate_2[J_critinvrate_2] .* Z_critinvrate_2; 
-  eta_critinit = eta_critinit + r_critinit_1[J_critinit_1] .* Z_critinit_1 + 
-                                r_critinit_2[J_critinit_2] .* Z_critinit_2; 
-
-  
   for (n in 1:N) { 
+    eta_asymptote[n] = eta_asymptote[n] + r_asymptote_1_1[J_asymptote_1[n]] * Z_asymptote_1_1[n] + r_asymptote_1_2[J_asymptote_1[n]] * Z_asymptote_1_2[n] + r_asymptote_1_3[J_asymptote_1[n]] * Z_asymptote_1_3[n] + r_asymptote_2_1[J_asymptote_2[n]] * Z_asymptote_2_1[n] + r_asymptote_2_2[J_asymptote_2[n]] * Z_asymptote_2_2[n] + r_asymptote_2_3[J_asymptote_2[n]] * Z_asymptote_2_3[n]; 
+    eta_invrate[n] = eta_invrate[n] + r_invrate_1_1[J_invrate_1[n]] * Z_invrate_1_1[n] + r_invrate_1_2[J_invrate_1[n]] * Z_invrate_1_2[n] + r_invrate_1_3[J_invrate_1[n]] * Z_invrate_1_3[n] + r_invrate_2_1[J_invrate_2[n]] * Z_invrate_2_1[n] + r_invrate_2_2[J_invrate_2[n]] * Z_invrate_2_2[n] + r_invrate_2_3[J_invrate_2[n]] * Z_invrate_2_3[n]; 
+    eta_intercept[n] = eta_intercept[n] + r_intercept_1_1[J_intercept_1[n]] * Z_intercept_1_1[n] + r_intercept_1_2[J_intercept_1[n]] * Z_intercept_1_2[n] + r_intercept_1_3[J_intercept_1[n]] * Z_intercept_1_3[n] + r_intercept_2_1[J_intercept_2[n]] * Z_intercept_2_1[n] + r_intercept_2_2[J_intercept_2[n]] * Z_intercept_2_2[n] + r_intercept_2_3[J_intercept_2[n]] * Z_intercept_2_3[n]; 
+    eta_critasymptote[n] = eta_critasymptote[n] + r_critasymptote_1[J_critasymptote_1[n]] * Z_critasymptote_1[n] + r_critasymptote_2[J_critasymptote_2[n]] * Z_critasymptote_2[n]; 
+    eta_critintercept[n] = eta_critintercept[n] + r_critintercept_1[J_critintercept_1[n]] * Z_critintercept_1[n] + r_critintercept_2[J_critintercept_2[n]] * Z_critintercept_2[n]; 
+    eta_critinvrate[n] = eta_critinvrate[n] + r_critinvrate_1[J_critinvrate_1[n]] * Z_critinvrate_1[n] + r_critinvrate_2[J_critinvrate_2[n]] * Z_critinvrate_2[n]; 
+    eta_critinit[n] = eta_critinit[n] + r_critinit_1[J_critinit_1[n]] * Z_critinit_1[n] + r_critinit_2[J_critinit_2[n]] * Z_critinit_2[n]; 
     // compute non-linear predictor 
-    eta[n] = criterion_fn(C[n, 1] , eta_critinit[n] , eta_critasymptote[n] , eta_critinvrate[n] , eta_critintercept[n]) + 
-             dprime_fn(C[n, 1] , C[n, 2] , eta_asymptote[n] , eta_invrate[n] , eta_intercept[n]); 
+    eta[n] = criterion_fn(C[n, 1] , eta_critinit[n] , eta_critasymptote[n] , eta_critinvrate[n] , eta_critintercept[n]) + dprime_fn(C[n, 1] , C[n, 2] , eta_asymptote[n] , eta_invrate[n] , eta_intercept[n]); 
   } 
 } 
 model { 
