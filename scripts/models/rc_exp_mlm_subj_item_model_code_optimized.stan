@@ -219,36 +219,24 @@ transformed parameters {
   vector[N] eta_asymptote; 
   // group-specific effects 
   matrix[N_asymptote_1, K_asymptote_1] r_asymptote_1; 
-  vector[N_asymptote_1] r_asymptote_1_1; 
-  vector[N_asymptote_1] r_asymptote_1_2; 
-  vector[N_asymptote_1] r_asymptote_1_3; 
+
   // group-specific effects 
   matrix[N_asymptote_2, K_asymptote_2] r_asymptote_2; 
-  vector[N_asymptote_2] r_asymptote_2_1; 
-  vector[N_asymptote_2] r_asymptote_2_2; 
-  vector[N_asymptote_2] r_asymptote_2_3; 
+
   vector[N] eta_invrate; 
   // group-specific effects 
   matrix[N_invrate_1, K_invrate_1] r_invrate_1; 
-  vector[N_invrate_1] r_invrate_1_1; 
-  vector[N_invrate_1] r_invrate_1_2; 
-  vector[N_invrate_1] r_invrate_1_3; 
+
   // group-specific effects 
   matrix[N_invrate_2, K_invrate_2] r_invrate_2; 
-  vector[N_invrate_2] r_invrate_2_1; 
-  vector[N_invrate_2] r_invrate_2_2; 
-  vector[N_invrate_2] r_invrate_2_3; 
+
   vector[N] eta_intercept; 
   // group-specific effects 
   matrix[N_intercept_1, K_intercept_1] r_intercept_1; 
-  vector[N_intercept_1] r_intercept_1_1; 
-  vector[N_intercept_1] r_intercept_1_2; 
-  vector[N_intercept_1] r_intercept_1_3; 
+
   // group-specific effects 
   matrix[N_intercept_2, K_intercept_2] r_intercept_2; 
-  vector[N_intercept_2] r_intercept_2_1; 
-  vector[N_intercept_2] r_intercept_2_2; 
-  vector[N_intercept_2] r_intercept_2_3; 
+
   vector[N] eta_critasymptote; 
   // group-specific effects 
   vector[N_critasymptote_1] r_critasymptote_1; 
@@ -270,33 +258,17 @@ transformed parameters {
   // group-specific effects 
   vector[N_critinit_2] r_critinit_2; 
   vector[N] eta; 
+
+
   eta_asymptote = X_asymptote * b_asymptote; 
   r_asymptote_1 = (diag_pre_multiply(sd_asymptote_1, L_asymptote_1) * z_asymptote_1)'; 
-  //r_asymptote_1_1 = r_asymptote_1[, 1];  
-  //r_asymptote_1_2 = r_asymptote_1[, 2];  
-  //r_asymptote_1_3 = r_asymptote_1[, 3];  
   r_asymptote_2 = (diag_pre_multiply(sd_asymptote_2, L_asymptote_2) * z_asymptote_2)'; 
-  //r_asymptote_2_1 = r_asymptote_2[, 1];  
-  //r_asymptote_2_2 = r_asymptote_2[, 2];  
-  //r_asymptote_2_3 = r_asymptote_2[, 3];  
   eta_invrate = X_invrate * b_invrate; 
   r_invrate_1 = (diag_pre_multiply(sd_invrate_1, L_invrate_1) * z_invrate_1)'; 
-  //r_invrate_1_1 = r_invrate_1[, 1];  
-  //r_invrate_1_2 = r_invrate_1[, 2];  
-  //r_invrate_1_3 = r_invrate_1[, 3];  
   r_invrate_2 = (diag_pre_multiply(sd_invrate_2, L_invrate_2) * z_invrate_2)'; 
-  //r_invrate_2_1 = r_invrate_2[, 1];  
-  //r_invrate_2_2 = r_invrate_2[, 2];  
-  //r_invrate_2_3 = r_invrate_2[, 3];  
   eta_intercept = X_intercept * b_intercept; 
   r_intercept_1 = (diag_pre_multiply(sd_intercept_1, L_intercept_1) * z_intercept_1)'; 
-  //r_intercept_1_1 = r_intercept_1[, 1];  
-  //r_intercept_1_2 = r_intercept_1[, 2];  
-  //r_intercept_1_3 = r_intercept_1[, 3];  
   r_intercept_2 = (diag_pre_multiply(sd_intercept_2, L_intercept_2) * z_intercept_2)'; 
-  //r_intercept_2_1 = r_intercept_2[, 1];  
-  //r_intercept_2_2 = r_intercept_2[, 2];  
-  //r_intercept_2_3 = r_intercept_2[, 3];  
   eta_critasymptote = X_critasymptote * b_critasymptote; 
   r_critasymptote_1 = sd_critasymptote_1 * (z_critasymptote_1);
   r_critasymptote_2 = sd_critasymptote_2 * (z_critasymptote_2);

@@ -53,22 +53,22 @@ estimate <- function(base_fname, iter, ...) {
 #########################################################################################
 ### Generate multi-level model with condition contrasts and by-subject random effects ###
 #########################################################################################
-cat("Running rc_exp_mlm_subj: test\n")
-estimate(base_fname = "rc_exp_mlm_subj", iter = 30, chains = 1, cores = 1) 
-cat("Running rc_exp_mlm_subj: real\n")
-estimate(base_fname = "rc_exp_mlm_subj", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
+#cat("Running rc_exp_mlm_subj: test\n")
+#estimate(base_fname = "rc_exp_mlm_subj", iter = 30, chains = 1, cores = 1) 
+#cat("Running rc_exp_mlm_subj: real\n")
+#estimate(base_fname = "rc_exp_mlm_subj", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
 
 
 #############################################################################################
 ### Multi-level model with condition contrasts and by-subject and by-items random effects ###
 #############################################################################################
 
-estimate(base_fname = "rc_exp_mlm_subj_item", iter = 10, chains = 1, cores = 1) 
+estimate(base_fname = "rc_exp_mlm_subj_item", iter = 50, chains = 1, cores = 1) 
 estimate(base_fname = "rc_exp_mlm_subj_item", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 
 
 ##################################################################################################################
 ### Multi-level model with condition contrasts and by-subject and by-items random effects, and autocorrelation ###
 ##################################################################################################################
 
-estimate(base_fname = "rc_exp_mlm_subj_item_cor", iter = 10, chains = 1, cores = 1) 
+estimate(base_fname = "rc_exp_mlm_subj_item_cor", iter = 50, chains = 1, cores = 1) 
 estimate(base_fname = "rc_exp_mlm_subj_item_cor", iter = 3000, warmup = 1000, chains = n_cores, cores = n_cores) 

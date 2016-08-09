@@ -122,30 +122,36 @@ parameters {
   matrix[K_asymptote_1, N_asymptote_1] z_asymptote_1;  // unscaled group-specific effects 
   // cholesky factor of correlation matrix 
   cholesky_factor_corr[K_asymptote_1] L_asymptote_1; 
+
   // non-linear effects of invrate
   vector[K_invrate] b_invrate;  // population-level effects 
   vector<lower=0>[K_invrate_1] sd_invrate_1;  // group-specific standard deviations 
   matrix[K_invrate_1, N_invrate_1] z_invrate_1;  // unscaled group-specific effects 
   // cholesky factor of correlation matrix 
   cholesky_factor_corr[K_invrate_1] L_invrate_1; 
+
   // non-linear effects of intercept
   vector<lower=10,upper=5000>[K_intercept] b_intercept;  // population-level effects 
   vector<lower=0>[K_intercept_1] sd_intercept_1;  // group-specific standard deviations 
   matrix[K_intercept_1, N_intercept_1] z_intercept_1;  // unscaled group-specific effects 
   // cholesky factor of correlation matrix 
   cholesky_factor_corr[K_intercept_1] L_intercept_1; 
+
   // non-linear effects of critasymptote
   vector[K_critasymptote] b_critasymptote;  // population-level effects 
   real<lower=0> sd_critasymptote_1;  // group-specific standard deviation 
   vector[N_critasymptote_1] z_critasymptote_1;  // unscaled group-specific effects 
+
   // non-linear effects of critintercept
   vector<lower=10,upper=5000>[K_critintercept] b_critintercept;  // population-level effects 
   real<lower=0> sd_critintercept_1;  // group-specific standard deviation 
   vector[N_critintercept_1] z_critintercept_1;  // unscaled group-specific effects 
+
   // non-linear effects of critinvrate
   vector[K_critinvrate] b_critinvrate;  // population-level effects 
   real<lower=0> sd_critinvrate_1;  // group-specific standard deviation 
   vector[N_critinvrate_1] z_critinvrate_1;  // unscaled group-specific effects 
+
   // non-linear effects of critinit
   vector[K_critinit] b_critinit;  // population-level effects 
   real<lower=0> sd_critinit_1;  // group-specific standard deviation 
@@ -254,7 +260,6 @@ transformed parameters {
   eta_critinvrate = eta_critinvrate + r_critinvrate_1[J_critinvrate_1] .* Z_critinvrate_1; 
   eta_critinit = eta_critinit + r_critinit_1[J_critinit_1] .* Z_critinit_1; 
 
-  
   for (n in 1:N) { 
     // compute non-linear predictor 
     eta[n] = criterion_fn(C[n, 1] , eta_critinit[n] , eta_critasymptote[n] , eta_critinvrate[n] , eta_critintercept[n]) + 
